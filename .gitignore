@@ -30,13 +30,13 @@ fp-info-cache
 *.xml
 *.csv
 
-# Published design reports, BOMs, and verification inputs
-!/docs/*.csv
-!/docs/*.xml
+# Local-only documentation, build tools, and generated README
+/docs/
+/tools/
+/README.md
 
 # Archived backups and superseded design snapshots
 **/*-backups/*.zip
-/docs/revisions/
 .history/
 
 # Local project settings
