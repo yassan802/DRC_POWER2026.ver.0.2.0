@@ -1,0 +1,904 @@
+
+PAGE 1
+LITE-ON DCC
+RELEASE
+BNS-OD-FC001/A4
+LITE-ON Technology Corp. / Optoelectronics
+No.90,Chien 1 Road, Chung Ho, New Taipei City 23585, Taiwan, R.O.C.
+Tel: 886-2-2222-6181   Fax: 886-2-2221-1948 / 886-2-2221-0660
+http://www.liteon.com/opto
+Photocoupler
+Product Data Sheet
+LTV-817/ 827/ 847 
+(M, S, S-TA, S-TA1, S-TP) 
+Series
+Spec No. :DS-70-96-0016
+Effective Date: 08/09/2017
+Revision: O
+
+PAGE 2
+ 
+           1/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+1.  DESCRIPTION 
+1.1 Features  
+/square6 Current transfer ratio ( CTR : MIN. 50% at I F = 5mA, V CE  = 5V ) 
+/square6 High input-output isolation voltage ( V iso  = 5,000Vrms ) 
+/square6 Response time ( tr : TYP. 4 μs at V CE  = 2V, I C = 2mA, R L = 100 Ω ) 
+/square6 Dual-in-line package :  
+LTV-817 : 1-channel type 
+LTV-827 : 2-channel type 
+LTV-847 : 4-channel type 
+/square6 Wide lead spacing package : 
+LTV-817M : 1-channel type 
+LTV-827M : 2-channel type 
+LTV-847M : 4-channel type 
+/square6 Surface mounting package : 
+LTV-817S : 1-channel type 
+LTV-827S : 2-channel type 
+LTV-847S : 4-channel type 
+/square6 Tape and reel packaging :  
+LTV-817S-TA : 1-channel type 
+LTV-817S-TA1 : 1-channel type 
+LTV-817S-TP : 1-channel type 
+LTV-827S-TA : 2-channel type 
+LTV-827S-TA1 : 2-channel type 
+/square6 Safety approval 
+UL 1577 
+VDE DIN EN60747-5-5 (VDE 0884-5)  
+CSA CA5A 
+CQC GB4943.1-2011/ GB8898-2011  (meet Altitude up t o 5000m) 
+Nordic Safety ( FIMKO/NEMKO/SEMKO/DEMKO) 
+BSI  
+/square6 RoHS Compliance 
+All materials be used in device are followed EU RoHS directive (No.  2011/65/EU). 
+/square6 ESD pass HBM 8000V/MM2000V 
+/square6 MSL class1 
+ 
+1.2 Applications 
+/square6 Hybrid substrates that require high density mounti ng.  
+/square6 Programmable controllers  
+
+PAGE 3
+ 
+           2/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+2.  PACKAGE DIMENSIONS 
+2.1  LTV-817                                    2.2   LTV-817M 
+ 
+2.3  LTV-817S 
+ 
+ 
+Notes : 
+1. 2-digit year code, example : 2016 = 16 
+2. 2-digit work week ranging from ‘01’ to ‘53’ 
+3. Factory identification mark shall be marked 
+(W: China-CZ, Y: Thailand) 
+4. Rank shall be or shall not be marked. 
+5. “ ●” for halogen free option. 
+6. “4”or”V” for VDE option. 
+ 
+Dimensions in millimeters(inches). 
+ 
+
+PAGE 4
+ 
+           3/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+2.4  LTV-827                                     2. 5  LTV-827M 
+ 
+2.6  LTV-827S 
+ 
+ 
+Notes : 
+1. 2-digit year code, example : 2016 = 16 
+2. 2-digit work week ranging from ‘01’ to ‘53’ 
+3. Factory identification mark shall be marked 
+(W: China-CZ, Y: Thailand) 
+4. Rank shall be or shall not be marked. 
+5. “ ●” for halogen free option. 
+ 
+Dimensions in millimeters(inches). 
+ 
+
+PAGE 5
+ 
+           4/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+2.7  LTV-847   
+ 
+ 
+ 
+ 
+ 
+ 
+2.8  LTV-847M 
+ 
+2.9  LTV-847S 
+ 
+Notes : 
+1. 2-digit year code, example : 2016 = 16 
+2. 2-digit work week ranging from ‘01’ to ‘53’ 
+3. Factory identification mark shall be marked 
+(W: China-CZ, Y: Thailand) 
+4. Rank shall be or shall not be marked. 
+5. “ ●” for halogen free option. 
+ 
+Dimensions in millimeters(inches). 
+
+PAGE 6
+ 
+           5/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+3.  TAPING DIMENSIONS 
+   3.1 LTV-817S-TA                                3.2  LTV-817S-TA1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.3 Quantities Per Reel  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Description Symbol Dimension in mm (inch) 
+Tape wide W 16±0.3 (0.63) 
+Pitch of sprocket holes P 0 4±0.1 (0.15) 
+Distance of compartment 
+F 7.5±0.1 (0.295) 
+P2 2±0.1 (0.079) 
+Distance of compartment to 
+compartment P1 12±0.1 (0.472) 
+Package Type TA/TA1 
+Quantities (pcs) 1000 
+
+PAGE 7
+ 
+           6/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+3.4 LTV-817S-TP  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.5 Quantities Per Reel  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Description Symbol Dimension in mm (inch) 
+Tape wide W 16±0.3 (0.63) 
+Pitch of sprocket holes P 0 4±0.1 (0.15) 
+Distance of compartment 
+F 7.5±0.1 (0.295) 
+P2 2±0.1 (0.079) 
+Distance of compartment to 
+compartment P1 8±0.1 (0.472) 
+Package Type TP 
+Quantities (pcs) 2000 
+
+PAGE 8
+ 
+           7/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+3.6 LTV-827S-TA                                 3.7  LTV-827S-TA1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.8 Quantities Per Reel  
+ 
+ 
+Description Symbol Dimension in mm (inch) 
+Tape wide W 16±0.3 (0.63) 
+Pitch of sprocket holes P 0 4±0.1 (0.15) 
+Distance of compartment 
+F 7.5±0.1 (0.295) 
+P2 2±0.1 (0.079) 
+Distance of compartment to 
+compartment P1 12±0.1 (0.472) 
+Package Type TA/TA1 
+Quantities (pcs) 1000 
+
+PAGE 9
+ 
+           8/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+4.  RATING AND CHARACTERISTICS 
+4.1 Absolute Maximum Ratings at Ta=25° C 
+ Parameter Symbol  Rating Unit 
+Input 
+Forward Current I F 50 mA 
+Reverse Voltage V R 6 V 
+Power Dissipation P 70 mW 
+Peak Forward Current 
+(100 μs pulse, 100Hz frequency) IFP 1 A 
+Thermal Resistance Junction-Ambient Rth J-A 325 oC/W 
+Thermal Resistance Junction-Case Rth J-C 200 oC/W 
+Output 
+Collector - Emitter Voltage  V CEO  35 V 
+Emitter - Collector Voltage  V ECO  6 V 
+Collector Current I C 50 mA 
+Collector Power Dissipation  P C 150 mW 
+ Total Power Dissipation Ptot  200 mW 
+1. Isolation Voltage Viso  5000 V rms  
+ Operating Temperature (LTV-827/847) Topr  -30 ~ +100 oC 
+ Operating Temperature (LTV-817) Topr  -55 ~ +110 oC 
+ Storage Temperature Tstg  -55 ~ +125 oC 
+ Soldering Temperature Tsol  260 oC 
+ 
+1.  AC For 1 Minute,  R.H. = 40 ~ 60% 
+Isolation voltage shall be measured using the following method. 
+(1) Short between anode and cathode on the primary side and between collector and emitter on the 
+secondary side. 
+(2) The isolation voltage tester with zero-cross circuit shall be used. 
+(3) The waveform of applied voltage shall be a sine wave. 
+ 
+
+PAGE 10
+ 
+           9/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+    4.2  ELECTRICAL OPTICAL CHARACTERISTICS at Ta=25° C  
+Parameter Symbol  Min. Typ. Max.  Unit  Test Condition 
+Input 
+ Forward Voltage V F — 1.2 1.4  V I F=20mA 
+ Reverse Current I R — — 10 μA VR=4V 
+ Terminal Capacitance  Ct — 30 250  pF V=0, f=1KHz 
+Output 
+ Collector Dark Current  ICEO  — — 100  nA V CE =20V, I F=0 
+ 
+Collector-Emit ter                            
+Breakdown Voltage 
+BV CEO  35 — — V I C=0.1mA, IF=0                        
+ 
+Emitter-Collector 
+Breakdown Voltage 
+BV ECO  6 — — V IE=10 μA, I F=0                       
+TRANSFER 
+CHARACTERISTICS  
+ Collector Current I C 2.5 — 30 mA  
+IF=5mA, VCE =5V 
+1. Current Transfer Ratio  CTR 50 — 600  % 
+ 
+ 
+Collector-Emitter                
+Saturation Voltage 
+VCE(sat)  — 0.1 0.2  V I F=20mA, IC=1mA 
+ Isolation Resistance R iso  5×10 10  1×10 11  — Ω DC500V,  
+40 ~ 60% R.H. 
+ Floating Capacitance Cf — 0.6 1 pF V=0, f=1MHz 
+ Cut-off Frequency f c — 80 — kHz  
+VCE=5V, IC=2mA     
+RL=100 Ω,-3dB  
+ Response Time (Rise)  tr — 4 18 μs 
+VCE =2V, IC=2mA 
+RL=100 Ω,   Response Time (Fall) tf — 3 18 μs 
+1.  100% 
+I
+I
+CTR 
+F
+C
+×=  
+
+PAGE 11
+ 
+           10/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5.  RANK TABLE OF CURRENT TRANSFER RATIO 
+ CTR Rank Min Max Condition 
+LTV-817  
+L 50 100 
+IF=5mA, V CE =5V, Ta=25 oC 
+A 80 160 
+B 130 260 
+C 200 400 
+D 300 600 
+L or A or B or C or D  50 600 
+LTV-827  
+No Bin 50 600 
+B 130 260 
+C 200 400 
+D 300 600 
+BC 130 400 
+CD 200 600 
+LTV-847  
+No Bin 50 600 
+BC 130 400 
+CD 200 600 
+ 
+
+PAGE 12
+ 
+           11/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+6.  CHARACTERISTICS CURVES 
+Fig.1 Forword Current Fig.2 Collector Power Dissipti on 
+vs. Ambient Temperature 
+Fig.4 Forward Current vs. Forward 
+Fig.5 Current Transfer Ratio vs. 
+Forward Current 
+Fig.6 Collector Current vs. 
+Collector-emitter Voltage 
+F
+F CE 
+F
+F
+0
+-30 
+Ta= 75 C 
+50 C 25 C 
+0 C 
+-25 C 
+V    = 5V 
+Ta= 25 C 
+CE Ta= 25 C I  = 30mA 
+Pc(MAX.) 
+5mA 
+F
+10mA 
+20mA 
+vs. Ambient Temperatute 
+Collector-emitter voltage V    (V) 
+Forward voltage V  (V) 
+Ambient temperature Ta ( C) Ambient temperature Ta ( C) 
+Forward current I  (mA) 
+Forward current I  (m
+A) 
+Collector Power dissipation Pc (m
+W
+) 
+Forward current I  (m
+A) 
+Current transfer ratio CTR (%
+) 
+Collector current Ic (m
+A) 
+Fig.3 Collector-emitter Saturation 
+Voltage vs. Forward Current 
+F
+CE 
+Ic=
+0.5m
+A 
+1m
+A 
+3m
+A 
+7m
+A 
+5m
+A Ta= 25 C 
+Collecotr-em
+itter saturation voltage 
+V    (sat) (V) 
+Forward current I  (mA) 
+Voltage 
+oo
+o
+O
+o
+o
+o o
+o
+o
+0 25 50 75 100 125 0-30 125 25 50 75 100 
+10 
+20 
+30 
+40 
+50 
+60 
+0
+50 
+100 
+150 
+200 
+0
+1
+0
+0
+15 
+1
+2
+3
+4
+5
+6
+0.5 1.0 1.5 2.0 2.5 3.0 
+2
+5
+10 
+20 
+50 
+100 
+200 
+500 
+0
+1
+0
+02 5 10 20 50 
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+160 
+180 
+200 
+1 2 3 4 5 6 7 8 9
+10 
+20 
+30 
+10 5
+5
+15 
+25 
+ 
+0.01 
+0.1 
+1
+10 
+0.1 1 10 100 
+Normalized Current Transfer Ratio 
+IF - Forward Current - mA 
+Normalized to I F = 5mA 
+TA = 25 oC
+VCE = 5V 
+0
+10 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+0 2 4 6 8 10 
+IC - Collector Emitter - mA 
+VCE(non-sat) - Non-Saturated Collector Emitter Voltage - V
+IF = 5mA 
+IF = 10mA 
+IF = 1mA 
+TA = 25 oC
+PC MAX. 
+0.1 
+1
+10 
+100 
+0.6 0.8 1 1.2 1.4 1.6 
+IF - Forward Current - mA 
+VF - Forward Voltage - V
+TA = 115 oC
+TA = 75 oC
+TA = 25 oC
+TA = 0 oC
+TA = -55 oC
+0
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+160 
+-60 -40 -20 0 20 40 60 80 100 120 
+PC - Collecter Power Dissipation - mW 
+TA - Ambient Temperature  -oC
+0
+10 
+20 
+30 
+40 
+50 
+60 
+-60 -40 -20 0 20 40 60 80 100 120 
+IF - Forward Current - mA 
+TA - Ambient Temperature  -oC
+
+PAGE 13
+ 
+           12/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+R = 10k L 1k 100 
+tr 
+tf 
+td 
+ts 
+Fig.8 Collector-emitter Saturation Voltage 
+Fig.9 Collector Dark Current vs. 
+Ambient Temperature 
+Fig.10 Response Time vs. Load 
+Fig.11 Frequency Response 
+L
+CEO 
+  0 
+-30 
+CE 
+V    = 2V 
+Ic= 2mA 
+Ta= 25 C 
+CE 
+I   = 5mA 
+V    = 5V CE 
+F F
+Ic= 1mA 
+I  = 20mA 
+CE V    = 2V 
+Ic= 2mA 
+Ta= 25 C 
+vs. Ambient Temperature 
+Ambient temperature Ta ( C) 
+Load resistance R  (k   ) 
+Ambient temperature Ta ( C) 
+Ambient temperature Ta ( C) 
+Frequency f (kHz) 
+Response tim
+e (   s) 
+Relative current transfer ratio (%
+) 
+Collector dark current I       (A) 
+Voltage gain Av (dB) 
+Collector-em
+itter saturation voltage 
+V    (sat) (V) 
+-10 
+o
+o
+o o
+o
+0 25 50 75 100 
+50 
+100 
+150 
+-25 
+  0 
+0 25 50 75 100 
+10 
+-25 
+0.2 
+0.05 0 25 50 75 100 
+10 
+10 
+10 
+10 
+10 
+10 
+-9 
+-8 
+-7 
+-6 
+-5 
+-11 
+0.1 0.2 0.5 1 2 5 10 
+0.5 
+1
+2
+5
+10 
+20 
+50 
+100 
+200 
+500 
+0.5 
+20 
+10 
+0
+2 10 100 500 
+Resistance 
+Fig.7 Relative Current Transfer Ratio 
+vs. Ambient Temperature 
+0.02 
+0.04 
+0.06 
+0.08 
+0.10 
+0.12 
+0.14 
+0.16 
+1 5 20 50 
+CE V    = 20V 
+125 125 
+125 
+Test Circuit for Frequency Response 
+Test Circuit for Response Time 
+ 
+0
+0.02 
+0.04 
+0.06 
+0.08 
+0.1 
+0.12 
+0.14 
+-60 -40 -20 0 20 40 60 80 100 120 
+VCE(sat) - Saturated Collector-Emitter 
+Voltage - V
+TA - Ambient Temperature -oC
+IF = 20mA, I C = 1mA 
+IF = 10mA, I C = 1mA 
+IF = 5mA, I C = 1mA 
+0
+0.2 
+0.4 
+0.6 
+0.8 
+1
+1.2 
+-60 -40 -20 0 20 40 60 80 100 120 
+Normalized Current Transfer Ratio 
+TA - Ambient Temperature -oC
+Normalized to 
+IF = 5mA, 
+VCE = 5V 
+TA = 25 oC
+
+PAGE 14
+ 
+           13/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+7.  TEMPERATURE PROFILE OF SOLDERING 
+   7.1 IR Reflow soldering (JEDEC-STD-020C compliant) 
+One time soldering reflow is recommended within the condition of temperature and time profile shown below. Do not solder more than three 
+times. 
+        
+Profile item Conditions 
+Preheat 
+   - Temperature Min (T Smin ) 
+   - Temperature Max (T Smax ) 
+   - Time (min to max) (ts) 
+  
+150˚C 
+200˚C 
+90±30 sec 
+Soldering zone 
+   - Temperature (T L) 
+   - Time (t L) 
+ 
+217˚C 
+60 sec  
+Peak Temperature (T P) 260˚C 
+Ramp-up rate 3˚C / sec max. 
+Ramp-down rate 3~6˚C / sec 
+ 
+60 ~ 120 sec 
+25 C 
+150 C 
+200 C 
+260 C 
+217 C 
+60 sec 
+Time (sec) 
+Temperature (  C) 
+20 sec 
+Tsmax 
+ts (Preheat) 
+tL (Soldering) 
+Tsmin 
+TL 
+TP 
+Ramp-down 
+Ramp-up 
+35~70 sec 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 15
+ 
+           14/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+7.2 Wave soldering (JEDEC22A111 compliant) 
+One time soldering is recommended within the condition of temperature. 
+Temperature: 260+0/-5˚C  
+Time: 10 sec. 
+Preheat temperature:25 to 140˚C 
+Preheat time: 30 to 80 sec . 
+ 
+7.3 Hand soldering by soldering iron 
+   Allow single lead soldering in every single process. One time soldering is recommended.  
+Temperature: 380+0/-5˚C  
+Time: 3 sec max. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 16
+ 
+           15/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+8.  RRECOMMENDED FOOT PRINT PATTERNS (MOUNT PAD) 
+ 
+8.1 4 PIN                                            8.2 8 PIN  
+         
+ 
+ 
+ 
+8.3 16PIN 
+ 
+ 
+Note :  
+Dimensions in millimeters. 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 17
+ 
+           16/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+9. Naming rule 
+Example : LTV-817S-TA1-A-G 
+Example : LTV817STA1A-V-G 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LTV  
+  
+8X7(1)(2)( 3)-V-G
+DEVICE PART NUMBER 
+(4) VDE order option 
+(5) Halogen free option  
+(1) No suffix = Dual-in-Line package 
+M = Wide lead spacing package 
+S = Surface mounting package  
+ (2) TAPING TYPE(TA,TA1,TP or none) 
+   LTV-817 and LTV-827 have tape and reel solution 
+Please refer to orientation of taping on Page P5-P7  
+(3) CTR RANK (A,B or none)  
+   Please refer to the CTR table on Page P10  
+LTV-  8X7(1)-(2)-( 3)-G 
+DEVICE PART NUMBER 
+(3) CTR RANK (A,B or none)  
+   Please refer to the CTR table on Page P10  
+ 
+(1) No suffix = Dual-in-Line package  
+M = Wide lead spacing package 
+S = Surface mounting package  
+ 
+(4) Halogen free option 
+(2) TAPING TYPE(TA,TA1,TP or none) 
+   LTV-817 and LTV-827 have tape and reel solution.  
+Please refer to orientation of taping on Page P5-P7 
+
+PAGE 18
+ 
+           17/17             
+Photocoupler  
+LTV-8x7 Series  
+Part No. : LTV-8x7 series 
+BNC-OD-FC002/A4 
+Rev.: - 
+10.  Notes: 
+/square6 LiteOn is continually improving the quality, relia bility, function or design and LiteOn reserves the right to make changes 
+without further notices. 
+/square6 The products shown in this publication are designe d for the general use in electronic applications such as office automation 
+equipment, communications devices, audio/visual equipment, electrical application and instrumentation. 
+/square6 For equipment/devices where high reliability or sa fety is required, such as space applications, nucle ar power control 
+equipment, medical equipment, etc, please contact our sales representatives. 
+/square6 When requiring a device for any ”specific” applica tion, please contact our sales in advice. 
+/square6 If there are any questions about the contents of t his publication, please contact us at your convenience. 
+/square6 The contents described herein are subject to chang e without prior notice. 
+/square6 Immerge unit’s body in solder paste is not recomme nded. 
+/square6 The contents described herein are subject to chang e without prior notice. 
+/square6 Immerge unit’s body in solder paste is not recomme nded. 

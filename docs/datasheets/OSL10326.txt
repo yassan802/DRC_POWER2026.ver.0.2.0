@@ -1,0 +1,138 @@
+
+PAGE 1
+http://www.optosupply.com                                                                               VER A. 1.2 
+ 
+ 00..3322  IInncchh  SSiinnggllee  DDiiggiitt  DDiissppllaayy 
+ 
+OSL10326-IX (Common Anode type) 
+OSL10326-LX (Common Cathode type) 
+            
+ 
+ 
+■ Features 
+●  0.32 Inch Single Digit Display 
+●  Long lifetime operation 
+●  IC compatible 
+●  Low power dissipation 
+●  Number of pins :10 
+■ Applications 
+●  Counting device 
+●  Clock 
+■ Absolute Maximum Rating       (Ta=25℃) 
+#Pulse width Max.10ms  Duty ratio max 1/10  
+■ Electrical -Optical Characteristics     (Ta=25℃) 
+Part Number Color 
+VF (V) IR(µA) Iv(mcd) λD(nm) 
+Min. Typ. Max. Max. Min. Typ. Max. Min. Typ. Max. 
+IF=20mA VR=5V IF=20mA 
+OSL10326-IW(LW) White W  - 3.1 3.6 20 - 65 - X:0.27 Y:0.28 
+OSL10326-IB(LB) Blue B ■ - 3.1 3.6 20 - 50 - 460 465 475 
+OSL10326-IG(LG) Pure Green G ■ - 3.1 3.6 20 - 200 - 515 525 530 
+OSL10326-IYG(LYG) Yellow Green YG ■ - 2.2 2.6 20 - 12 - 565 571 575 
+OSL10326-IY(LY) Yellow Y ■ - 2.1 2.5 20 - 60 - 585 590 595 
+OSL10326-IR(LR) Red R ■ - 2.1 2.5 20 - 26 - 625 630 640 
+OSL10326-IRA(LRA) High Red RA ■ - 2.1 2.5 20 - 100 - 620 625 630 
+ 
+*1 Tolerance of measurements of chromaticity coordinates is +10% 
+*2 Tolerance of measurements of dominant wavelength is +1nm 
+*3 Tolerance of measurements of luminous intensity is +15% 
+*4 Tolerance of measurements of forward voltage is +0.1V 
+ 
+Item Symbol 
+Value 
+Unit  
+RA/R/Y/YG W/B/G 
+DC Forward Current IF 20 20 mA  
+Pulse Forward Current# IFP 100 100 mA  
+Reverse V oltage VR 5 5 V  
+Power Dissipation Pt 44 66 mW  
+Operating Temperature Topr -30 ~ +70 ℃  
+Storage Temperature Tstg -40~ +85 ℃  
+Lead Soldering Temperature(1.6mm 
+from seating plane) 
+Tsol 260℃/5sec ℃  
+ 
+ 
+ 
+ 
+ 
+LED & Application Technologies 
+ 
+ 
+  
+ 
+■ Photo 
+ 
+
+PAGE 2
+http://www.optosupply.com                                                                               VER A. 1.2 
+ 
+ 00..3322  IInncchh  SSiinnggllee  DDiiggiitt  DDiissppllaayy 
+ 
+OSL10326-IX (Common Anode type) 
+OSL10326-LX (Common Cathode type) 
+            
+■ Package Dimensions and Pin Function 
+ 
+OSL10326-IX 
+(Common Anode type)  
+Note: 
+1,Unit : mm( Tolerance:±0.25mm unless  
+otherwise noted) 
+2, The slope angle of any PIN  
+may be±5.0°Max 
+ 
+ 
+OSL10326-LX 
+(Common Cathode type) 
+Note: 
+1,Unit : mm( Tolerance:±0.25mm unless  
+otherwise noted) 
+2, The slope angle of any PIN  
+may be±5.0°Max 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LED & Application Technologies 
+ 
+ 
+  
+ 
+PIN.1
+A
+B
+C
+D
+E
+F G
+DP
+9
+1 10 8 5 4 2 3
+A B C D E F G DP
+6
+7
+PIN.1
+A
+B
+C
+D
+E
+F G
+DP
+9 6
+1 10 8 5 4 2 3 7
+A B C D E F G DP

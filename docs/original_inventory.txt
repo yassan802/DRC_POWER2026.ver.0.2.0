@@ -1,0 +1,106 @@
+
+FILE 7seg.kicad_sch git-blob 34ea4d91df2f933e4f1b3e0e904c77375b74efb8
+{"ref": "U21", "value": "OSL10326-L", "lib": "Display_Character:D148K", "fp": "My-Library:OSL10326-LX", "at": ["182.88", "146.05", "0"]}
+{"ref": "U5", "value": "OSL10326-L", "lib": "Display_Character:D148K", "fp": "My-Library:OSL10326-LX", "at": ["144.78", "31.75", "0"]}
+{"ref": "C2", "value": "47u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder", "at": ["53.34", "77.47", "0"]}
+{"ref": "U18", "value": "OSL10326-L", "lib": "Display_Character:D148K", "fp": "My-Library:OSL10326-LX", "at": ["144.78", "69.85", "0"]}
+{"ref": "U23", "value": "OSL10326-L", "lib": "Display_Character:D148K", "fp": "My-Library:OSL10326-LX", "at": ["182.88", "107.95", "0"]}
+{"ref": "U20", "value": "OSL10326-L", "lib": "Display_Character:D148K", "fp": "My-Library:OSL10326-LX", "at": ["220.98", "69.85", "0"]}
+{"ref": "U19", "value": "OSL10326-L", "lib": "Display_Character:D148K", "fp": "My-Library:OSL10326-LX", "at": ["182.88", "69.85", "0"]}
+{"ref": "U17", "value": "OSL10326-L", "lib": "Display_Character:D148K", "fp": "My-Library:OSL10326-LX", "at": ["144.78", "146.05", "0"]}
+{"ref": "U16", "value": "OSL10326-L", "lib": "Display_Character:D148K", "fp": "My-Library:OSL10326-LX", "at": ["220.98", "31.75", "0"]}
+{"ref": "U24", "value": "OSL10326-L", "lib": "Display_Character:D148K", "fp": "My-Library:OSL10326-LX", "at": ["220.98", "107.95", "0"]}
+{"ref": "U22", "value": "OSL10326-L", "lib": "Display_Character:D148K", "fp": "My-Library:OSL10326-LX", "at": ["144.78", "107.95", "0"]}
+{"ref": "U26", "value": "TM1640", "lib": "New_Library:TM1640", "fp": "Package_SO:SOP-28_8.4x18.16mm_P1.27mm", "at": ["82.55", "85.09", "0"]}
+{"ref": "U15", "value": "OSL10326-L", "lib": "Display_Character:D148K", "fp": "My-Library:OSL10326-LX", "at": ["182.88", "31.75", "0"]}
+{"ref": "U25", "value": "OSL10326-L", "lib": "Display_Character:D148K", "fp": "My-Library:OSL10326-LX", "at": ["220.98", "146.05", "0"]}
+{"ref": "C1", "value": "0.1u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["60.96", "77.47", "0"]}
+
+FILE DRC_POWER2026.kicad_sch git-blob d32f34eacd3f4e6f74f586e7e495d8e41f14e57c
+{"ref": "R21", "value": "5.1k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["217.17", "144.78", "0"]}
+{"ref": "R2", "value": "5.1k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["270.51", "123.19", "270"]}
+{"ref": "D14", "value": "LED_Small", "lib": "Device:LED_Small", "fp": "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder", "at": ["223.52", "132.08", "180"]}
+{"ref": "R38", "value": "R_Small", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["215.9", "123.19", "90"]}
+{"ref": "C4", "value": "47u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder", "at": ["270.51", "33.02", "0"]}
+{"ref": "R22", "value": "2.4k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["110.49", "153.67", "90"]}
+{"ref": "D13", "value": "LED_Small", "lib": "Device:LED_Small", "fp": "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder", "at": ["223.52", "123.19", "180"]}
+{"ref": "C22", "value": "0.1u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["107.95", "66.04", "270"]}
+{"ref": "J2", "value": "Conn_01x02", "lib": "Connector_Generic:Conn_01x02", "fp": "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal", "at": ["20.32", "44.45", "180"]}
+{"ref": "C5", "value": "0.1u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["279.4", "33.02", "0"]}
+{"ref": "R1", "value": "5.1k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["270.51", "120.65", "90"]}
+{"ref": "R26", "value": "5.1k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["124.46", "100.33", "270"]}
+{"ref": "C16", "value": "4.7μF", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["40.64", "167.64", "90"]}
+{"ref": "C14", "value": "1μF", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["22.86", "115.57", "180"]}
+{"ref": "C3", "value": "10u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder", "at": ["247.65", "33.02", "0"]}
+{"ref": "J3", "value": "USB_C_Receptacle_USB2.0_16P", "lib": "Connector:USB_C_Receptacle_USB2.0_16P", "fp": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal", "at": ["250.19", "130.81", "0"]}
+{"ref": "R28", "value": "5.1k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["128.27", "138.43", "0"]}
+{"ref": "C18", "value": "0.1u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["106.68", "88.9", "270"]}
+{"ref": "J1", "value": "Conn_01x02", "lib": "Connector_Generic:Conn_01x02", "fp": "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal", "at": ["20.32", "27.94", "180"]}
+{"ref": "NT1", "value": "NetTie_3_Tee", "lib": "Device:NetTie_3_Tee", "fp": "NetTie:NetTie-3_THT_Pad0.3mm", "at": ["260.35", "50.8", "0"]}
+{"ref": "R24", "value": "5.1k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["124.46", "93.98", "90"]}
+{"ref": "U14", "value": "R7FA4M1AB3CFM_AA0", "lib": "New_Library:R7FA4M1AB3CFM_AA0", "fp": "My-Library:QFP50P1200X1200X170-64N", "at": ["69.85", "129.54", "0"]}
+{"ref": "C21", "value": "4.7u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["124.46", "81.28", "270"]}
+{"ref": "U3", "value": "BP5293-50", "lib": "Converter_DCDC:TSR2-0515", "fp": "Package_SIP:SIP3_11.6x8.5mm", "at": ["260.35", "33.02", "0"]}
+{"ref": "C19", "value": "0.1u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["107.95", "74.93", "270"]}
+{"ref": "J12", "value": "EMG", "lib": "Connector_Generic:Conn_01x02", "fp": "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm", "at": ["138.43", "30.48", "90"]}
+{"ref": "D5", "value": "SS2040FL", "lib": "Device:D_Schottky_Small", "fp": "Diode_SMD:D_SOD-123F", "at": ["260.35", "20.32", "0"]}
+{"ref": "R23", "value": "330", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["110.49", "161.29", "90"]}
+{"ref": "R40", "value": "R_Small", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["215.9", "132.08", "90"]}
+{"ref": "C23", "value": "0.1u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["146.05", "91.44", "0"]}
+{"ref": "JP2", "value": "BOOT", "lib": "Jumper:SolderJumper_2_Open", "fp": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm", "at": ["205.74", "152.4", "90"]}
+{"ref": "R29", "value": "10k", "lib": "Device:R", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["128.27", "147.32", "0"]}
+{"ref": "SW1", "value": "RESET", "lib": "Switch:SW_Push", "fp": "Button_Switch_SMD:SW_SPST_EVQPE1", "at": ["217.17", "153.67", "270"]}
+{"ref": "D2", "value": "SS2040FL", "lib": "Device:D_Schottky_Small", "fp": "Diode_SMD:D_SOD-123F", "at": ["270.51", "115.57", "180"]}
+{"ref": "C20", "value": "4,7μF", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["107.95", "83.82", "90"]}
+SHEET {"Sheetname": "Relay_12v", "Sheetfile": "Relay_12v.kicad_sch"}
+SHEET {"Sheetname": "Relay_24V", "Sheetfile": "Relay.kicad_sch"}
+SHEET {"Sheetname": "7seg", "Sheetfile": "7seg.kicad_sch"}
+
+FILE Relay.kicad_sch git-blob fbe8c249ea73635328bfaef4877b44f3a1cfc1cd
+{"ref": "K2", "value": "G5V-2", "lib": "Relay:G5V-2", "fp": "Relay_THT:Relay_DPDT_Omron_G5V-2", "at": ["121.92", "85.09", "90"]}
+{"ref": "J8", "value": "P_LIGHT", "lib": "Connector_Generic:Conn_01x02", "fp": "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm", "at": ["184.15", "119.38", "0"]}
+{"ref": "R15", "value": "22k 0.1%", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["213.36", "116.84", "0"]}
+{"ref": "U8", "value": "TLP172AM", "lib": "Relay_SolidState:TLP3542", "fp": "My-Library:TLP172AM", "at": ["100.33", "102.87", "270"]}
+{"ref": "J7", "value": "VOUT", "lib": "Connector_Generic:Conn_01x02", "fp": "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal", "at": ["163.83", "93.98", "0"]}
+{"ref": "D8", "value": "5.1v", "lib": "Device:D_Zener_Small", "fp": "Diode_SMD:D_SOD-128", "at": ["229.87", "124.46", "270"]}
+{"ref": "R10", "value": "2.2k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["97.79", "114.3", "0"]}
+{"ref": "U9", "value": "ACS772KCB-150B-PFF-T", "lib": "ACS772KCB-150B-PFF-T:ACS772KCB-150B-PFF-T", "fp": "My-Library:XDCR_ACS772KCB-150B-PFF-T", "at": ["124.46", "40.64", "90"]}
+{"ref": "D6", "value": "D_Small", "lib": "Device:D_Small", "fp": "Diode_SMD:D_SOD-123F", "at": ["121.92", "107.95", "0"]}
+{"ref": "C10", "value": "0.1u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["114.3", "26.67", "0"]}
+{"ref": "R5", "value": "1k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["124.46", "22.86", "0"]}
+{"ref": "U7", "value": "TLP172AM", "lib": "Relay_SolidState:TLP3542", "fp": "My-Library:TLP172AM", "at": ["90.17", "102.87", "270"]}
+{"ref": "C9", "value": "0.1u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["220.98", "124.46", "0"]}
+{"ref": "C8", "value": "3300u", "lib": "Device:C_Polarized", "fp": "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm", "at": ["144.78", "97.79", "0"]}
+{"ref": "D7", "value": "LED_Small", "lib": "Device:LED_Small", "fp": "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder", "at": ["198.12", "116.84", "90"]}
+{"ref": "R16", "value": "4.7k 0.1%", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder", "at": ["213.36", "124.46", "0"]}
+{"ref": "C17", "value": "3300u", "lib": "Device:C_Polarized", "fp": "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm", "at": ["149.86", "97.79", "0"]}
+{"ref": "U6", "value": "A31ASPxxVDC2D", "lib": "Robocon_Relay:JD2912-1Z-12VDC", "fp": "My-Library:PC795_PCB", "at": ["90.17", "45.72", "0"]}
+{"ref": "R7", "value": "1k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["87.63", "114.3", "0"]}
+{"ref": "R14", "value": "10k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["198.12", "124.46", "0"]}
+{"ref": "D4", "value": "D_Small", "lib": "Device:D_Small", "fp": "Diode_SMD:D_SOD-123F", "at": ["90.17", "72.39", "180"]}
+{"ref": "C6", "value": "0.1u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["127", "20.32", "90"]}
+{"ref": "R13", "value": "10", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder", "at": ["135.89", "85.09", "90"]}
+
+FILE Relay_12v.kicad_sch git-blob c9ea6c718744e392e098ce3f11eba78072ff3892
+{"ref": "K3", "value": "G5V-2", "lib": "Relay:G5V-2", "fp": "Relay_THT:Relay_DPDT_Omron_G5V-2", "at": ["121.92", "85.09", "90"]}
+{"ref": "J11", "value": "P_LIGHT", "lib": "Connector_Generic:Conn_01x02", "fp": "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm", "at": ["184.15", "119.38", "0"]}
+{"ref": "R19", "value": "22k,0.1%", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["213.36", "116.84", "0"]}
+{"ref": "J10", "value": "VOUT", "lib": "Connector_Generic:Conn_01x02", "fp": "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal", "at": ["163.83", "93.98", "0"]}
+{"ref": "D12", "value": "5.1v", "lib": "Device:D_Zener_Small", "fp": "Diode_SMD:D_SOD-128", "at": ["229.87", "124.46", "270"]}
+{"ref": "U13", "value": "ACS772KCB-150B-PFF-T", "lib": "ACS772KCB-150B-PFF-T:ACS772KCB-150B-PFF-T", "fp": "My-Library:XDCR_ACS772KCB-150B-PFF-T", "at": ["124.46", "40.64", "270"]}
+{"ref": "D10", "value": "D_Small", "lib": "Device:D_Small", "fp": "Diode_SMD:D_SOD-123F", "at": ["121.92", "107.95", "0"]}
+{"ref": "C11", "value": "0.1u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["134.62", "26.67", "0"]}
+{"ref": "R6", "value": "1k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["124.46", "22.86", "0"]}
+{"ref": "C13", "value": "0.1u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["220.98", "124.46", "0"]}
+{"ref": "C12", "value": "3300u", "lib": "Device:C_Polarized", "fp": "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm", "at": ["144.78", "97.79", "0"]}
+{"ref": "U1", "value": "TLP172AM", "lib": "Relay_SolidState:TLP3542", "fp": "My-Library:TLP172AM", "at": ["90.17", "102.87", "270"]}
+{"ref": "D11", "value": "LED_Small", "lib": "Device:LED_Small", "fp": "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder", "at": ["198.12", "116.84", "90"]}
+{"ref": "R20", "value": "4.7k,0.1%", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder", "at": ["213.36", "124.46", "0"]}
+{"ref": "U10", "value": "A31ASPxxVDC2D", "lib": "Robocon_Relay:JD2912-1Z-12VDC", "fp": "My-Library:PC795_PCB", "at": ["90.17", "45.72", "0"]}
+{"ref": "C15", "value": "3300u", "lib": "Device:C_Polarized", "fp": "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm", "at": ["151.13", "97.79", "0"]}
+{"ref": "R11", "value": "1k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["87.63", "114.3", "0"]}
+{"ref": "R18", "value": "10k", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder", "at": ["198.12", "121.92", "0"]}
+{"ref": "D9", "value": "D_Small", "lib": "Device:D_Small", "fp": "Diode_SMD:D_SOD-123F", "at": ["90.17", "72.39", "180"]}
+{"ref": "C7", "value": "0.1u", "lib": "Device:C_Small", "fp": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder", "at": ["121.92", "20.32", "270"]}
+{"ref": "Q1", "value": "DTC143E", "lib": "Transistor_BJT:DTC143E", "fp": "Package_TO_SOT_SMD:SOT-23-3", "at": ["134.62", "115.57", "0"]}
+{"ref": "R17", "value": "10", "lib": "Device:R_Small", "fp": "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder", "at": ["135.89", "85.09", "90"]}

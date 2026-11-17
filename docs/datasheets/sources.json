@@ -1,0 +1,142 @@
+[
+  {
+    "name": "LM5060",
+    "url": "https://www.ti.com/lit/ds/symlink/lm5060.pdf",
+    "pages": 41,
+    "bytes": 1415448,
+    "status": "OK"
+  },
+  {
+    "name": "LMR51610",
+    "url": "https://www.ti.com/lit/ds/symlink/lmr51610.pdf",
+    "pages": 35,
+    "bytes": 2001593,
+    "status": "OK"
+  },
+  {
+    "name": "LM66100",
+    "url": "https://www.ti.com/lit/ds/symlink/lm66100.pdf",
+    "pages": 23,
+    "bytes": 2105188,
+    "status": "OK"
+  },
+  {
+    "name": "TMUX2821",
+    "url": "https://www.ti.com/lit/ds/symlink/tmux2821.pdf",
+    "pages": 33,
+    "bytes": 2473523,
+    "status": "OK"
+  },
+  {
+    "name": "RA4M1_datasheet",
+    "url": "https://www.renesas.com/en/document/dst/ra4m1-group-datasheet",
+    "pages": 131,
+    "bytes": 1677695,
+    "status": "OK"
+  },
+  {
+    "name": "RA4M1_hardware",
+    "url": "https://www.renesas.com/en/document/mah/renesas-ra4m1-group-users-manual-hardware?language=en",
+    "pages": 1454,
+    "bytes": 19602211,
+    "status": "OK"
+  },
+  {
+    "name": "IPT008N06NM5LF",
+    "url": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt008n06nm5lf-datasheet-en.pdf",
+    "pages": 11,
+    "bytes": 956707,
+    "status": "OK"
+  },
+  {
+    "name": "OSL10326",
+    "url": "https://www.optosupply.com/uppic/2025822601151.pdf",
+    "pages": 2,
+    "bytes": 381361,
+    "status": "OK"
+  },
+  {
+    "name": "TM1640",
+    "url": "https://akizukidenshi.com/goodsaffix/TM1640_V1.0_EN.PDF",
+    "pages": 10,
+    "bytes": 414164,
+    "status": "OK"
+  },
+  {
+    "name": "XT60PW_M",
+    "url": "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf",
+    "pages": 1,
+    "bytes": 3012312,
+    "status": "OK"
+  },
+  {
+    "name": "XT60PW_F",
+    "url": "https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf",
+    "pages": 1,
+    "bytes": 3069503,
+    "status": "OK"
+  },
+  {
+    "name": "XT30PW_F",
+    "url": "https://www.tme.eu/Document/f383737e340bfdab1f665284174b4ea2/XT30PW-F.pdf",
+    "pages": 1,
+    "bytes": 2955369,
+    "status": "OK"
+  },
+  {
+    "name": "LTV817",
+    "url": "https://s3.amazonaws.com/snapeda/datasheet/LTV-817S-TA1-C_Lite-On.pdf",
+    "pages": 18,
+    "bytes": 719462,
+    "status": "OK"
+  },
+  {
+    "name": "JST_VH",
+    "url": "https://www.jst-mfg.com/product/pdf/eng/eVH.pdf",
+    "status": "OK",
+    "pages": 6,
+    "bytes": 122881,
+    "method": "Windows HTTPS certificate verification via Invoke-WebRequest"
+  },
+  {
+    "name": "USB4105",
+    "url": "https://gct.co/files/drawings/usb4105.pdf",
+    "pages": 2,
+    "bytes": 164547,
+    "status": "OK"
+  },
+  {
+    "name": "CYA0650",
+    "url": "https://xonstorage.z8.web.core.windows.net/pdf/shou_cya065033uh_apr22_xonlink.pdf",
+    "pages": 6,
+    "bytes": 487931,
+    "status": "OK"
+  },
+  {
+    "name": "Rubycon_PX",
+    "url": "https://akizukidenshi.com/goodsaffix/j_px.pdf",
+    "pages": 2,
+    "bytes": 235142,
+    "status": "OK"
+  },
+  {
+    "name": "OSL10326_LRA",
+    "url": "https://akizukidenshi.com/goodsaffix/OSL10326-LRA.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "SS2040FL",
+    "url": "https://www.panjit.com.tw/en/Product/downloadPDF/SS2040FL",
+    "status": "OK",
+    "pages": 4,
+    "bytes": 767550,
+    "method": "Windows HTTPS certificate verification via Invoke-WebRequest"
+  },
+  {
+    "name": "BZT52",
+    "url": "https://www.diodes.com/assets/Datasheets/ds18004.pdf",
+    "pages": 5,
+    "bytes": 395331,
+    "status": "OK"
+  }
+]

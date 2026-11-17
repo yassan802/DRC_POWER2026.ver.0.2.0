@@ -1,0 +1,59 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-17T22:55:59+0900",
+    "kicad_version": "9.0.0",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/fbc01400-f2e1-5f0b-ba21-0805191588c2",
+            "violations": []
+        },
+        {
+            "path": "/02 3S main switch/",
+            "uuid_path": "/fbc01400-f2e1-5f0b-ba21-0805191588c2/244a2898-3c62-50bb-944a-adcdee235e6f",
+            "violations": []
+        },
+        {
+            "path": "/03 6S main switch/",
+            "uuid_path": "/fbc01400-f2e1-5f0b-ba21-0805191588c2/cba387b4-6a57-5cef-a19e-4778f1f2ae0a",
+            "violations": []
+        },
+        {
+            "path": "/04 5V control supply/",
+            "uuid_path": "/fbc01400-f2e1-5f0b-ba21-0805191588c2/8240d506-34a1-5c2e-84cf-7ffa1a5261b3",
+            "violations": []
+        },
+        {
+            "path": "/05 NC emergency stop/",
+            "uuid_path": "/fbc01400-f2e1-5f0b-ba21-0805191588c2/7c28324b-d35e-51d1-979b-9337e4be710f",
+            "violations": []
+        },
+        {
+            "path": "/06 MCU core / USB/",
+            "uuid_path": "/fbc01400-f2e1-5f0b-ba21-0805191588c2/4100c199-7f54-5007-843e-77a24d540bea",
+            "violations": []
+        },
+        {
+            "path": "/07 MCU ADC / control/",
+            "uuid_path": "/fbc01400-f2e1-5f0b-ba21-0805191588c2/5605f77f-bf41-5c8b-a8ab-d0df86699b05",
+            "violations": []
+        },
+        {
+            "path": "/08 4-point ADC protection/",
+            "uuid_path": "/fbc01400-f2e1-5f0b-ba21-0805191588c2/151d1fb0-c09e-511f-aea3-0cdcd378af45",
+            "violations": []
+        },
+        {
+            "path": "/09 USB Type-C/",
+            "uuid_path": "/fbc01400-f2e1-5f0b-ba21-0805191588c2/5a8d5d26-1ff2-5bcd-aa40-7630ab44b81c",
+            "violations": []
+        },
+        {
+            "path": "/10 12-digit display/",
+            "uuid_path": "/fbc01400-f2e1-5f0b-ba21-0805191588c2/1b14f1f1-852e-5520-93f0-b49f250c717b",
+            "violations": []
+        }
+    ],
+    "source": "DRC_POWER2026.ver.0.2.0.kicad_sch"
+}

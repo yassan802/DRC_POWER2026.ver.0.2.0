@@ -1,0 +1,70 @@
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*-cache*
+*-bak
+*-bak*
+*~
+~*
+_autosave-*
+\#auto_saved_files\#/
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+
+# Netlist and autorouter exports
+*.net
+*.dsn
+*.ses
+
+# Generated exports
+*.xml
+*.csv
+
+# Published design reports, BOMs, and verification inputs
+!/docs/*.csv
+!/docs/*.xml
+
+# Archived backups and superseded design snapshots
+**/*-backups/*.zip
+/docs/revisions/
+.history/
+
+# Local project settings
+*.kicad_prl
+
+# Generated manufacturing outputs
+*-plots/
+*-plots.zip
+*.gbr
+*.gbrjob
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gto
+*.gbo
+*.gm1
+*.drl
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# OS-generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local tool settings and application data
+.codex/
+NVIDIA Corporation/

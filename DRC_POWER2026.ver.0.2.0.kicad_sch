@@ -1,0 +1,498 @@
+(kicad_sch
+  (version 20250114)
+  (generator "eeschema")
+  (generator_version "9.0")
+  (uuid "fbc01400-f2e1-5f0b-ba21-0805191588c2")
+  (paper "A3")
+  (title_block
+    (title "Main power board / functional overview")
+    (date "2026-11-17")
+    (rev "1.2-sch1")
+    (company "DRC POWER2026")
+    (comment 1 "Main power board / common GND / Spec Rev 1.2")
+  )
+  (lib_symbols)
+  (text
+    "DRC POWER2026   |   MAIN POWER BOARD / REV 1.2"
+    (at 17.78 15.24 0)
+    (effects (font (size 2 2) (bold yes)) (justify left top))
+    (uuid "3926b86c-06ae-5152-8f44-59e1d088cb0c")
+  )
+  (text
+    "3S and 6S battery switching / common GND / control power alive while main outputs are OFF"
+    (at 17.78 25.4 0)
+    (effects (font (size 1.52 1.52)) (justify left top))
+    (uuid "0ede5ded-6596-5a3c-89c3-ad501bf4a1bd")
+  )
+  (label "MAIN_EN" (at 24.13 60.96 0) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "64fec569-883d-5c4d-8989-a059b29d6cdf"))
+  (label "VIN_3S" (at 128.27 60.96 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bc9ca147-9829-53ac-bd64-f5af36e974c9"))
+  (label "VOUT_3S" (at 128.27 68.58 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8358ade9-809b-5d2a-bf5f-5c6ebdc4cb6a"))
+  (label "nPGD_3S" (at 128.27 76.2 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "942ce275-2965-58ba-a444-0991a013064c"))
+  (sheet
+    (at 30.48 50.8)
+    (size 91.44 55.88)
+    (stroke (width 0.254) (type default))
+    (fill (color 0 0 0 0))
+    (uuid "244a2898-3c62-50bb-944a-adcdee235e6f")
+    (property "Sheetname" "02 3S main switch" (at 30.48 45.72 0) (effects (font (size 1.52 1.52)) (justify left)))
+    (property "Sheetfile" "02_Power_3S.kicad_sch" (at 30.48 109.22 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (pin "MAIN_EN" input (at 30.48 60.96 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "5fdf17b7-16e0-5262-a13d-90c10b0c397c"))
+    (pin "VIN_3S" output (at 121.92 60.96 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid "ab5f47e6-d9e0-5242-a5ac-4ffd5b49e324"))
+    (pin "VOUT_3S" output (at 121.92 68.58 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid "5e8da981-d738-55ca-b9a6-dba20af259d1"))
+    (pin "nPGD_3S" output (at 121.92 76.2 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid "2d857710-2a4b-5409-94db-7ca0ae946b1e"))
+    (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (page "2"))))
+  )
+  (text
+    "One N-MOSFET + LM5060\nExternal battery-side MIDI fuse"
+    (at 43.18 87.63 0)
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid "3dbe19d9-166e-5f85-9681-7ef75055a7cc")
+  )
+  (label
+    "MAIN_EN"
+    (at 24.13 147.32 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "12410788-f57c-5d00-8cad-5ae72242cf77")
+  )
+  (label "VIN_6S" (at 128.27 147.32 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "889e035c-a5ac-5038-9193-96df5d673c40"))
+  (label
+    "VOUT_6S"
+    (at 128.27 154.94 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "b50b0f0e-0394-5cf8-92b4-dafca51bb7af")
+  )
+  (label
+    "nPGD_6S"
+    (at 128.27 162.56 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "6d9734a5-d8a9-58eb-a89a-9c41fbb0830b")
+  )
+  (sheet
+    (at 30.48 137.16)
+    (size 91.44 55.88)
+    (stroke (width 0.254) (type default))
+    (fill (color 0 0 0 0))
+    (uuid "cba387b4-6a57-5cef-a19e-4778f1f2ae0a")
+    (property "Sheetname" "03 6S main switch" (at 30.48 132.08 0) (effects (font (size 1.52 1.52)) (justify left)))
+    (property "Sheetfile" "03_Power_6S.kicad_sch" (at 30.48 195.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (pin "MAIN_EN" input (at 30.48 147.32 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "e7186c6c-67f7-59b0-9ec4-4f2f1dd95931"))
+    (pin "VIN_6S" output (at 121.92 147.32 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid "e314bdf3-f554-58f3-8510-0b772d1a1fde"))
+    (pin "VOUT_6S" output (at 121.92 154.94 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid "b6d2ad4e-ebaa-5830-b9d1-ce038a60bc43"))
+    (pin "nPGD_6S" output (at 121.92 162.56 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid "ec6aefe8-9abb-5b81-95f4-f5113d78a043"))
+    (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (page "3"))))
+  )
+  (text
+    "One N-MOSFET + LM5060\nExternal battery-side MIDI fuse"
+    (at 43.18 173.99 0)
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid "255cef44-6b98-5ab6-92b5-1ff8bcd51f92")
+  )
+  (label "VIN_3S" (at 161.29 60.96 0) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "951fb94a-372e-5529-a6b6-be34f4973810"))
+  (label "VIN_6S" (at 161.29 68.58 0) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "107a218b-ebe8-581f-8ba7-c27a36265a43"))
+  (sheet
+    (at 167.64 50.8)
+    (size 91.44 43.18)
+    (stroke (width 0.254) (type default))
+    (fill (color 0 0 0 0))
+    (uuid "8240d506-34a1-5c2e-84cf-7ffa1a5261b3")
+    (property "Sheetname" "04 5V control supply" (at 167.64 45.72 0) (effects (font (size 1.52 1.52)) (justify left)))
+    (property "Sheetfile" "04_Control_5V.kicad_sch" (at 167.64 96.52 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (pin "VIN_3S" input (at 167.64 60.96 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "c287cc25-b514-5eed-bbcc-a33b60ea3232"))
+    (pin "VIN_6S" input (at 167.64 68.58 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "3855cb01-ca05-5a24-abc5-fdc2228d4d81"))
+    (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (page "4"))))
+  )
+  (text
+    "+5V_MCU via LM66100\n3S default / 6S solder select"
+    (at 182.88 76.2 0)
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid "91202851-f089-5de8-933b-88a4a65ed90c")
+  )
+  (label
+    "VIN_3S"
+    (at 161.29 147.32 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "26dd3689-7fa8-5f2e-9408-609fcbbda115")
+  )
+  (label
+    "MCU_RUN"
+    (at 161.29 154.94 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "f46a1f8b-388f-5811-b1d1-bdb851e051fd")
+  )
+  (label
+    "MAIN_EN"
+    (at 265.43 147.32 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "dbd93395-df8a-57c1-9e9d-4c78670df20e")
+  )
+  (sheet
+    (at 167.64 137.16)
+    (size 91.44 43.18)
+    (stroke (width 0.254) (type default))
+    (fill (color 0 0 0 0))
+    (uuid "7c28324b-d35e-51d1-979b-9337e4be710f")
+    (property "Sheetname" "05 NC emergency stop" (at 167.64 132.08 0) (effects (font (size 1.52 1.52)) (justify left)))
+    (property "Sheetfile" "05_Emergency_Stop.kicad_sch" (at 167.64 182.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (pin "VIN_3S" input (at 167.64 147.32 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "ceb4bd3c-e4df-5cc7-81ff-f71019f6c20b"))
+    (pin "MCU_RUN" input (at 167.64 154.94 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "8d349199-f2e2-56bd-b891-bee94322f8b5"))
+    (pin "MAIN_EN" output (at 259.08 147.32 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid "fd177486-b303-545e-9d67-3c96aad58b55"))
+    (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (page "5"))))
+  )
+  (label
+    "USB_D_N"
+    (at 303.53 55.88 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "1a998b02-426d-598a-971f-151a0b88f0bb")
+  )
+  (label "USB_D_P" (at 303.53 63.5 0) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "82ebd653-7bab-589b-af53-e72578717b3c"))
+  (label
+    "USB_VBUS_SENSE"
+    (at 303.53 71.12 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "c3e8cad1-1a11-529d-a49e-8a54772c8f6b")
+  )
+  (sheet
+    (at 309.88 45.72)
+    (size 68.58 35.56)
+    (stroke (width 0.254) (type default))
+    (fill (color 0 0 0 0))
+    (uuid "4100c199-7f54-5007-843e-77a24d540bea")
+    (property "Sheetname" "06 MCU core / USB" (at 309.88 40.64 0) (effects (font (size 1.52 1.52)) (justify left)))
+    (property "Sheetfile" "06_MCU_Core.kicad_sch" (at 309.88 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (pin
+      "USB_D_N"
+      bidirectional
+      (at 309.88 55.88 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid "2baa224d-542f-5b10-923b-e0cf7823a3c2")
+    )
+    (pin
+      "USB_D_P"
+      bidirectional
+      (at 309.88 63.5 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid "7dc70b18-50f9-57e2-a1a1-4d004288104b")
+    )
+    (pin
+      "USB_VBUS_SENSE"
+      input
+      (at 309.88 71.12 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid "a0ccb571-46f9-505e-8371-c3277d5a635f")
+    )
+    (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (page "6"))))
+  )
+  (label
+    "ADC_VIN_3S"
+    (at 303.53 177.8 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "93039502-67c9-56ab-b9d4-60679e46de62")
+  )
+  (label
+    "ADC_VOUT_3S"
+    (at 303.53 185.42 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "6058f01c-b0a3-5e95-a511-a8198ee9e22a")
+  )
+  (label
+    "ADC_VIN_6S"
+    (at 303.53 193.04 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "e0ed0884-2924-5f86-9134-50e08353096e")
+  )
+  (label
+    "ADC_VOUT_6S"
+    (at 303.53 200.66 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "72dc970b-98ac-596e-a9da-32d9ce66a21f")
+  )
+  (label
+    "nPGD_3S"
+    (at 303.53 208.28 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "5d53c00f-f100-55f1-bf4f-50334dcbb2e3")
+  )
+  (label
+    "nPGD_6S"
+    (at 303.53 215.9 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "3390db90-2440-5927-93f9-e97c5450b17a")
+  )
+  (label "MCU_RUN" (at 384.81 177.8 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1e479bf7-5470-54bc-b616-52214af48b01"))
+  (label
+    "SEG_DIN"
+    (at 384.81 185.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "13615db3-a003-5fd6-a494-72b01337b468")
+  )
+  (label
+    "SEG_CLK"
+    (at 384.81 193.04 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "6812417d-e7f1-5cd3-ac5b-bfa14dd70233")
+  )
+  (sheet
+    (at 309.88 167.64)
+    (size 68.58 60.96)
+    (stroke (width 0.254) (type default))
+    (fill (color 0 0 0 0))
+    (uuid "5605f77f-bf41-5c8b-a8ab-d0df86699b05")
+    (property "Sheetname" "07 MCU ADC / control" (at 309.88 162.56 0) (effects (font (size 1.52 1.52)) (justify left)))
+    (property "Sheetfile" "07_MCU_IO.kicad_sch" (at 309.88 231.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (pin
+      "ADC_VIN_3S"
+      input
+      (at 309.88 177.8 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid "4df896bb-9373-50ff-a149-b5843dcef488")
+    )
+    (pin
+      "ADC_VOUT_3S"
+      input
+      (at 309.88 185.42 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid "606c5632-3e31-5ae7-bc7e-45c5a3894294")
+    )
+    (pin
+      "ADC_VIN_6S"
+      input
+      (at 309.88 193.04 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid "fedcd45c-413f-5ecc-9586-20f7b812e6fc")
+    )
+    (pin
+      "ADC_VOUT_6S"
+      input
+      (at 309.88 200.66 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid "6c74e825-8b1a-5d53-a57f-dc0eaaedc6ce")
+    )
+    (pin "nPGD_3S" input (at 309.88 208.28 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "4de15077-8acc-586d-b627-86fd3b0caa37"))
+    (pin "nPGD_6S" input (at 309.88 215.9 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "2a77c233-149c-5edd-97d0-de51815e78cf"))
+    (pin "MCU_RUN" output (at 378.46 177.8 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid "dabee6bf-0859-5ddb-ae78-eb15574e7e7d"))
+    (pin "SEG_DIN" output (at 378.46 185.42 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid "dc7846a5-1557-5ebd-8213-32d189a4d3c0"))
+    (pin "SEG_CLK" output (at 378.46 193.04 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid "ad2df9fa-6ab0-5d0b-9427-1ee92495978f"))
+    (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (page "7"))))
+  )
+  (label
+    "VIN_3S"
+    (at 161.29 220.98 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "eb60a89f-61ce-5b47-9d2f-ff60d873ea36")
+  )
+  (label
+    "VOUT_3S"
+    (at 161.29 228.6 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "f1fadb7c-10a4-51ca-ad6a-1d0011a97d5f")
+  )
+  (label
+    "VIN_6S"
+    (at 161.29 236.22 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "53fd1253-4c5c-5314-92b8-872914cff7ca")
+  )
+  (label
+    "VOUT_6S"
+    (at 161.29 243.84 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "0aa95e24-cb7b-542f-9dba-2b5670bb1fd9")
+  )
+  (label
+    "ADC_VIN_3S"
+    (at 265.43 220.98 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "fe4e61ef-b9ce-53f9-bdde-b4665ff1b34a")
+  )
+  (label
+    "ADC_VOUT_3S"
+    (at 265.43 228.6 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "84861646-da93-5e53-891d-90760b591c0f")
+  )
+  (label
+    "ADC_VIN_6S"
+    (at 265.43 236.22 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "f9900033-02ea-57df-93db-e30269efc447")
+  )
+  (label
+    "ADC_VOUT_6S"
+    (at 265.43 243.84 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "16a3c916-aae9-52c3-8be1-f868186fd67b")
+  )
+  (sheet
+    (at 167.64 210.82)
+    (size 91.44 55.88)
+    (stroke (width 0.254) (type default))
+    (fill (color 0 0 0 0))
+    (uuid "151d1fb0-c09e-511f-aea3-0cdcd378af45")
+    (property "Sheetname" "08 4-point ADC protection" (at 167.64 205.74 0) (effects (font (size 1.52 1.52)) (justify left)))
+    (property "Sheetfile" "08_ADC_Protection.kicad_sch" (at 167.64 269.24 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (pin "VIN_3S" input (at 167.64 220.98 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "2251d6eb-ff34-5381-81ed-76f43c1fe9c9"))
+    (pin "VOUT_3S" input (at 167.64 228.6 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "b521c171-4bdb-51a5-8989-2961642fb16a"))
+    (pin "VIN_6S" input (at 167.64 236.22 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "4a3fe84f-a4fa-5e5e-84fb-824f88d15ceb"))
+    (pin "VOUT_6S" input (at 167.64 243.84 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "80ea1804-db44-5cf6-a567-e62da8a2abec"))
+    (pin
+      "ADC_VIN_3S"
+      output
+      (at 259.08 220.98 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid "76b5bd19-f7ec-59b4-b188-abe117358aad")
+    )
+    (pin
+      "ADC_VOUT_3S"
+      output
+      (at 259.08 228.6 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid "32047ff1-4ecb-5db5-8b6f-40aa81f4b574")
+    )
+    (pin
+      "ADC_VIN_6S"
+      output
+      (at 259.08 236.22 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid "d786ac8c-ecb0-53eb-9510-52351f80f2ff")
+    )
+    (pin
+      "ADC_VOUT_6S"
+      output
+      (at 259.08 243.84 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid "87b57d6e-b3e3-54b2-8c7c-1c67052fce74")
+    )
+    (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (page "8"))))
+  )
+  (label
+    "USB_D_P"
+    (at 384.81 116.84 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "2e8bf10e-5cb0-5960-ab9f-828b73bce46d")
+  )
+  (label
+    "USB_D_N"
+    (at 384.81 124.46 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "e325c3db-2553-52be-96c5-b6eff98ceb6b")
+  )
+  (label
+    "USB_VBUS_SENSE"
+    (at 384.81 132.08 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "7ba41a51-9d59-533b-ab74-68613a4d22b6")
+  )
+  (sheet
+    (at 309.88 106.68)
+    (size 68.58 35.56)
+    (stroke (width 0.254) (type default))
+    (fill (color 0 0 0 0))
+    (uuid "5a8d5d26-1ff2-5bcd-aa40-7630ab44b81c")
+    (property "Sheetname" "09 USB Type-C" (at 309.88 101.6 0) (effects (font (size 1.52 1.52)) (justify left)))
+    (property "Sheetfile" "09_USB.kicad_sch" (at 309.88 144.78 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (pin
+      "USB_D_P"
+      bidirectional
+      (at 378.46 116.84 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid "e44c811d-d16d-5dc3-8de8-064df6dbbf73")
+    )
+    (pin
+      "USB_D_N"
+      bidirectional
+      (at 378.46 124.46 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid "6b1c7806-d006-5963-bfee-fbd13b6024e7")
+    )
+    (pin
+      "USB_VBUS_SENSE"
+      output
+      (at 378.46 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid "a1e4e641-b7e2-5776-aaba-a0014b314348")
+    )
+    (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (page "9"))))
+  )
+  (label
+    "SEG_DIN"
+    (at 24.13 233.68 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid "1788e663-f985-5d33-b76b-8d227f0a221c")
+  )
+  (label "SEG_CLK" (at 24.13 241.3 0) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "a0728bec-2257-5444-aa6f-4a19d09c146e"))
+  (sheet
+    (at 30.48 223.52)
+    (size 91.44 38.1)
+    (stroke (width 0.254) (type default))
+    (fill (color 0 0 0 0))
+    (uuid "1b14f1f1-852e-5520-93f0-b49f250c717b")
+    (property "Sheetname" "10 12-digit display" (at 30.48 218.44 0) (effects (font (size 1.52 1.52)) (justify left)))
+    (property "Sheetfile" "10_Display.kicad_sch" (at 30.48 264.16 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (pin "SEG_DIN" input (at 30.48 233.68 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "985359bc-8557-59b5-8363-b23bd06e76cf"))
+    (pin "SEG_CLK" input (at 30.48 241.3 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "ad07cf77-2fb8-52f5-a0a8-4e0edafcbf56"))
+    (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (page "10"))))
+  )
+  (text
+    "TM1640 + OSL10326-L family"
+    (at 39.37 252.73 0)
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid "82c36b5d-aa0b-5bc3-a470-ecd9a48b90fe")
+  )
+  (text
+    "Global power: +5V_MCU and GND. Signal connections use the identical names shown at each sheet pin."
+    (at 17.78 274.32 0)
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid "6a414154-da22-59e4-925c-9d9c2c50fc0b")
+  )
+  (text
+    "3S input feeds the NC stop LED. Regenerative absorber is external at the 24V output distribution, with no dedicated connector here."
+    (at 17.78 281.94 0)
+    (effects (font (size 1.1 1.1)) (justify left top))
+    (uuid "8d1f0d0a-d78c-5740-92c5-0e547bbe56da")
+  )
+  (text
+    "GND is common to batteries, USB, logic\nand the external regenerative absorber."
+    (at 284.48 245.11 0)
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid "5dfc74fe-f52b-5986-aa39-fe74b91a3e78")
+  )
+  (wire (pts (xy 30.48 60.96) (xy 24.13 60.96)) (stroke (width 0) (type default)) (uuid "62d1de62-02ad-5b80-84dd-3b51adbd6537"))
+  (wire (pts (xy 121.92 60.96) (xy 128.27 60.96)) (stroke (width 0) (type default)) (uuid "0cf08bef-65f8-55c8-b72a-42de9e6a73bf"))
+  (wire (pts (xy 121.92 68.58) (xy 128.27 68.58)) (stroke (width 0) (type default)) (uuid "e5d545ca-af0f-5345-a066-72a6d6ae4c71"))
+  (wire (pts (xy 121.92 76.2) (xy 128.27 76.2)) (stroke (width 0) (type default)) (uuid "1ae40863-a5c0-584a-ac7a-aa92c26467eb"))
+  (wire (pts (xy 30.48 147.32) (xy 24.13 147.32)) (stroke (width 0) (type default)) (uuid "77958762-16fe-5f31-b65c-b6712058e862"))
+  (wire (pts (xy 121.92 147.32) (xy 128.27 147.32)) (stroke (width 0) (type default)) (uuid "494ff7de-aee7-50a5-abbb-7777944158b8"))
+  (wire (pts (xy 121.92 154.94) (xy 128.27 154.94)) (stroke (width 0) (type default)) (uuid "ac80de55-0f79-5345-990d-c4408ab17502"))
+  (wire (pts (xy 121.92 162.56) (xy 128.27 162.56)) (stroke (width 0) (type default)) (uuid "6ef9e4fb-d551-5e0b-96c5-a9b7de475d20"))
+  (wire (pts (xy 167.64 60.96) (xy 161.29 60.96)) (stroke (width 0) (type default)) (uuid "297fab20-4a34-5052-8d73-385490cfe6cf"))
+  (wire (pts (xy 167.64 68.58) (xy 161.29 68.58)) (stroke (width 0) (type default)) (uuid "7cb7e271-7c7e-5b77-85e6-280b2c9ade82"))
+  (wire (pts (xy 167.64 147.32) (xy 161.29 147.32)) (stroke (width 0) (type default)) (uuid "71373535-f873-54a4-9079-79c0f8e6e230"))
+  (wire (pts (xy 167.64 154.94) (xy 161.29 154.94)) (stroke (width 0) (type default)) (uuid "e54adaab-9fe2-599a-a572-5a885e541949"))
+  (wire (pts (xy 259.08 147.32) (xy 265.43 147.32)) (stroke (width 0) (type default)) (uuid "6f651c44-05d3-528c-9e5f-0cf95b58c49c"))
+  (wire (pts (xy 309.88 55.88) (xy 303.53 55.88)) (stroke (width 0) (type default)) (uuid "4841dbbc-da5d-52d8-ab8f-1376e9f0871c"))
+  (wire (pts (xy 309.88 63.5) (xy 303.53 63.5)) (stroke (width 0) (type default)) (uuid "21f7a5c8-6755-5306-8a06-d8cf729ed08c"))
+  (wire (pts (xy 309.88 71.12) (xy 303.53 71.12)) (stroke (width 0) (type default)) (uuid "33382a61-806f-50aa-99ee-ca9f48c2ee1b"))
+  (wire (pts (xy 309.88 177.8) (xy 303.53 177.8)) (stroke (width 0) (type default)) (uuid "871d8931-c9cc-5dad-b799-8b1a5e90ceef"))
+  (wire (pts (xy 309.88 185.42) (xy 303.53 185.42)) (stroke (width 0) (type default)) (uuid "1c1ee907-9e1a-5bbd-a61c-e9dd1ab199ca"))
+  (wire (pts (xy 309.88 193.04) (xy 303.53 193.04)) (stroke (width 0) (type default)) (uuid "fd1765b5-267d-5ba2-bac9-bdd74d7285ed"))
+  (wire (pts (xy 309.88 200.66) (xy 303.53 200.66)) (stroke (width 0) (type default)) (uuid "441ecb55-0888-54d6-a2c4-0ad4b59d753b"))
+  (wire (pts (xy 309.88 208.28) (xy 303.53 208.28)) (stroke (width 0) (type default)) (uuid "b11e7669-3fec-52e2-a8f6-e58ad97dac1c"))
+  (wire (pts (xy 309.88 215.9) (xy 303.53 215.9)) (stroke (width 0) (type default)) (uuid "1016fb7e-1251-5944-aace-275f8db51007"))
+  (wire (pts (xy 378.46 177.8) (xy 384.81 177.8)) (stroke (width 0) (type default)) (uuid "f5062978-9c97-5469-bc49-f6775758eda6"))
+  (wire (pts (xy 378.46 185.42) (xy 384.81 185.42)) (stroke (width 0) (type default)) (uuid "8cb79e87-6ebb-514d-80d6-00587bccf451"))
+  (wire (pts (xy 378.46 193.04) (xy 384.81 193.04)) (stroke (width 0) (type default)) (uuid "3761207f-3d57-5acd-9578-d14fb21f1c8e"))
+  (wire (pts (xy 167.64 220.98) (xy 161.29 220.98)) (stroke (width 0) (type default)) (uuid "1b5157d1-6a5f-5bcc-acd6-dd0ae0e902f0"))
+  (wire (pts (xy 167.64 228.6) (xy 161.29 228.6)) (stroke (width 0) (type default)) (uuid "e02c4f7c-b860-5e5a-9a74-d0cbf0757844"))
+  (wire (pts (xy 167.64 236.22) (xy 161.29 236.22)) (stroke (width 0) (type default)) (uuid "1e301cc1-af45-5409-9bfd-354a02c4b644"))
+  (wire (pts (xy 167.64 243.84) (xy 161.29 243.84)) (stroke (width 0) (type default)) (uuid "c2df0dcf-d3f0-5a43-a055-306b6b2f7156"))
+  (wire (pts (xy 259.08 220.98) (xy 265.43 220.98)) (stroke (width 0) (type default)) (uuid "d8b66607-69c2-5e50-8082-9029c8bd12ca"))
+  (wire (pts (xy 259.08 228.6) (xy 265.43 228.6)) (stroke (width 0) (type default)) (uuid "68c6fa6c-7ac0-5f4a-adcb-7cec92fa4999"))
+  (wire (pts (xy 259.08 236.22) (xy 265.43 236.22)) (stroke (width 0) (type default)) (uuid "1f590de9-ddd6-5b6e-ad3e-8516f93f428c"))
+  (wire (pts (xy 259.08 243.84) (xy 265.43 243.84)) (stroke (width 0) (type default)) (uuid "27acae2e-9aef-5e6c-ac15-e7505aa86feb"))
+  (wire (pts (xy 378.46 116.84) (xy 384.81 116.84)) (stroke (width 0) (type default)) (uuid "e1923411-9f12-5bd5-9eb8-8a319a5c1a7b"))
+  (wire (pts (xy 378.46 124.46) (xy 384.81 124.46)) (stroke (width 0) (type default)) (uuid "28e54a27-c42f-5230-91ba-e8730d16f670"))
+  (wire (pts (xy 378.46 132.08) (xy 384.81 132.08)) (stroke (width 0) (type default)) (uuid "675648a2-c2f4-5f06-a3b9-89a6a510c51a"))
+  (wire (pts (xy 30.48 233.68) (xy 24.13 233.68)) (stroke (width 0) (type default)) (uuid "a3d20944-a088-52a3-8aa6-a7f196149070"))
+  (wire (pts (xy 30.48 241.3) (xy 24.13 241.3)) (stroke (width 0) (type default)) (uuid "6f114669-2e74-5590-9eca-dd49ad3877fa"))
+  (sheet_instances (path "/" (page "1")))
+)

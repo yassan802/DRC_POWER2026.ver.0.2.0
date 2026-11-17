@@ -1,0 +1,65 @@
+﻿pin,port,signal,function,electrical
+1,P400,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+2,P401,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+3,P402,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+4,VBATT,USB_3V3,VBATT from USB LDO output,USB 3.3V transceiver
+5,VCL,VCL_CORE,4.7u to GND; no external load,5V system / common GND
+6,P215/XCIN,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+7,P214/XCOUT,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+8,VSS,GND,VSS,5V system / common GND
+9,P213/XTAL,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+10,P212/EXTAL,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+11,VCC,+5V_MCU,VCC,5V system / common GND
+12,P411,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+13,P410,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+14,P409,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+15,P408,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+16,P407/USB_VBUS,USB_VBUS_SENSE,P407 / USB_VBUS input,5V system / common GND
+17,VSS_USB,GND,VSS_USB,5V system / common GND
+18,P915/USB_DM,USB_D_N,P915 / USB_DM,USB 3.3V transceiver
+19,P914/USB_DP,USB_D_P,P914 / USB_DP,USB 3.3V transceiver
+20,VCC_USB/3V3_OUT,USB_3V3,USB LDO 3.3V output,USB 3.3V transceiver
+21,VCC_USB_LDO,+5V_MCU,USB LDO input,5V system / common GND
+22,P206,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+23,P205,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+24,P204,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+25,~{RES},RESET_N,active-low reset / SW1 / SWD,5V system / common GND
+26,P201/MD,BOOT_MD,MD: pulled high; JP2 grounds for ROM boot,5V system / common GND
+27,P200/NMI,NMI_HIGH,P200 / NMI pulled high,5V system / common GND
+28,P304,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+29,P303,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+30,P302,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+31,P301,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+32,P300/SWCLK,SWCLK,P300 / SWD clock,5V system / common GND
+33,P108/SWDIO,SWDIO,P108 / SWD data,5V system / common GND
+34,P109,nPGD_3S,P109 GPIO input active-low status,5V logic; common +5V_MCU
+35,P110,MCU_RUN,P110 GPIO push-pull HIGH=permit,5V logic; common +5V_MCU
+36,P111,SEG_DIN,P111 GPIO output,5V logic; common +5V_MCU
+37,P112,SEG_CLK,P112 GPIO output,5V logic; common +5V_MCU
+38,P113,nPGD_6S,P113 GPIO input active-low status,5V logic; common +5V_MCU
+39,VCC,+5V_MCU,VCC,5V system / common GND
+40,VSS,GND,VSS,5V system / common GND
+41,P107,STATUS_LED,GPIO output HIGH=LED on,5V logic; 1k + red LED
+42,P106,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+43,P105,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+44,P104,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+45,P103,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+46,P102,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+47,P101,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+48,P100,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+49,P500,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+50,P501,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+51,P502,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+52,P015,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+53,P014,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+54,P013/VREFL,GND,VREFL DAC reference,5V system / common GND
+55,P012/VREFH,+5V_MCU,VREFH DAC reference,5V system / common GND
+56,AVCC0,+5V_MCU,AVCC0,5V system / common GND
+57,AVSS0,GND,AVSS0,5V system / common GND
+58,P011/VREFL0,GND,VREFL0 ADC reference,5V system / common GND
+59,P010/VREFH0,+5V_MCU,VREFH0 ADC reference,5V system / common GND
+60,P004,NC,Unused; disable digital output / internal oscillators for clock pins,No external connection
+61,P003,ADC_VOUT_6S,AN003 / ADC14,0..AVCC0; analog input
+62,P002,ADC_VIN_6S,AN002 / ADC14,0..AVCC0; analog input
+63,P001,ADC_VOUT_3S,AN001 / ADC14,0..AVCC0; analog input
+64,P000,ADC_VIN_3S,AN000 / ADC14,0..AVCC0; analog input

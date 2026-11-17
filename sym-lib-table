@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DRC_Power") (type "KiCad") (uri "${KIPRJMOD}/lib/DRC_Power.kicad_sym") (options "") (descr "Verified main power board symbols"))
+)

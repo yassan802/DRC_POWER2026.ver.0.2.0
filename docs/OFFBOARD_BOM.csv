@@ -1,0 +1,6 @@
+﻿Use,Manufacturer,MPN,Qty,Assembly,Note
+3S fuse,Littelfuse,0498040.M,1,Off-board / battery harness,MIDI 32VDC 40A; ahead of J1
+6S fuse,Littelfuse,0498060.M,1,Off-board / battery harness,MIDI 32VDC 60A; ahead of J4
+Fuse holders,Littelfuse,04980921GXM5,2,Off-board / battery harness,One per battery
+NC stop switch,System,NC contact; specific switch unspecified,1,Off-board,J7.1 to J7.2; opening stops both rails
+EMG mating housing,JST,VHR-2N,1,Harness,Use SVH-21T-P1.1 contacts appropriate for actual wire

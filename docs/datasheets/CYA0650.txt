@@ -1,0 +1,248 @@
+
+PAGE 1
+深圳市首韩科技有限公司
+SHENZHEN SHOUHAN TECHNOLOGY CO.,LTD
+Tel: 0755-27597601 Fax: 0755-27597491
+承
+SPECIFICATIONFOR APPROVAL
+认 书
+客 户Customer：
+产品名称Project：
+规格型号 PartNo：
+贵公司承认印 Approal slgnatures
+料 号/Part No. 签 章/Signatures
+日期 Date:
+拟制/Drawn 李春风
+审核/Check
+批准/Approved 罗孝金
+钟华华
+电感
+深圳市首韩科技有限公司
+CYA0650-33UH
+
+PAGE 2
+1.Features
+①. High performance (Isat) realize by metal dust core.
+②. Low profile: Thickness max.2.0～5.0mm.
+③. Low loss and low resistance.
+④. Capable of corresponding high frequency 1MHz～5MHz.
+⑤ Ultra low buzz noise, due to composite construction.
+⑥. The products contain no lead and also support lead-free soldering.
+2.Applications area
+Ideally used in NB/Desktop/server/Graphic card, LCD TV/Projector, etc as DC-DC Converter.
+3. Externl Dimensions (unit: mm)
+4. Product Code
+CYA 0650 330 M
+• 电感值Inductance Value
+(1R0:1.0uH; 100: 10uH; 101:100uH)
+UNIT: mm
+A:6 .6±0 .2
+B:7 .2±0 .2
+C:5.0MAX
+D:1 .5±0 .5
+E:3 .0±0 .2
+Code 代码 Tolerance 公差
+J ±5%
+K ±10%
+L ±15%
+M ±20%
+P ±25%
+N ±30%
+TOLERANCE 公差
+INDUCTANCE VALUE 电感值
+DIMENSIONS 尺寸
+SERIAL CODE 系列代码
+1R5
+深圳市首韩科技有限公司
+深圳市首韩科技有限公司
+
+PAGE 3
+5. Electrical Characteristics
+CYA0650 Series
+Electrical Characteristics
+C.Y
+PART NO
+L0(uH)
+Inductance
+(uH）@（0A)
+Rdc (mΩ) @25°C Heat Rating
+Current DC
+Amps . Idc
+(A)
+Saturation
+Current DC
+Amps. Isat
+（A)
+TEST FREQ
+(KHZ)Typ. Max.
+CYA0650-R22M 0.22±20% 1.1 1.3 30.0 35.0 100KHZ/1.0v
+CYA0650-R36M 0.36±20% 2.7 3.1 21.0 25.0 100KHZ/1.0v
+CYA0650-R39M 0.39±20% 3.2 3.5 20.0 23.0 100KHZ/1.0v
+CYA0650-R47M 0.47±20% 3.3 3.8 20.0 21.0 100KHZ/1.0v
+CYA0650-R56M 0.56±20% 3.4 3.6 20.0 18.0 100KHZ/1.0v
+CYA0650-R68M 0.68±20% 3.9 4.2 18.0 16.0 100KHZ/1.0v
+CYA0650-R82M 0.82±20% 4.6 4.9 16.5 17.0 100KHZ/1.0v
+CYA0650-1R0M 1.00±20% 5.6 6.5 12.0 13.0 100KHZ/1.0v
+CYA0650-1R5M 1.50±20% 7.0 8.5 10.0 12.5 100KHZ/1.0v
+CYA0650-2R2M 2.20±20% 11.2 12.5 9.5 10.0 100KHZ/1.0v
+CYA0650-3R3M 3.30±20% 19.9 20.9 8.5 9.0 100KHZ/1.0v
+CYA0650-4R7M 4.70±20% 26.0 29.0 6.0 8.0 100KHZ/1.0v
+CYA0650-5R6M 5.60±20% 31.5 34.4 6.0 7.0 100KHZ/1.0v
+CYA0650-6R8M 6.80±20% 35.0 40.0 5.5 7.0 100KHZ/1.0v
+CYA0650-8R2M 8.20±20% 40.0 43.0 5.5 6.5 100KHZ/1.0v
+CYA0650-100M 10.00±20% 48.0 55.0 4.5 6.0 100KHZ/1.0v
+CYA0650-120M 12.00±20% 58.0 65.0 4.0 5.0 100KHZ/1.0v
+CYA0650-150M 15.00±20% 78.0 85.0 3.1 4.0 100KHZ/1.0v
+CYA0650-180M 18.00±20% 83.0 105.0 3.0 3.5 100KHZ/1.0v
+CYA0650-220M 22.00±20% 110.0 130.0 2.6 3.5 100KHZ/1.0v
+CYA0650-330M 33.00±20% 160.0 200.0 2.3 3.0 100KHZ/1.0v
+CYA0650-470M 47.00±20% 250.0 290.0 2.0 2.8 100KHZ/1.0v
+深圳市首韩科技有限公司
+深圳市首韩科技有限公司
+
+PAGE 4
+• Notes
+1.All test data is reference to 25℃ ambient.
+2.Idc: DC current (A) that will cause an approximate △T of 40℃
+3. Isat ：DC current (A) that will cause L0 to drop approximately 30%
+4.Operating Temperature Range -55℃ to +125℃
+5.The part temperature (ambient + temp rise ) should not exceed 125 ℃ under worse case operating
+conditions. Circuit design, component. PWB trace size and thickness airflow and other cooling provisions all affect
+the part temperature. Part temperature should be verified in the den application.
+6.The rated current as listde is either the saturation current or the heating current depending on which value is lower.
+6.Minimum Packaging and storage
+• 包装Packing
+Tape Dimension
+Type
+Reel Dimensions（mm） Tape Dimensions（mm）
+A N W C W P P0 A0 B0 H T
+CYA0420
+330
++2/-0
+100
++2/-0
+12.4
++2/-0
+13.2
+±0.2 12±0.3 8±0.1 4±0.1 4.4±0.1 4.9±0.1 2.3±0.05 0.35±0.05
+CYA0530
+330
++2/-0
+100
++2/-0
+12.4
++2/-0
+13.2
+±0.2 12±0.3 8±0.1 4±0.1 5.4±0.1 5.9±0.1 3.3±0.05 0.35±0.05
+CYA0618
+330
++2/-0
+100
++2/-0
+16.4
++2/-0
+13.2
+±0.2 16±0.3 12±0.1 4±0.1 6.9±0.1 7.5±0.1 2.1±0.05 0.35±0.05
+CYA0624
+330
++2/-0
+100
++2/-0
+16.4
++2/-0
+13.2
+±0.2 16±0.3 12±0.1 4±0.1 6.9±0.1 7.5±0.1 2.7±0.05 0.35±0.05
+CYA0630
+330
++2/-0
+100
++2/-0
+16.4
++2/-0
+13.2
+±0.2 16±0.3 12±0.1 4±0.1 6.9±0.1 7.5±0.1 3.3±0.05 0.35±0.05
+CYA0650
+330
++2/-0
+100
++2/-0
+16.4
++2/-0
+13.2
+±0.2 16±0.3 12±0.1 4±0.1 6.9±0.1 7.5±0.1 5.2±0.1 0.4±0.05
+CYA1040
+330
++2/-0
+100
++2/-0
+24.4
++2/-0
+13.2
+±0.2 24±0.3 16±0.1 4±0.1 10.4±0.1 11.5±0.1 4.3±0.1 0.35±0.05
+CYA1250
+330
++2/-0
+100
++2/-0
+24.4
++2/-0
+13.2
+±0.2 24±0.3 16±0.1 4±0.1 13.2±0.1 14.4±0.1 5.3±0.1 0.4±0.05
+CYA1260
+330
++2/-0
+100
++2/-0
+24.4
++2/-0
+13.2
+±0.2 24±0.3 16±0.1 4±0.1 13.2±0.1 14.4±0.1 6.3±0.1 0.5±0.05
+深圳市首韩科技有限公司
+深圳市首韩科技有限公司
+
+PAGE 5
+• Tape Carrier Packaging:
+Type Standard Quantity(pcs/reel) Type Standard Quantity(pcs/reel)
+CYA0420 3000 CYA1250 400
+CYA5030 2000 CYA1265 400
+CYA6030 1000
+CYA1040 1000
+• Tearing Off Force
+• Application Notice
+Storage Conditions To maintain the solderability of terminal electrodes:
+1. Temperature and humidity conditions: Less than 30 ℃ and 70% RH.
+2. Recommended products should be used within 6 months form the time of delivery.
+3. The packaging material should be kept where no chlorine or sulfur exists in the air.
+Transportation
+1. Products should be handled with care to avoid damage or contamination from perspiration and skin oils .
+2. The use of tweezers or vacuum pick up is strongly recommended for individual components. Bulk handling
+should ensure that abrasion and mechanical shock are minimized.
+The force for tearing off cover tape is 15 to 60 grams in the arrow direction under the following conditions
+Room
+Temp. ( ) ℃
+Room Humidity
+(%)
+Room atm
+(hPa)
+Tearing Speed
+mm/min
+5~35 45~85 860~1060 300
+深圳市首韩科技有限公司
+深圳市首韩科技有限公司
+
+PAGE 6
+X-ON Electronics
+ 
+Largest Supplier of Electrical and Electronic Components
+ 
+Click to view similar products for Fixed Inductors category:
+ 
+Click to view products by  SHOU manufacturer:  
+ 
+Other Similar products are found below :  
+CR32NP-100KC  CR54NP-470LC  70F224AI  MGDQ4-00004-P  MHQ1005P10NJ  MHQ1005P1N0S  MHQ1005P2N4S  MHQ1005P3N6S 
+MHQ1005P5N1S  MHQ1005P8N2J  PE-53601NL  PE-53602NL  PG0936.113NLT  9220-20  9310-16  PM06-2N7  PM06-39NJ  A01TK 
+1206CS-471XJ  HC2-R47-R  HC8-1R2-R  HCF1305-3R3-R  1206CS-151XG  RCH664NP-140L  RCH664NP-4R7M  RCP1317NP-391L 
+RCR110DNP-331L  DH2280-4R7M  DS1608C-106  B10TJ  B82498B3101J000  ELJ-RE27NJF2  1812CS-153XJ  1812CS-183XJ  1812CS-
+223XJ  1812LS-104XJ  1812LS-105XJ  1812LS-124XJ  1812LS-154XJ  1812LS-223XJ  1812LS-224XJ  1812LS-563XJ  1812LS-683XJ 
+1812LS-824XJ  NIN-FB101JTR110F  NIN-FB471JTR62F  NIN-FC1R5JTR220F  NIN-HCR15JTRF  NIN-HCR33JTRF  NIN-HDR22JTRF  

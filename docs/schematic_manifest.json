@@ -1,0 +1,8206 @@
+[
+  {
+    "file": "DRC_POWER2026.ver.0.2.0.kicad_sch",
+    "title": "Main power board / functional overview",
+    "page": 1,
+    "ports": {},
+    "components": []
+  },
+  {
+    "file": "02_Power_3S.kicad_sch",
+    "title": "3S main power / LM5060",
+    "page": 2,
+    "ports": {
+      "VIN_3S": "output",
+      "VOUT_3S": "output",
+      "MAIN_EN": "input",
+      "nPGD_3S": "output"
+    },
+    "components": [
+      {
+        "ref": "J1",
+        "value": "XT60PW-M / INPUT",
+        "mpn": "XT60PW-M",
+        "manufacturer": "AMASS",
+        "fp": "DRC_Power:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal",
+        "ds": "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "2": [
+            40.64,
+            53.34
+          ],
+          "1": [
+            40.64,
+            60.96
+          ]
+        },
+        "angles": {
+          "2": 180.0,
+          "1": 180.0
+        },
+        "key": "Power_Input_2",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "J2",
+        "value": "XT60PW-F / OUTPUT",
+        "mpn": "XT60PW-F",
+        "manufacturer": "AMASS",
+        "fp": "DRC_Power:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal",
+        "ds": "https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "2": [
+            345.44,
+            53.34
+          ],
+          "1": [
+            345.44,
+            60.96
+          ]
+        },
+        "angles": {
+          "2": 0.0,
+          "1": 0.0
+        },
+        "key": "Power_Output_2",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "J3",
+        "value": "XT30PW-F / P_LIGHT",
+        "mpn": "XT30PW-F",
+        "manufacturer": "AMASS",
+        "fp": "DRC_Power:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal",
+        "ds": "https://www.china-amass.net/",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "2": [
+            345.44,
+            101.6
+          ],
+          "1": [
+            345.44,
+            109.22
+          ]
+        },
+        "angles": {
+          "2": 0.0,
+          "1": 0.0
+        },
+        "key": "Power_Output_2",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "Q1",
+        "value": "IPT008N06NM5LF",
+        "mpn": "IPT008N06NM5LFATMA1",
+        "manufacturer": "Infineon",
+        "fp": "DRC_Power:IPT008N06NM5LF_PG_HSOF8",
+        "ds": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt008n06nm5lf-datasheet-en.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            165.1,
+            60.96
+          ],
+          "Tab": [
+            160.02,
+            53.34
+          ],
+          "2": [
+            170.18,
+            53.34
+          ],
+          "3": [
+            170.18,
+            53.34
+          ],
+          "4": [
+            170.18,
+            53.34
+          ],
+          "5": [
+            170.18,
+            53.34
+          ],
+          "6": [
+            170.18,
+            53.34
+          ],
+          "7": [
+            170.18,
+            53.34
+          ],
+          "8": [
+            170.18,
+            53.34
+          ]
+        },
+        "angles": {
+          "1": 90.0,
+          "Tab": 0.0,
+          "2": 180.0,
+          "3": 180.0,
+          "4": 180.0,
+          "5": 180.0,
+          "6": 180.0,
+          "7": 180.0,
+          "8": 180.0
+        },
+        "key": "IPT008N06NM5LF",
+        "unit": 1,
+        "rating": "60V; 0.8mohm max at VGS=10V; one FET per rail",
+        "lcsc": ""
+      },
+      {
+        "ref": "#FLG232",
+        "value": "PWR_FLAG",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            50.8,
+            53.34
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "PWR_FLAG",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR235",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            40.64,
+            73.66
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR238",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            345.44,
+            73.66
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR241",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            345.44,
+            121.92
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#FLG243",
+        "value": "PWR_FLAG",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            40.64,
+            67.31
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "PWR_FLAG",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C1",
+        "value": "22u / 25V",
+        "mpn": "CL31A226KAHNNNE",
+        "manufacturer": "Samsung",
+        "fp": "DRC_Power:C_1206_3216Metric",
+        "ds": "https://product.samsungsem.com/mlcc/CL31A226KAHNNNE.do",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            73.66,
+            71.12
+          ],
+          "2": [
+            73.66,
+            76.2
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "25V X5R 10%",
+        "lcsc": "C12891"
+      },
+      {
+        "ref": "#PWR252",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            73.66,
+            81.28
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C3",
+        "value": "3300u / 50V",
+        "mpn": "50PX3300MEFC18X35.5",
+        "manufacturer": "Rubycon",
+        "fp": "DRC_Power:CP_Radial_D18.0mm_P7.50mm",
+        "ds": "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/PX.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            223.52,
+            72.39
+          ],
+          "2": [
+            223.52,
+            80.01
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Polarized",
+        "unit": 1,
+        "rating": "50V 20% 105C D18 H35.5 P7.5",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR260",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            223.52,
+            87.63
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C4",
+        "value": "3300u / 50V DNP",
+        "mpn": "50PX3300MEFC18X35.5",
+        "manufacturer": "Rubycon",
+        "fp": "DRC_Power:CP_Radial_D18.0mm_P7.50mm",
+        "ds": "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/PX.pdf",
+        "dnp": true,
+        "assembly": "Hand/THT",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            260.35,
+            72.39
+          ],
+          "2": [
+            260.35,
+            80.01
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Polarized",
+        "unit": 1,
+        "rating": "50V 20% 105C D18 H35.5 P7.5",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR268",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            260.35,
+            87.63
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R1",
+        "value": "10 1%",
+        "mpn": "RC0603FR-0710RL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            165.1,
+            77.47
+          ],
+          "2": [
+            165.1,
+            82.55
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "R8",
+        "value": "10k 1%",
+        "mpn": "RC0805FR-0710KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0805_2012Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            295.91,
+            106.68
+          ],
+          "2": [
+            295.91,
+            111.76
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.125W 150V",
+        "lcsc": ""
+      },
+      {
+        "ref": "D1",
+        "value": "LTST-C190KRKT",
+        "mpn": "LTST-C190KRKT",
+        "manufacturer": "Lite-On",
+        "fp": "DRC_Power:LED_0603_1608Metric",
+        "ds": "https://optoelectronics.liteon.com/",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            295.91,
+            127.0
+          ],
+          "2": [
+            295.91,
+            121.92
+          ]
+        },
+        "angles": {
+          "1": 90.0,
+          "2": 270.0
+        },
+        "key": "LED_Small",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR286",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            295.91,
+            132.08
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "U1",
+        "value": "LM5060MMX/NOPB",
+        "mpn": "LM5060MMX/NOPB",
+        "manufacturer": "Texas Instruments",
+        "fp": "DRC_Power:MSOP-10_3x3mm_P0.5mm",
+        "ds": "https://www.ti.com/lit/ds/symlink/lm5060.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "2": [
+            132.08,
+            162.56
+          ],
+          "1": [
+            139.7,
+            162.56
+          ],
+          "10": [
+            147.32,
+            162.56
+          ],
+          "9": [
+            154.94,
+            162.56
+          ],
+          "4": [
+            116.84,
+            180.34
+          ],
+          "5": [
+            116.84,
+            190.5
+          ],
+          "8": [
+            167.64,
+            180.34
+          ],
+          "7": [
+            167.64,
+            190.5
+          ],
+          "3": [
+            132.08,
+            208.28
+          ],
+          "6": [
+            147.32,
+            208.28
+          ]
+        },
+        "angles": {
+          "2": 270.0,
+          "1": 270.0,
+          "10": 270.0,
+          "9": 270.0,
+          "4": 0.0,
+          "5": 0.0,
+          "8": 180.0,
+          "7": 180.0,
+          "3": 90.0,
+          "6": 90.0
+        },
+        "key": "LM5060MMX_NOPB",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R2",
+        "value": "10k 1%",
+        "mpn": "RC0603FR-0710KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            139.7,
+            129.54
+          ],
+          "2": [
+            139.7,
+            134.62
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "C5",
+        "value": "220n / 100V",
+        "mpn": "C1206C224K1RACTU",
+        "manufacturer": "KEMET",
+        "fp": "DRC_Power:C_1206_3216Metric",
+        "ds": "https://www.kemet.com/",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            185.42,
+            154.94
+          ],
+          "2": [
+            185.42,
+            160.02
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "100V X7R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR318",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            185.42,
+            165.1
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C7",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            105.41,
+            144.78
+          ],
+          "2": [
+            105.41,
+            149.86
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR326",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            105.41,
+            154.94
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R3",
+        "value": "51.1k 1%",
+        "mpn": "RC0603FR-0751K1L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            68.58,
+            160.02
+          ],
+          "2": [
+            68.58,
+            165.1
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "R4",
+        "value": "9.1k 1%",
+        "mpn": "RC0603FR-079K1L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            68.58,
+            198.12
+          ],
+          "2": [
+            68.58,
+            203.2
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR341",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            68.58,
+            208.28
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R5",
+        "value": "10k 1%",
+        "mpn": "RC0603FR-0710KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            104.14,
+            208.28
+          ],
+          "2": [
+            104.14,
+            213.36
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR351",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            104.14,
+            218.44
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR354",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            132.08,
+            231.14
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR357",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            147.32,
+            231.14
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C6",
+        "value": "2.2u / 10V",
+        "mpn": "GRM21BR71A225KA01L",
+        "manufacturer": "Murata",
+        "fp": "DRC_Power:C_0805_2012Metric",
+        "ds": "https://www.murata.com/en-us/products/capacitor/mlcc",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            213.36,
+            208.28
+          ],
+          "2": [
+            213.36,
+            213.36
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "10V X7R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR365",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            213.36,
+            218.44
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R6",
+        "value": "4.7k 1%",
+        "mpn": "RC0603FR-074K7L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            238.76,
+            157.48
+          ],
+          "2": [
+            238.76,
+            162.56
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR373",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "02_Power_3S.kicad_sch",
+        "pins": {
+          "1": [
+            238.76,
+            152.4
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      }
+    ]
+  },
+  {
+    "file": "03_Power_6S.kicad_sch",
+    "title": "6S main power / LM5060",
+    "page": 3,
+    "ports": {
+      "VIN_6S": "output",
+      "VOUT_6S": "output",
+      "MAIN_EN": "input",
+      "nPGD_6S": "output"
+    },
+    "components": [
+      {
+        "ref": "J4",
+        "value": "XT60PW-M / INPUT",
+        "mpn": "XT60PW-M",
+        "manufacturer": "AMASS",
+        "fp": "DRC_Power:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal",
+        "ds": "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "2": [
+            40.64,
+            53.34
+          ],
+          "1": [
+            40.64,
+            60.96
+          ]
+        },
+        "angles": {
+          "2": 180.0,
+          "1": 180.0
+        },
+        "key": "Power_Input_2",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "J5",
+        "value": "XT60PW-F / OUTPUT",
+        "mpn": "XT60PW-F",
+        "manufacturer": "AMASS",
+        "fp": "DRC_Power:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal",
+        "ds": "https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "2": [
+            345.44,
+            53.34
+          ],
+          "1": [
+            345.44,
+            60.96
+          ]
+        },
+        "angles": {
+          "2": 0.0,
+          "1": 0.0
+        },
+        "key": "Power_Output_2",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "J6",
+        "value": "XT30PW-F / P_LIGHT",
+        "mpn": "XT30PW-F",
+        "manufacturer": "AMASS",
+        "fp": "DRC_Power:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal",
+        "ds": "https://www.china-amass.net/",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "2": [
+            345.44,
+            101.6
+          ],
+          "1": [
+            345.44,
+            109.22
+          ]
+        },
+        "angles": {
+          "2": 0.0,
+          "1": 0.0
+        },
+        "key": "Power_Output_2",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "Q2",
+        "value": "IPT008N06NM5LF",
+        "mpn": "IPT008N06NM5LFATMA1",
+        "manufacturer": "Infineon",
+        "fp": "DRC_Power:IPT008N06NM5LF_PG_HSOF8",
+        "ds": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt008n06nm5lf-datasheet-en.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            165.1,
+            60.96
+          ],
+          "Tab": [
+            160.02,
+            53.34
+          ],
+          "2": [
+            170.18,
+            53.34
+          ],
+          "3": [
+            170.18,
+            53.34
+          ],
+          "4": [
+            170.18,
+            53.34
+          ],
+          "5": [
+            170.18,
+            53.34
+          ],
+          "6": [
+            170.18,
+            53.34
+          ],
+          "7": [
+            170.18,
+            53.34
+          ],
+          "8": [
+            170.18,
+            53.34
+          ]
+        },
+        "angles": {
+          "1": 90.0,
+          "Tab": 0.0,
+          "2": 180.0,
+          "3": 180.0,
+          "4": 180.0,
+          "5": 180.0,
+          "6": 180.0,
+          "7": 180.0,
+          "8": 180.0
+        },
+        "key": "IPT008N06NM5LF",
+        "unit": 1,
+        "rating": "60V; 0.8mohm max at VGS=10V; one FET per rail",
+        "lcsc": ""
+      },
+      {
+        "ref": "#FLG332",
+        "value": "PWR_FLAG",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            50.8,
+            53.34
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "PWR_FLAG",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR335",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            40.64,
+            73.66
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR338",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            345.44,
+            73.66
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR341",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            345.44,
+            121.92
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C11",
+        "value": "10u / 50V",
+        "mpn": "CL31A106KBHNNNE",
+        "manufacturer": "Samsung",
+        "fp": "DRC_Power:C_1206_3216Metric",
+        "ds": "https://product.samsungsem.com/mlcc/CL31A106KBHNNNE.do",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            73.66,
+            71.12
+          ],
+          "2": [
+            73.66,
+            76.2
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X5R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR349",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            73.66,
+            81.28
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C12",
+        "value": "10u / 50V",
+        "mpn": "CL31A106KBHNNNE",
+        "manufacturer": "Samsung",
+        "fp": "DRC_Power:C_1206_3216Metric",
+        "ds": "https://product.samsungsem.com/mlcc/CL31A106KBHNNNE.do",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            110.49,
+            71.12
+          ],
+          "2": [
+            110.49,
+            76.2
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X5R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR357",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            110.49,
+            81.28
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C13",
+        "value": "3300u / 50V",
+        "mpn": "50PX3300MEFC18X35.5",
+        "manufacturer": "Rubycon",
+        "fp": "DRC_Power:CP_Radial_D18.0mm_P7.50mm",
+        "ds": "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/PX.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            223.52,
+            72.39
+          ],
+          "2": [
+            223.52,
+            80.01
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Polarized",
+        "unit": 1,
+        "rating": "50V 20% 105C D18 H35.5 P7.5",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR365",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            223.52,
+            87.63
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C14",
+        "value": "3300u / 50V DNP",
+        "mpn": "50PX3300MEFC18X35.5",
+        "manufacturer": "Rubycon",
+        "fp": "DRC_Power:CP_Radial_D18.0mm_P7.50mm",
+        "ds": "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/PX.pdf",
+        "dnp": true,
+        "assembly": "Hand/THT",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            260.35,
+            72.39
+          ],
+          "2": [
+            260.35,
+            80.01
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Polarized",
+        "unit": 1,
+        "rating": "50V 20% 105C D18 H35.5 P7.5",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR373",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            260.35,
+            87.63
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R11",
+        "value": "10 1%",
+        "mpn": "RC0603FR-0710RL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            165.1,
+            77.47
+          ],
+          "2": [
+            165.1,
+            82.55
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "R18",
+        "value": "10k 1%",
+        "mpn": "RC0805FR-0710KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0805_2012Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            295.91,
+            106.68
+          ],
+          "2": [
+            295.91,
+            111.76
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.125W 150V",
+        "lcsc": ""
+      },
+      {
+        "ref": "D4",
+        "value": "LTST-C190KRKT",
+        "mpn": "LTST-C190KRKT",
+        "manufacturer": "Lite-On",
+        "fp": "DRC_Power:LED_0603_1608Metric",
+        "ds": "https://optoelectronics.liteon.com/",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            295.91,
+            127.0
+          ],
+          "2": [
+            295.91,
+            121.92
+          ]
+        },
+        "angles": {
+          "1": 90.0,
+          "2": 270.0
+        },
+        "key": "LED_Small",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR391",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            295.91,
+            132.08
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "U2",
+        "value": "LM5060MMX/NOPB",
+        "mpn": "LM5060MMX/NOPB",
+        "manufacturer": "Texas Instruments",
+        "fp": "DRC_Power:MSOP-10_3x3mm_P0.5mm",
+        "ds": "https://www.ti.com/lit/ds/symlink/lm5060.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "2": [
+            132.08,
+            162.56
+          ],
+          "1": [
+            139.7,
+            162.56
+          ],
+          "10": [
+            147.32,
+            162.56
+          ],
+          "9": [
+            154.94,
+            162.56
+          ],
+          "4": [
+            116.84,
+            180.34
+          ],
+          "5": [
+            116.84,
+            190.5
+          ],
+          "8": [
+            167.64,
+            180.34
+          ],
+          "7": [
+            167.64,
+            190.5
+          ],
+          "3": [
+            132.08,
+            208.28
+          ],
+          "6": [
+            147.32,
+            208.28
+          ]
+        },
+        "angles": {
+          "2": 270.0,
+          "1": 270.0,
+          "10": 270.0,
+          "9": 270.0,
+          "4": 0.0,
+          "5": 0.0,
+          "8": 180.0,
+          "7": 180.0,
+          "3": 90.0,
+          "6": 90.0
+        },
+        "key": "LM5060MMX_NOPB",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R12",
+        "value": "10k 1%",
+        "mpn": "RC0603FR-0710KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            139.7,
+            129.54
+          ],
+          "2": [
+            139.7,
+            134.62
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "C15",
+        "value": "220n / 100V",
+        "mpn": "C1206C224K1RACTU",
+        "manufacturer": "KEMET",
+        "fp": "DRC_Power:C_1206_3216Metric",
+        "ds": "https://www.kemet.com/",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            185.42,
+            154.94
+          ],
+          "2": [
+            185.42,
+            160.02
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "100V X7R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR423",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            185.42,
+            165.1
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C17",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            105.41,
+            144.78
+          ],
+          "2": [
+            105.41,
+            149.86
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR431",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            105.41,
+            154.94
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R13",
+        "value": "110k 1%",
+        "mpn": "RC0603FR-07110KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            68.58,
+            160.02
+          ],
+          "2": [
+            68.58,
+            165.1
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "R14",
+        "value": "9.1k 1%",
+        "mpn": "RC0603FR-079K1L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            68.58,
+            198.12
+          ],
+          "2": [
+            68.58,
+            203.2
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR446",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            68.58,
+            208.28
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R15",
+        "value": "10k 1%",
+        "mpn": "RC0603FR-0710KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            104.14,
+            208.28
+          ],
+          "2": [
+            104.14,
+            213.36
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR456",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            104.14,
+            218.44
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR459",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            132.08,
+            231.14
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR462",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            147.32,
+            231.14
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C16",
+        "value": "2.2u / 10V",
+        "mpn": "GRM21BR71A225KA01L",
+        "manufacturer": "Murata",
+        "fp": "DRC_Power:C_0805_2012Metric",
+        "ds": "https://www.murata.com/en-us/products/capacitor/mlcc",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            213.36,
+            208.28
+          ],
+          "2": [
+            213.36,
+            213.36
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "10V X7R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR470",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            213.36,
+            218.44
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R16",
+        "value": "4.7k 1%",
+        "mpn": "RC0603FR-074K7L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            238.76,
+            157.48
+          ],
+          "2": [
+            238.76,
+            162.56
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR478",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "03_Power_6S.kicad_sch",
+        "pins": {
+          "1": [
+            238.76,
+            152.4
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      }
+    ]
+  },
+  {
+    "file": "04_Control_5V.kicad_sch",
+    "title": "Control power / 5V buck and ideal diode",
+    "page": 4,
+    "ports": {
+      "VIN_3S": "input",
+      "VIN_6S": "input"
+    },
+    "components": [
+      {
+        "ref": "JP1",
+        "value": "3S SELECT 6S",
+        "mpn": "PCB_SOLDER_SELECTOR_3PAD",
+        "manufacturer": "PCB",
+        "fp": "DRC_Power:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCB copper + solder",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            45.72,
+            60.96
+          ],
+          "2": [
+            50.8,
+            64.77
+          ],
+          "3": [
+            55.88,
+            60.96
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "2": 90.0,
+          "3": 180.0
+        },
+        "key": "SolderJumper_3_Bridged12",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "U3",
+        "value": "LMR51610XDBVR",
+        "mpn": "LMR51610XDBVR",
+        "manufacturer": "Texas Instruments",
+        "fp": "DRC_Power:SOT-23-6",
+        "ds": "https://www.ti.com/lit/ds/symlink/lmr51610.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "5": [
+            121.92,
+            88.9
+          ],
+          "4": [
+            121.92,
+            96.52
+          ],
+          "1": [
+            162.56,
+            88.9
+          ],
+          "6": [
+            162.56,
+            96.52
+          ],
+          "3": [
+            162.56,
+            104.14
+          ],
+          "2": [
+            142.24,
+            114.3
+          ]
+        },
+        "angles": {
+          "5": 0.0,
+          "4": 0.0,
+          "1": 180.0,
+          "6": 180.0,
+          "3": 180.0,
+          "2": 90.0
+        },
+        "key": "LMR51610XDBVR",
+        "unit": 1,
+        "rating": "",
+        "lcsc": "C20539658"
+      },
+      {
+        "ref": "#FLG421",
+        "value": "PWR_FLAG",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            66.04,
+            88.9
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "PWR_FLAG",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C21",
+        "value": "4.7u / 50V",
+        "mpn": "1206B475K500NT",
+        "manufacturer": "FH",
+        "fp": "DRC_Power:C_1206_3216Metric",
+        "ds": "https://www.fenghua.com/",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            78.74,
+            106.68
+          ],
+          "2": [
+            78.74,
+            111.76
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C29823"
+      },
+      {
+        "ref": "#PWR432",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            78.74,
+            116.84
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C22",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            106.68,
+            106.68
+          ],
+          "2": [
+            106.68,
+            111.76
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR440",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            106.68,
+            116.84
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR443",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            142.24,
+            127.0
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C23",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            180.34,
+            88.9
+          ],
+          "2": [
+            185.42,
+            88.9
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "2": 180.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "L1",
+        "value": "33u / CYA0650-33UH",
+        "mpn": "CYA0650-33UH",
+        "manufacturer": "SHOUHAN",
+        "fp": "DRC_Power:CYA0650_33UH_6.6x7.2_CustomLand",
+        "ds": "https://xonstorage.z8.web.core.windows.net/pdf/shou_cya065033uh_apr22_xonlink.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            214.63,
+            96.52
+          ],
+          "2": [
+            222.25,
+            96.52
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "2": 180.0
+        },
+        "key": "L",
+        "unit": 1,
+        "rating": "2.3A; Isat3A; DCR0.20ohm max; 6.6x7.2x5mm",
+        "lcsc": "C5189937"
+      },
+      {
+        "ref": "#FLG458",
+        "value": "PWR_FLAG",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            233.68,
+            96.52
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "PWR_FLAG",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C24",
+        "value": "22u / 25V",
+        "mpn": "CL31A226KAHNNNE",
+        "manufacturer": "Samsung",
+        "fp": "DRC_Power:C_1206_3216Metric",
+        "ds": "https://product.samsungsem.com/mlcc/CL31A226KAHNNNE.do",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            251.46,
+            111.76
+          ],
+          "2": [
+            251.46,
+            116.84
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "25V X5R 10%",
+        "lcsc": "C12891"
+      },
+      {
+        "ref": "#PWR466",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            251.46,
+            124.46
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C25",
+        "value": "22u / 25V",
+        "mpn": "CL31A226KAHNNNE",
+        "manufacturer": "Samsung",
+        "fp": "DRC_Power:C_1206_3216Metric",
+        "ds": "https://product.samsungsem.com/mlcc/CL31A226KAHNNNE.do",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            290.83,
+            111.76
+          ],
+          "2": [
+            290.83,
+            116.84
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "25V X5R 10%",
+        "lcsc": "C12891"
+      },
+      {
+        "ref": "#PWR474",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            290.83,
+            124.46
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R21",
+        "value": "118k 1%",
+        "mpn": "RC0603FR-07118KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            330.2,
+            116.84
+          ],
+          "2": [
+            330.2,
+            121.92
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "R22",
+        "value": "22.1k 1%",
+        "mpn": "RC0603FR-0722K1L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            330.2,
+            147.32
+          ],
+          "2": [
+            330.2,
+            152.4
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR488",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            330.2,
+            157.48
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "U4",
+        "value": "LM66100DCKR",
+        "mpn": "LM66100DCKR",
+        "manufacturer": "Texas Instruments",
+        "fp": "DRC_Power:SOT-363_SC-70-6",
+        "ds": "https://www.ti.com/lit/ds/symlink/lm66100.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            220.98,
+            195.58
+          ],
+          "6": [
+            256.54,
+            195.58
+          ],
+          "3": [
+            220.98,
+            205.74
+          ],
+          "5": [
+            256.54,
+            205.74
+          ],
+          "2": [
+            238.76,
+            215.9
+          ],
+          "4": [
+            238.76,
+            185.42
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "6": 180.0,
+          "3": 0.0,
+          "5": 180.0,
+          "2": 90.0,
+          "4": 270.0
+        },
+        "key": "LM66100DCKR",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR505",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            238.76,
+            223.52
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR508",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            256.54,
+            218.44
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR511",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            314.96,
+            195.58
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C26",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            172.72,
+            205.74
+          ],
+          "2": [
+            172.72,
+            210.82
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR524",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            172.72,
+            215.9
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C27",
+        "value": "4.7u / 10V",
+        "mpn": "GRM188R61A475KE15D",
+        "manufacturer": "Murata",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.murata.com/en-us/products/capacitor/mlcc",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            340.36,
+            210.82
+          ],
+          "2": [
+            340.36,
+            215.9
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "10V X5R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR530",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            340.36,
+            205.74
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR533",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            340.36,
+            220.98
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C28",
+        "value": "47u / 10V",
+        "mpn": "GRM32ER61A476KE20L",
+        "manufacturer": "Murata",
+        "fp": "DRC_Power:C_1210_3225Metric",
+        "ds": "https://www.murata.com/en-us/products/capacitor/mlcc",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            375.92,
+            210.82
+          ],
+          "2": [
+            375.92,
+            215.9
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "10V X5R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR539",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            375.92,
+            205.74
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR542",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "04_Control_5V.kicad_sch",
+        "pins": {
+          "1": [
+            375.92,
+            220.98
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      }
+    ]
+  },
+  {
+    "file": "05_Emergency_Stop.kicad_sch",
+    "title": "NC emergency stop / shared enable",
+    "page": 5,
+    "ports": {
+      "VIN_3S": "input",
+      "MCU_RUN": "input",
+      "MAIN_EN": "output"
+    },
+    "components": [
+      {
+        "ref": "J7",
+        "value": "EMG / B2P-VH(LF)(SN)",
+        "mpn": "B2P-VH(LF)(SN)",
+        "manufacturer": "JST",
+        "fp": "DRC_Power:JST_VH_B2P-VH_1x02_P3.96mm_Vertical",
+        "ds": "https://www.jst-mfg.com/product/pdf/eng/eVH.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "05_Emergency_Stop.kicad_sch",
+        "pins": {
+          "1": [
+            53.34,
+            57.15
+          ],
+          "2": [
+            53.34,
+            64.77
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "2": 0.0
+        },
+        "key": "EMG_VH_2",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "U5",
+        "value": "LTV-817S-TA1-C",
+        "mpn": "LTV-817S-TA1-C",
+        "manufacturer": "Lite-On",
+        "fp": "DRC_Power:SMDIP-4_W9.53mm",
+        "ds": "https://optoelectronics.liteon.com/",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "05_Emergency_Stop.kicad_sch",
+        "pins": {
+          "1": [
+            157.48,
+            83.82
+          ],
+          "2": [
+            157.48,
+            88.9
+          ],
+          "4": [
+            172.72,
+            83.82
+          ],
+          "3": [
+            172.72,
+            88.9
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "2": 0.0,
+          "4": 180.0,
+          "3": 180.0
+        },
+        "key": "LTV-817S",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "U6",
+        "value": "LTV-817S-TA1-C",
+        "mpn": "LTV-817S-TA1-C",
+        "manufacturer": "Lite-On",
+        "fp": "DRC_Power:SMDIP-4_W9.53mm",
+        "ds": "https://optoelectronics.liteon.com/",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "05_Emergency_Stop.kicad_sch",
+        "pins": {
+          "1": [
+            157.48,
+            127.0
+          ],
+          "2": [
+            157.48,
+            132.08
+          ],
+          "4": [
+            172.72,
+            127.0
+          ],
+          "3": [
+            172.72,
+            132.08
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "2": 0.0,
+          "4": 180.0,
+          "3": 180.0
+        },
+        "key": "LTV-817S",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R23",
+        "value": "2.4k 1%",
+        "mpn": "RC0805FR-072K4L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0805_2012Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "05_Emergency_Stop.kicad_sch",
+        "pins": {
+          "1": [
+            109.22,
+            83.82
+          ],
+          "2": [
+            114.3,
+            83.82
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "2": 180.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.125W 150V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR528",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "05_Emergency_Stop.kicad_sch",
+        "pins": {
+          "1": [
+            157.48,
+            101.6
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R24",
+        "value": "1.5k 1%",
+        "mpn": "RC0603FR-071K5L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "05_Emergency_Stop.kicad_sch",
+        "pins": {
+          "1": [
+            109.22,
+            127.0
+          ],
+          "2": [
+            114.3,
+            127.0
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "2": 180.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR537",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "05_Emergency_Stop.kicad_sch",
+        "pins": {
+          "1": [
+            157.48,
+            144.78
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR540",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "05_Emergency_Stop.kicad_sch",
+        "pins": {
+          "1": [
+            172.72,
+            68.58
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      }
+    ]
+  },
+  {
+    "file": "06_MCU_Core.kicad_sch",
+    "title": "RA4M1 / supplies USB boot reset and debug",
+    "page": 6,
+    "ports": {
+      "USB_D_N": "bidirectional",
+      "USB_D_P": "bidirectional",
+      "USB_VBUS_SENSE": "input"
+    },
+    "components": [
+      {
+        "ref": "U7",
+        "value": "R7FA4M1AB3CFM#AA0",
+        "mpn": "R7FA4M1AB3CFM#AA0",
+        "manufacturer": "Renesas",
+        "fp": "DRC_Power:LQFP-64_10x10mm_P0.5mm",
+        "ds": "https://www.renesas.com/en/document/dst/ra4m1-group-datasheet",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "11": [
+            73.66,
+            58.42
+          ],
+          "39": [
+            86.36,
+            58.42
+          ],
+          "56": [
+            99.06,
+            58.42
+          ],
+          "8": [
+            73.66,
+            109.22
+          ],
+          "40": [
+            86.36,
+            109.22
+          ],
+          "57": [
+            99.06,
+            109.22
+          ],
+          "5": [
+            55.88,
+            73.66
+          ],
+          "4": [
+            55.88,
+            88.9
+          ],
+          "59": [
+            116.84,
+            73.66
+          ],
+          "58": [
+            116.84,
+            83.82
+          ],
+          "55": [
+            116.84,
+            93.98
+          ],
+          "54": [
+            116.84,
+            104.14
+          ]
+        },
+        "angles": {
+          "11": 270.0,
+          "39": 270.0,
+          "56": 270.0,
+          "8": 90.0,
+          "40": 90.0,
+          "57": 90.0,
+          "5": 0.0,
+          "4": 0.0,
+          "59": 180.0,
+          "58": 180.0,
+          "55": 180.0,
+          "54": 180.0
+        },
+        "key": "R7FA4M1AB3CFM_AA0",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "U7",
+        "value": "R7FA4M1AB3CFM#AA0",
+        "mpn": "R7FA4M1AB3CFM#AA0",
+        "manufacturer": "Renesas",
+        "fp": "DRC_Power:LQFP-64_10x10mm_P0.5mm",
+        "ds": "https://www.renesas.com/en/document/dst/ra4m1-group-datasheet",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "21": [
+            261.62,
+            55.88
+          ],
+          "20": [
+            281.94,
+            55.88
+          ],
+          "17": [
+            271.78,
+            121.92
+          ],
+          "25": [
+            236.22,
+            68.58
+          ],
+          "26": [
+            236.22,
+            78.74
+          ],
+          "27": [
+            236.22,
+            88.9
+          ],
+          "18": [
+            307.34,
+            68.58
+          ],
+          "19": [
+            307.34,
+            78.74
+          ],
+          "16": [
+            307.34,
+            88.9
+          ],
+          "32": [
+            307.34,
+            99.06
+          ],
+          "33": [
+            307.34,
+            109.22
+          ],
+          "6": [
+            236.22,
+            99.06
+          ],
+          "7": [
+            236.22,
+            104.14
+          ],
+          "9": [
+            236.22,
+            109.22
+          ],
+          "10": [
+            236.22,
+            114.3
+          ]
+        },
+        "angles": {
+          "21": 270.0,
+          "20": 270.0,
+          "17": 90.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "18": 180.0,
+          "19": 180.0,
+          "16": 180.0,
+          "32": 180.0,
+          "33": 180.0,
+          "6": 0.0,
+          "7": 0.0,
+          "9": 0.0,
+          "10": 0.0
+        },
+        "key": "R7FA4M1AB3CFM_AA0",
+        "unit": 2,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR631",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            73.66,
+            48.26
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR634",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            86.36,
+            48.26
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR637",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            99.06,
+            48.26
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR640",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            73.66,
+            119.38
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR643",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            86.36,
+            119.38
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR646",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            99.06,
+            119.38
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR653",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            124.46,
+            73.66
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR656",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            137.16,
+            93.98
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR660",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            124.46,
+            88.9
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR664",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            124.46,
+            109.22
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C31",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            25.4,
+            160.02
+          ],
+          "2": [
+            25.4,
+            165.1
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR671",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            25.4,
+            154.94
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR674",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            25.4,
+            170.18
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C32",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            63.5,
+            160.02
+          ],
+          "2": [
+            63.5,
+            165.1
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR681",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            63.5,
+            154.94
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR684",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            63.5,
+            170.18
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C33",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            101.6,
+            160.02
+          ],
+          "2": [
+            101.6,
+            165.1
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR691",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            101.6,
+            154.94
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR694",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            101.6,
+            170.18
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C34",
+        "value": "4.7u / 10V",
+        "mpn": "GRM188R61A475KE15D",
+        "manufacturer": "Murata",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.murata.com/en-us/products/capacitor/mlcc",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            139.7,
+            160.02
+          ],
+          "2": [
+            139.7,
+            165.1
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "10V X5R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR701",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            139.7,
+            154.94
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR704",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            139.7,
+            170.18
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C35",
+        "value": "4.7u / 10V",
+        "mpn": "GRM188R61A475KE15D",
+        "manufacturer": "Murata",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.murata.com/en-us/products/capacitor/mlcc",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            25.4,
+            205.74
+          ],
+          "2": [
+            25.4,
+            210.82
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "10V X5R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR713",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            25.4,
+            215.9
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C36",
+        "value": "1u / 10V",
+        "mpn": "GRM188R71A105KA61D",
+        "manufacturer": "Murata",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.murata.com/en-us/products/capacitor/mlcc",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            76.2,
+            205.74
+          ],
+          "2": [
+            76.2,
+            210.82
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "10V X7R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR719",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            76.2,
+            200.66
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR722",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            76.2,
+            215.9
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C37",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            127.0,
+            205.74
+          ],
+          "2": [
+            127.0,
+            210.82
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR728",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            127.0,
+            200.66
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR731",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            127.0,
+            215.9
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR735",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            261.62,
+            45.72
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR740",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            271.78,
+            134.62
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C38",
+        "value": "4.7u / 10V",
+        "mpn": "GRM188R61A475KE15D",
+        "manufacturer": "Murata",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.murata.com/en-us/products/capacitor/mlcc",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            350.52,
+            40.64
+          ],
+          "2": [
+            350.52,
+            45.72
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "10V X5R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR748",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            350.52,
+            50.8
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C39",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            388.62,
+            40.64
+          ],
+          "2": [
+            388.62,
+            45.72
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR756",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            388.62,
+            50.8
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C40",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            350.52,
+            129.54
+          ],
+          "2": [
+            350.52,
+            134.62
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR762",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            350.52,
+            124.46
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR765",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            350.52,
+            139.7
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R31",
+        "value": "5.1k 1%",
+        "mpn": "RC0603FR-075K1L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            200.66,
+            185.42
+          ],
+          "2": [
+            200.66,
+            190.5
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR793",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            200.66,
+            180.34
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R32",
+        "value": "5.1k 1%",
+        "mpn": "RC0603FR-075K1L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            241.3,
+            185.42
+          ],
+          "2": [
+            241.3,
+            190.5
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR801",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            241.3,
+            180.34
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R33",
+        "value": "5.1k 1%",
+        "mpn": "RC0603FR-075K1L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            281.94,
+            185.42
+          ],
+          "2": [
+            281.94,
+            190.5
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR809",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            281.94,
+            180.34
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "SW1",
+        "value": "RESET / EVQ-PE105K",
+        "mpn": "EVQ-PE105K",
+        "manufacturer": "Panasonic",
+        "fp": "DRC_Power:SW_SPST_EVQPE1",
+        "ds": "https://industrial.panasonic.com/",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            200.66,
+            220.98
+          ],
+          "2": [
+            200.66,
+            231.14
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "SW_Push",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR819",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            200.66,
+            236.22
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "JP2",
+        "value": "BOOT / open=RUN",
+        "mpn": "PCB_SOLDER_BOOT_2PAD",
+        "manufacturer": "PCB",
+        "fp": "DRC_Power:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCB copper + solder",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            254.0,
+            220.98
+          ],
+          "2": [
+            254.0,
+            228.6
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "SolderJumper_2_Open",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR827",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            254.0,
+            233.68
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "J8",
+        "value": "SWD / 5V TARGET",
+        "mpn": "TSW-106-07-G-S",
+        "manufacturer": "Samtec",
+        "fp": "DRC_Power:PinHeader_1x06_P2.54mm_Vertical",
+        "ds": "https://www.samtec.com/products/tsw",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            347.98,
+            185.42
+          ],
+          "2": [
+            347.98,
+            189.23
+          ],
+          "3": [
+            347.98,
+            193.04
+          ],
+          "4": [
+            347.98,
+            196.85
+          ],
+          "5": [
+            347.98,
+            200.66
+          ],
+          "6": [
+            347.98,
+            204.47
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.0
+        },
+        "key": "SWD_1x06",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR837",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            347.98,
+            180.34
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR847",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "06_MCU_Core.kicad_sch",
+        "pins": {
+          "1": [
+            347.98,
+            209.55
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      }
+    ]
+  },
+  {
+    "file": "07_MCU_IO.kicad_sch",
+    "title": "RA4M1 / ADC and control pin assignment",
+    "page": 7,
+    "ports": {
+      "ADC_VIN_3S": "input",
+      "ADC_VOUT_3S": "input",
+      "ADC_VIN_6S": "input",
+      "ADC_VOUT_6S": "input",
+      "MCU_RUN": "output",
+      "nPGD_3S": "input",
+      "nPGD_6S": "input",
+      "SEG_DIN": "output",
+      "SEG_CLK": "output"
+    },
+    "components": [
+      {
+        "ref": "U7",
+        "value": "R7FA4M1AB3CFM#AA0",
+        "mpn": "R7FA4M1AB3CFM#AA0",
+        "manufacturer": "Renesas",
+        "fp": "DRC_Power:LQFP-64_10x10mm_P0.5mm",
+        "ds": "https://www.renesas.com/en/document/dst/ra4m1-group-datasheet",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "07_MCU_IO.kicad_sch",
+        "pins": {
+          "64": [
+            142.24,
+            68.58
+          ],
+          "63": [
+            142.24,
+            76.2
+          ],
+          "62": [
+            142.24,
+            83.82
+          ],
+          "61": [
+            142.24,
+            91.44
+          ],
+          "35": [
+            142.24,
+            99.06
+          ],
+          "34": [
+            142.24,
+            106.68
+          ],
+          "38": [
+            142.24,
+            114.3
+          ],
+          "36": [
+            142.24,
+            121.92
+          ],
+          "37": [
+            142.24,
+            129.54
+          ],
+          "41": [
+            142.24,
+            137.16
+          ],
+          "1": [
+            213.36,
+            60.96
+          ],
+          "2": [
+            213.36,
+            64.77
+          ],
+          "3": [
+            213.36,
+            68.58
+          ],
+          "12": [
+            213.36,
+            72.39
+          ],
+          "13": [
+            213.36,
+            76.2
+          ],
+          "14": [
+            213.36,
+            80.01
+          ],
+          "15": [
+            213.36,
+            83.82
+          ],
+          "22": [
+            213.36,
+            87.63
+          ],
+          "23": [
+            213.36,
+            91.44
+          ],
+          "24": [
+            213.36,
+            95.25
+          ],
+          "28": [
+            213.36,
+            99.06
+          ],
+          "29": [
+            213.36,
+            102.87
+          ],
+          "30": [
+            213.36,
+            106.68
+          ],
+          "31": [
+            213.36,
+            110.49
+          ],
+          "42": [
+            213.36,
+            114.3
+          ],
+          "43": [
+            213.36,
+            118.11
+          ],
+          "44": [
+            213.36,
+            121.92
+          ],
+          "45": [
+            213.36,
+            125.73
+          ],
+          "46": [
+            213.36,
+            129.54
+          ],
+          "47": [
+            213.36,
+            133.35
+          ],
+          "48": [
+            213.36,
+            137.16
+          ],
+          "49": [
+            213.36,
+            140.97
+          ],
+          "50": [
+            213.36,
+            144.78
+          ],
+          "51": [
+            213.36,
+            148.59
+          ],
+          "52": [
+            213.36,
+            152.4
+          ],
+          "53": [
+            213.36,
+            156.21
+          ],
+          "60": [
+            213.36,
+            160.02
+          ]
+        },
+        "angles": {
+          "64": 0.0,
+          "63": 0.0,
+          "62": 0.0,
+          "61": 0.0,
+          "35": 0.0,
+          "34": 0.0,
+          "38": 0.0,
+          "36": 0.0,
+          "37": 0.0,
+          "41": 0.0,
+          "1": 180.0,
+          "2": 180.0,
+          "3": 180.0,
+          "12": 180.0,
+          "13": 180.0,
+          "14": 180.0,
+          "15": 180.0,
+          "22": 180.0,
+          "23": 180.0,
+          "24": 180.0,
+          "28": 180.0,
+          "29": 180.0,
+          "30": 180.0,
+          "31": 180.0,
+          "42": 180.0,
+          "43": 180.0,
+          "44": 180.0,
+          "45": 180.0,
+          "46": 180.0,
+          "47": 180.0,
+          "48": 180.0,
+          "49": 180.0,
+          "50": 180.0,
+          "51": 180.0,
+          "52": 180.0,
+          "53": 180.0,
+          "60": 180.0
+        },
+        "key": "R7FA4M1AB3CFM_AA0",
+        "unit": 3,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R38",
+        "value": "1k 1%",
+        "mpn": "RC0603FR-071KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "07_MCU_IO.kicad_sch",
+        "pins": {
+          "1": [
+            299.72,
+            86.36
+          ],
+          "2": [
+            299.72,
+            91.44
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR790",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "07_MCU_IO.kicad_sch",
+        "pins": {
+          "1": [
+            299.72,
+            81.28
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "D5",
+        "value": "LTST-C190KRKT",
+        "mpn": "LTST-C190KRKT",
+        "manufacturer": "Lite-On",
+        "fp": "DRC_Power:LED_0603_1608Metric",
+        "ds": "https://optoelectronics.liteon.com/",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "07_MCU_IO.kicad_sch",
+        "pins": {
+          "1": [
+            299.72,
+            114.3
+          ],
+          "2": [
+            299.72,
+            109.22
+          ]
+        },
+        "angles": {
+          "1": 90.0,
+          "2": 270.0
+        },
+        "key": "LED_Small",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR797",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "07_MCU_IO.kicad_sch",
+        "pins": {
+          "1": [
+            299.72,
+            119.38
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R40",
+        "value": "1k 1%",
+        "mpn": "RC0603FR-071KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "07_MCU_IO.kicad_sch",
+        "pins": {
+          "1": [
+            355.6,
+            86.36
+          ],
+          "2": [
+            355.6,
+            91.44
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "D6",
+        "value": "LTST-C190KRKT",
+        "mpn": "LTST-C190KRKT",
+        "manufacturer": "Lite-On",
+        "fp": "DRC_Power:LED_0603_1608Metric",
+        "ds": "https://optoelectronics.liteon.com/",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "07_MCU_IO.kicad_sch",
+        "pins": {
+          "1": [
+            355.6,
+            114.3
+          ],
+          "2": [
+            355.6,
+            109.22
+          ]
+        },
+        "angles": {
+          "1": 90.0,
+          "2": 270.0
+        },
+        "key": "LED_Small",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR809",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "07_MCU_IO.kicad_sch",
+        "pins": {
+          "1": [
+            355.6,
+            119.38
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      }
+    ]
+  },
+  {
+    "file": "08_ADC_Protection.kicad_sch",
+    "title": "Four voltage dividers / powered-off ADC protection",
+    "page": 8,
+    "ports": {
+      "VIN_3S": "input",
+      "VOUT_3S": "input",
+      "ADC_VIN_3S": "output",
+      "ADC_VOUT_3S": "output",
+      "VIN_6S": "input",
+      "VOUT_6S": "input",
+      "ADC_VIN_6S": "output",
+      "ADC_VOUT_6S": "output"
+    },
+    "components": [
+      {
+        "ref": "R51",
+        "value": "22k 0.1%",
+        "mpn": "RT0603BRD0722KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            43.18,
+            59.69
+          ],
+          "2": [
+            43.18,
+            64.77
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "R52",
+        "value": "4.7k 0.1%",
+        "mpn": "RT0603BRD074K7L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            43.18,
+            100.33
+          ],
+          "2": [
+            43.18,
+            105.41
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR814",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            43.18,
+            110.49
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C51",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            74.93,
+            100.33
+          ],
+          "2": [
+            74.93,
+            105.41
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR823",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            74.93,
+            110.49
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "D7",
+        "value": "BZT52C5V1-7-F",
+        "mpn": "BZT52C5V1-7-F",
+        "manufacturer": "Diodes Incorporated",
+        "fp": "DRC_Power:D_SOD-123",
+        "ds": "https://www.diodes.com/assets/Datasheets/ds18004.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            105.41,
+            100.33
+          ],
+          "2": [
+            105.41,
+            105.41
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "D_Zener_Small",
+        "unit": 1,
+        "rating": "5.1V nominal; existing zener-to-GND topology retained",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR830",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            105.41,
+            110.49
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R53",
+        "value": "22k 0.1%",
+        "mpn": "RT0603BRD0722KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            154.94,
+            59.69
+          ],
+          "2": [
+            154.94,
+            64.77
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "R54",
+        "value": "4.7k 0.1%",
+        "mpn": "RT0603BRD074K7L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            154.94,
+            100.33
+          ],
+          "2": [
+            154.94,
+            105.41
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR845",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            154.94,
+            110.49
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C52",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            186.69,
+            100.33
+          ],
+          "2": [
+            186.69,
+            105.41
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR854",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            186.69,
+            110.49
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "D8",
+        "value": "BZT52C5V1-7-F",
+        "mpn": "BZT52C5V1-7-F",
+        "manufacturer": "Diodes Incorporated",
+        "fp": "DRC_Power:D_SOD-123",
+        "ds": "https://www.diodes.com/assets/Datasheets/ds18004.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            217.17,
+            100.33
+          ],
+          "2": [
+            217.17,
+            105.41
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "D_Zener_Small",
+        "unit": 1,
+        "rating": "5.1V nominal; existing zener-to-GND topology retained",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR861",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            217.17,
+            110.49
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "U8",
+        "value": "TMUX2821DSGR",
+        "mpn": "TMUX2821DSGR",
+        "manufacturer": "Texas Instruments",
+        "fp": "DRC_Power:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
+        "ds": "https://www.ti.com/lit/ds/symlink/tmux2821.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            309.88,
+            91.44
+          ],
+          "2": [
+            350.52,
+            91.44
+          ],
+          "5": [
+            309.88,
+            101.6
+          ],
+          "6": [
+            350.52,
+            101.6
+          ],
+          "7": [
+            322.58,
+            78.74
+          ],
+          "3": [
+            337.82,
+            78.74
+          ],
+          "8": [
+            330.2,
+            78.74
+          ],
+          "4": [
+            325.12,
+            119.38
+          ],
+          "9": [
+            335.28,
+            119.38
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "2": 180.0,
+          "5": 0.0,
+          "6": 180.0,
+          "7": 270.0,
+          "3": 270.0,
+          "8": 270.0,
+          "4": 90.0,
+          "9": 90.0
+        },
+        "key": "TMUX2821DSGR",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR887",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            330.2,
+            66.04
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR890",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            325.12,
+            127.0
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR893",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            335.28,
+            127.0
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C55",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            386.08,
+            52.07
+          ],
+          "2": [
+            386.08,
+            57.15
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR899",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            386.08,
+            46.99
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR902",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            386.08,
+            62.23
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R55",
+        "value": "22k 0.1%",
+        "mpn": "RT0603BRD0722KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            43.18,
+            171.45
+          ],
+          "2": [
+            43.18,
+            176.53
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "R56",
+        "value": "4.7k 0.1%",
+        "mpn": "RT0603BRD074K7L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            43.18,
+            212.09
+          ],
+          "2": [
+            43.18,
+            217.17
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR916",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            43.18,
+            222.25
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C53",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            74.93,
+            212.09
+          ],
+          "2": [
+            74.93,
+            217.17
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR925",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            74.93,
+            222.25
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "D9",
+        "value": "BZT52C5V1-7-F",
+        "mpn": "BZT52C5V1-7-F",
+        "manufacturer": "Diodes Incorporated",
+        "fp": "DRC_Power:D_SOD-123",
+        "ds": "https://www.diodes.com/assets/Datasheets/ds18004.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            105.41,
+            212.09
+          ],
+          "2": [
+            105.41,
+            217.17
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "D_Zener_Small",
+        "unit": 1,
+        "rating": "5.1V nominal; existing zener-to-GND topology retained",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR932",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            105.41,
+            222.25
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R57",
+        "value": "22k 0.1%",
+        "mpn": "RT0603BRD0722KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            154.94,
+            171.45
+          ],
+          "2": [
+            154.94,
+            176.53
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "R58",
+        "value": "4.7k 0.1%",
+        "mpn": "RT0603BRD074K7L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            154.94,
+            212.09
+          ],
+          "2": [
+            154.94,
+            217.17
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR947",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            154.94,
+            222.25
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C54",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            186.69,
+            212.09
+          ],
+          "2": [
+            186.69,
+            217.17
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR956",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            186.69,
+            222.25
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "D10",
+        "value": "BZT52C5V1-7-F",
+        "mpn": "BZT52C5V1-7-F",
+        "manufacturer": "Diodes Incorporated",
+        "fp": "DRC_Power:D_SOD-123",
+        "ds": "https://www.diodes.com/assets/Datasheets/ds18004.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            217.17,
+            212.09
+          ],
+          "2": [
+            217.17,
+            217.17
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "D_Zener_Small",
+        "unit": 1,
+        "rating": "5.1V nominal; existing zener-to-GND topology retained",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR963",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            217.17,
+            222.25
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "U9",
+        "value": "TMUX2821DSGR",
+        "mpn": "TMUX2821DSGR",
+        "manufacturer": "Texas Instruments",
+        "fp": "DRC_Power:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
+        "ds": "https://www.ti.com/lit/ds/symlink/tmux2821.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            309.88,
+            203.2
+          ],
+          "2": [
+            350.52,
+            203.2
+          ],
+          "5": [
+            309.88,
+            213.36
+          ],
+          "6": [
+            350.52,
+            213.36
+          ],
+          "7": [
+            322.58,
+            190.5
+          ],
+          "3": [
+            337.82,
+            190.5
+          ],
+          "8": [
+            330.2,
+            190.5
+          ],
+          "4": [
+            325.12,
+            231.14
+          ],
+          "9": [
+            335.28,
+            231.14
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "2": 180.0,
+          "5": 0.0,
+          "6": 180.0,
+          "7": 270.0,
+          "3": 270.0,
+          "8": 270.0,
+          "4": 90.0,
+          "9": 90.0
+        },
+        "key": "TMUX2821DSGR",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR989",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            330.2,
+            177.8
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR992",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            325.12,
+            238.76
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR995",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            335.28,
+            238.76
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C56",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            386.08,
+            163.83
+          ],
+          "2": [
+            386.08,
+            168.91
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR1001",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            386.08,
+            158.75
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR1004",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "08_ADC_Protection.kicad_sch",
+        "pins": {
+          "1": [
+            386.08,
+            173.99
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      }
+    ]
+  },
+  {
+    "file": "09_USB.kicad_sch",
+    "title": "USB Type-C / USB2 device and diode power input",
+    "page": 9,
+    "ports": {
+      "USB_D_P": "bidirectional",
+      "USB_D_N": "bidirectional",
+      "USB_VBUS_SENSE": "output"
+    },
+    "components": [
+      {
+        "ref": "J9",
+        "value": "USB4105-GF-A",
+        "mpn": "USB4105-GF-A",
+        "manufacturer": "GCT",
+        "fp": "DRC_Power:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+        "ds": "https://gct.co/files/drawings/usb4105.pdf",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "S1": [
+            60.96,
+            104.14
+          ],
+          "A1": [
+            68.58,
+            104.14
+          ],
+          "A12": [
+            68.58,
+            104.14
+          ],
+          "B1": [
+            68.58,
+            104.14
+          ],
+          "B12": [
+            68.58,
+            104.14
+          ],
+          "A4": [
+            83.82,
+            66.04
+          ],
+          "A9": [
+            83.82,
+            66.04
+          ],
+          "B4": [
+            83.82,
+            66.04
+          ],
+          "B9": [
+            83.82,
+            66.04
+          ],
+          "A5": [
+            83.82,
+            71.12
+          ],
+          "B5": [
+            83.82,
+            73.66
+          ],
+          "A7": [
+            83.82,
+            78.74
+          ],
+          "B7": [
+            83.82,
+            81.28
+          ],
+          "A6": [
+            83.82,
+            83.82
+          ],
+          "B6": [
+            83.82,
+            86.36
+          ],
+          "A8": [
+            83.82,
+            93.98
+          ],
+          "B8": [
+            83.82,
+            96.52
+          ]
+        },
+        "angles": {
+          "S1": 90.0,
+          "A1": 90.0,
+          "A12": 90.0,
+          "B1": 90.0,
+          "B12": 90.0,
+          "A4": 180.0,
+          "A9": 180.0,
+          "B4": 180.0,
+          "B9": 180.0,
+          "A5": 180.0,
+          "B5": 180.0,
+          "A7": 180.0,
+          "B7": 180.0,
+          "A6": 180.0,
+          "B6": 180.0,
+          "A8": 180.0,
+          "B8": 180.0
+        },
+        "key": "USB_C_Receptacle_USB2.0_16P",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR934",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            68.58,
+            111.76
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR937",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            60.96,
+            111.76
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R41",
+        "value": "5.1k 1%",
+        "mpn": "RC0603FR-075K1L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            116.84,
+            137.16
+          ],
+          "2": [
+            116.84,
+            142.24
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR947",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            116.84,
+            147.32
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R42",
+        "value": "5.1k 1%",
+        "mpn": "RC0603FR-075K1L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            154.94,
+            137.16
+          ],
+          "2": [
+            154.94,
+            142.24
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR955",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            154.94,
+            147.32
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "D2",
+        "value": "SS2040FL",
+        "mpn": "SS2040FL_R1_00001",
+        "manufacturer": "PANJIT",
+        "fp": "DRC_Power:PANJIT_SS2040FL_SOD123FL",
+        "ds": "https://www.panjit.com.tw/en/Product/Schottky/Power_Schottky/SS2040FL",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            180.34,
+            50.8
+          ],
+          "2": [
+            175.26,
+            50.8
+          ]
+        },
+        "angles": {
+          "1": 180.0,
+          "2": 0.0
+        },
+        "key": "D_Schottky_Small",
+        "unit": 1,
+        "rating": "40V 2A SOD-123FL; original SS2040FL path retained",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR963",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            231.14,
+            50.8
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C41",
+        "value": "1u / 10V",
+        "mpn": "GRM188R71A105KA61D",
+        "manufacturer": "Murata",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.murata.com/en-us/products/capacitor/mlcc",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            162.56,
+            76.2
+          ],
+          "2": [
+            162.56,
+            81.28
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "10V X7R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR971",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            162.56,
+            86.36
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C42",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            231.14,
+            76.2
+          ],
+          "2": [
+            231.14,
+            81.28
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR977",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            231.14,
+            71.12
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR980",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            231.14,
+            86.36
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R43",
+        "value": "5.1k 1%",
+        "mpn": "RC0603FR-075K1L",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            220.98,
+            106.68
+          ],
+          "2": [
+            220.98,
+            111.76
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "R44",
+        "value": "1M 1%",
+        "mpn": "RC0603FR-071ML",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            220.98,
+            142.24
+          ],
+          "2": [
+            220.98,
+            147.32
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR993",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "09_USB.kicad_sch",
+        "pins": {
+          "1": [
+            220.98,
+            152.4
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      }
+    ]
+  },
+  {
+    "file": "10_Display.kicad_sch",
+    "title": "TM1640 / twelve common-cathode digits",
+    "page": 10,
+    "ports": {
+      "SEG_DIN": "input",
+      "SEG_CLK": "input"
+    },
+    "components": [
+      {
+        "ref": "U10",
+        "value": "TM1640 / SOP28",
+        "mpn": "TM1640",
+        "manufacturer": "Titan Micro",
+        "fp": "DRC_Power:SOP-28_8.4x18.16mm_P1.27mm",
+        "ds": "https://akizukidenshi.com/goodsaffix/TM1640_V1.0_EN.PDF",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "17": [
+            73.66,
+            41.91
+          ],
+          "6": [
+            73.66,
+            135.89
+          ],
+          "7": [
+            48.26,
+            55.88
+          ],
+          "8": [
+            48.26,
+            63.5
+          ],
+          "9": [
+            99.06,
+            53.34
+          ],
+          "10": [
+            99.06,
+            57.15
+          ],
+          "11": [
+            99.06,
+            60.96
+          ],
+          "12": [
+            99.06,
+            64.77
+          ],
+          "13": [
+            99.06,
+            68.58
+          ],
+          "14": [
+            99.06,
+            72.39
+          ],
+          "15": [
+            99.06,
+            76.2
+          ],
+          "16": [
+            99.06,
+            80.01
+          ],
+          "18": [
+            48.26,
+            71.12
+          ],
+          "19": [
+            48.26,
+            74.93
+          ],
+          "20": [
+            48.26,
+            78.74
+          ],
+          "21": [
+            48.26,
+            82.55
+          ],
+          "22": [
+            48.26,
+            86.36
+          ],
+          "23": [
+            48.26,
+            90.17
+          ],
+          "24": [
+            48.26,
+            93.98
+          ],
+          "25": [
+            48.26,
+            97.79
+          ],
+          "26": [
+            48.26,
+            101.6
+          ],
+          "27": [
+            48.26,
+            105.41
+          ],
+          "28": [
+            48.26,
+            109.22
+          ],
+          "1": [
+            48.26,
+            113.03
+          ],
+          "2": [
+            48.26,
+            116.84
+          ],
+          "3": [
+            48.26,
+            120.65
+          ],
+          "4": [
+            48.26,
+            124.46
+          ],
+          "5": [
+            48.26,
+            128.27
+          ]
+        },
+        "angles": {
+          "17": 270.0,
+          "6": 90.0,
+          "7": 0.0,
+          "8": 0.0,
+          "9": 180.0,
+          "10": 180.0,
+          "11": 180.0,
+          "12": 180.0,
+          "13": 180.0,
+          "14": 180.0,
+          "15": 180.0,
+          "16": 180.0,
+          "18": 0.0,
+          "19": 0.0,
+          "20": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "24": 0.0,
+          "25": 0.0,
+          "26": 0.0,
+          "27": 0.0,
+          "28": 0.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0
+        },
+        "key": "TM1640_SOP28",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR1031",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            73.66,
+            34.29
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR1034",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            73.66,
+            143.51
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C61",
+        "value": "47u / 10V",
+        "mpn": "GRM32ER61A476KE20L",
+        "manufacturer": "Murata",
+        "fp": "DRC_Power:C_1210_3225Metric",
+        "ds": "https://www.murata.com/en-us/products/capacitor/mlcc",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            30.48,
+            162.56
+          ],
+          "2": [
+            30.48,
+            167.64
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "10V X5R 10%",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR1088",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            30.48,
+            157.48
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR1091",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            30.48,
+            172.72
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "C62",
+        "value": "100n / 50V",
+        "mpn": "CC0603KRX7R9BB104",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:C_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            76.2,
+            162.56
+          ],
+          "2": [
+            76.2,
+            167.64
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "C_Small",
+        "unit": 1,
+        "rating": "50V X7R 10%",
+        "lcsc": "C14663"
+      },
+      {
+        "ref": "#PWR1097",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            76.2,
+            157.48
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR1100",
+        "value": "GND",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            76.2,
+            172.72
+          ]
+        },
+        "angles": {
+          "1": 270.0
+        },
+        "key": "GND",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R61",
+        "value": "10k 1%",
+        "mpn": "RC0603FR-0710KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            30.48,
+            200.66
+          ],
+          "2": [
+            30.48,
+            205.74
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR1106",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            30.48,
+            195.58
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "R62",
+        "value": "10k 1%",
+        "mpn": "RC0603FR-0710KL",
+        "manufacturer": "Yageo",
+        "fp": "DRC_Power:R_0603_1608Metric",
+        "ds": "https://www.yageo.com/en/ProductSearch",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            76.2,
+            200.66
+          ],
+          "2": [
+            76.2,
+            205.74
+          ]
+        },
+        "angles": {
+          "1": 270.0,
+          "2": 90.0
+        },
+        "key": "R_Small",
+        "unit": 1,
+        "rating": "0.1W 75V",
+        "lcsc": ""
+      },
+      {
+        "ref": "#PWR1114",
+        "value": "+5V_MCU",
+        "mpn": "",
+        "manufacturer": "",
+        "fp": "",
+        "ds": "",
+        "dnp": false,
+        "assembly": "PCBA",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            76.2,
+            195.58
+          ]
+        },
+        "angles": {
+          "1": 90.0
+        },
+        "key": "P5V_MCU",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "DS1",
+        "value": "OSL10326-LRA",
+        "mpn": "OSL10326-LRA",
+        "manufacturer": "OptoSupply",
+        "fp": "DRC_Power:OSL10326_LRA_7x11_P2.00_W4.88",
+        "ds": "https://www.optosupply.com/uppic/2025822601151.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            165.1,
+            55.88
+          ],
+          "10": [
+            165.1,
+            58.42
+          ],
+          "8": [
+            165.1,
+            60.96
+          ],
+          "5": [
+            165.1,
+            63.5
+          ],
+          "4": [
+            165.1,
+            66.04
+          ],
+          "2": [
+            165.1,
+            68.58
+          ],
+          "3": [
+            165.1,
+            71.12
+          ],
+          "6": [
+            165.1,
+            73.66
+          ],
+          "7": [
+            185.42,
+            71.12
+          ],
+          "9": [
+            185.42,
+            73.66
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "10": 0.0,
+          "8": 0.0,
+          "5": 0.0,
+          "4": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "6": 0.0,
+          "7": 180.0,
+          "9": 180.0
+        },
+        "key": "OSL10326_LRA",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "DS2",
+        "value": "OSL10326-LRA",
+        "mpn": "OSL10326-LRA",
+        "manufacturer": "OptoSupply",
+        "fp": "DRC_Power:OSL10326_LRA_7x11_P2.00_W4.88",
+        "ds": "https://www.optosupply.com/uppic/2025822601151.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            252.73,
+            55.88
+          ],
+          "10": [
+            252.73,
+            58.42
+          ],
+          "8": [
+            252.73,
+            60.96
+          ],
+          "5": [
+            252.73,
+            63.5
+          ],
+          "4": [
+            252.73,
+            66.04
+          ],
+          "2": [
+            252.73,
+            68.58
+          ],
+          "3": [
+            252.73,
+            71.12
+          ],
+          "6": [
+            252.73,
+            73.66
+          ],
+          "7": [
+            273.05,
+            71.12
+          ],
+          "9": [
+            273.05,
+            73.66
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "10": 0.0,
+          "8": 0.0,
+          "5": 0.0,
+          "4": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "6": 0.0,
+          "7": 180.0,
+          "9": 180.0
+        },
+        "key": "OSL10326_LRA",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "DS3",
+        "value": "OSL10326-LRA",
+        "mpn": "OSL10326-LRA",
+        "manufacturer": "OptoSupply",
+        "fp": "DRC_Power:OSL10326_LRA_7x11_P2.00_W4.88",
+        "ds": "https://www.optosupply.com/uppic/2025822601151.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            340.36,
+            55.88
+          ],
+          "10": [
+            340.36,
+            58.42
+          ],
+          "8": [
+            340.36,
+            60.96
+          ],
+          "5": [
+            340.36,
+            63.5
+          ],
+          "4": [
+            340.36,
+            66.04
+          ],
+          "2": [
+            340.36,
+            68.58
+          ],
+          "3": [
+            340.36,
+            71.12
+          ],
+          "6": [
+            340.36,
+            73.66
+          ],
+          "7": [
+            360.68,
+            71.12
+          ],
+          "9": [
+            360.68,
+            73.66
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "10": 0.0,
+          "8": 0.0,
+          "5": 0.0,
+          "4": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "6": 0.0,
+          "7": 180.0,
+          "9": 180.0
+        },
+        "key": "OSL10326_LRA",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "DS4",
+        "value": "OSL10326-LRA",
+        "mpn": "OSL10326-LRA",
+        "manufacturer": "OptoSupply",
+        "fp": "DRC_Power:OSL10326_LRA_7x11_P2.00_W4.88",
+        "ds": "https://www.optosupply.com/uppic/2025822601151.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            165.1,
+            111.76
+          ],
+          "10": [
+            165.1,
+            114.3
+          ],
+          "8": [
+            165.1,
+            116.84
+          ],
+          "5": [
+            165.1,
+            119.38
+          ],
+          "4": [
+            165.1,
+            121.92
+          ],
+          "2": [
+            165.1,
+            124.46
+          ],
+          "3": [
+            165.1,
+            127.0
+          ],
+          "6": [
+            165.1,
+            129.54
+          ],
+          "7": [
+            185.42,
+            127.0
+          ],
+          "9": [
+            185.42,
+            129.54
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "10": 0.0,
+          "8": 0.0,
+          "5": 0.0,
+          "4": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "6": 0.0,
+          "7": 180.0,
+          "9": 180.0
+        },
+        "key": "OSL10326_LRA",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "DS5",
+        "value": "OSL10326-LRA",
+        "mpn": "OSL10326-LRA",
+        "manufacturer": "OptoSupply",
+        "fp": "DRC_Power:OSL10326_LRA_7x11_P2.00_W4.88",
+        "ds": "https://www.optosupply.com/uppic/2025822601151.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            252.73,
+            111.76
+          ],
+          "10": [
+            252.73,
+            114.3
+          ],
+          "8": [
+            252.73,
+            116.84
+          ],
+          "5": [
+            252.73,
+            119.38
+          ],
+          "4": [
+            252.73,
+            121.92
+          ],
+          "2": [
+            252.73,
+            124.46
+          ],
+          "3": [
+            252.73,
+            127.0
+          ],
+          "6": [
+            252.73,
+            129.54
+          ],
+          "7": [
+            273.05,
+            127.0
+          ],
+          "9": [
+            273.05,
+            129.54
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "10": 0.0,
+          "8": 0.0,
+          "5": 0.0,
+          "4": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "6": 0.0,
+          "7": 180.0,
+          "9": 180.0
+        },
+        "key": "OSL10326_LRA",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "DS6",
+        "value": "OSL10326-LRA",
+        "mpn": "OSL10326-LRA",
+        "manufacturer": "OptoSupply",
+        "fp": "DRC_Power:OSL10326_LRA_7x11_P2.00_W4.88",
+        "ds": "https://www.optosupply.com/uppic/2025822601151.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            340.36,
+            111.76
+          ],
+          "10": [
+            340.36,
+            114.3
+          ],
+          "8": [
+            340.36,
+            116.84
+          ],
+          "5": [
+            340.36,
+            119.38
+          ],
+          "4": [
+            340.36,
+            121.92
+          ],
+          "2": [
+            340.36,
+            124.46
+          ],
+          "3": [
+            340.36,
+            127.0
+          ],
+          "6": [
+            340.36,
+            129.54
+          ],
+          "7": [
+            360.68,
+            127.0
+          ],
+          "9": [
+            360.68,
+            129.54
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "10": 0.0,
+          "8": 0.0,
+          "5": 0.0,
+          "4": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "6": 0.0,
+          "7": 180.0,
+          "9": 180.0
+        },
+        "key": "OSL10326_LRA",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "DS7",
+        "value": "OSL10326-LRA",
+        "mpn": "OSL10326-LRA",
+        "manufacturer": "OptoSupply",
+        "fp": "DRC_Power:OSL10326_LRA_7x11_P2.00_W4.88",
+        "ds": "https://www.optosupply.com/uppic/2025822601151.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            165.1,
+            167.64
+          ],
+          "10": [
+            165.1,
+            170.18
+          ],
+          "8": [
+            165.1,
+            172.72
+          ],
+          "5": [
+            165.1,
+            175.26
+          ],
+          "4": [
+            165.1,
+            177.8
+          ],
+          "2": [
+            165.1,
+            180.34
+          ],
+          "3": [
+            165.1,
+            182.88
+          ],
+          "6": [
+            165.1,
+            185.42
+          ],
+          "7": [
+            185.42,
+            182.88
+          ],
+          "9": [
+            185.42,
+            185.42
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "10": 0.0,
+          "8": 0.0,
+          "5": 0.0,
+          "4": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "6": 0.0,
+          "7": 180.0,
+          "9": 180.0
+        },
+        "key": "OSL10326_LRA",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "DS8",
+        "value": "OSL10326-LRA",
+        "mpn": "OSL10326-LRA",
+        "manufacturer": "OptoSupply",
+        "fp": "DRC_Power:OSL10326_LRA_7x11_P2.00_W4.88",
+        "ds": "https://www.optosupply.com/uppic/2025822601151.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            252.73,
+            167.64
+          ],
+          "10": [
+            252.73,
+            170.18
+          ],
+          "8": [
+            252.73,
+            172.72
+          ],
+          "5": [
+            252.73,
+            175.26
+          ],
+          "4": [
+            252.73,
+            177.8
+          ],
+          "2": [
+            252.73,
+            180.34
+          ],
+          "3": [
+            252.73,
+            182.88
+          ],
+          "6": [
+            252.73,
+            185.42
+          ],
+          "7": [
+            273.05,
+            182.88
+          ],
+          "9": [
+            273.05,
+            185.42
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "10": 0.0,
+          "8": 0.0,
+          "5": 0.0,
+          "4": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "6": 0.0,
+          "7": 180.0,
+          "9": 180.0
+        },
+        "key": "OSL10326_LRA",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "DS9",
+        "value": "OSL10326-LRA",
+        "mpn": "OSL10326-LRA",
+        "manufacturer": "OptoSupply",
+        "fp": "DRC_Power:OSL10326_LRA_7x11_P2.00_W4.88",
+        "ds": "https://www.optosupply.com/uppic/2025822601151.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            340.36,
+            167.64
+          ],
+          "10": [
+            340.36,
+            170.18
+          ],
+          "8": [
+            340.36,
+            172.72
+          ],
+          "5": [
+            340.36,
+            175.26
+          ],
+          "4": [
+            340.36,
+            177.8
+          ],
+          "2": [
+            340.36,
+            180.34
+          ],
+          "3": [
+            340.36,
+            182.88
+          ],
+          "6": [
+            340.36,
+            185.42
+          ],
+          "7": [
+            360.68,
+            182.88
+          ],
+          "9": [
+            360.68,
+            185.42
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "10": 0.0,
+          "8": 0.0,
+          "5": 0.0,
+          "4": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "6": 0.0,
+          "7": 180.0,
+          "9": 180.0
+        },
+        "key": "OSL10326_LRA",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "DS10",
+        "value": "OSL10326-LRA",
+        "mpn": "OSL10326-LRA",
+        "manufacturer": "OptoSupply",
+        "fp": "DRC_Power:OSL10326_LRA_7x11_P2.00_W4.88",
+        "ds": "https://www.optosupply.com/uppic/2025822601151.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            165.1,
+            223.52
+          ],
+          "10": [
+            165.1,
+            226.06
+          ],
+          "8": [
+            165.1,
+            228.6
+          ],
+          "5": [
+            165.1,
+            231.14
+          ],
+          "4": [
+            165.1,
+            233.68
+          ],
+          "2": [
+            165.1,
+            236.22
+          ],
+          "3": [
+            165.1,
+            238.76
+          ],
+          "6": [
+            165.1,
+            241.3
+          ],
+          "7": [
+            185.42,
+            238.76
+          ],
+          "9": [
+            185.42,
+            241.3
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "10": 0.0,
+          "8": 0.0,
+          "5": 0.0,
+          "4": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "6": 0.0,
+          "7": 180.0,
+          "9": 180.0
+        },
+        "key": "OSL10326_LRA",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "DS11",
+        "value": "OSL10326-LRA",
+        "mpn": "OSL10326-LRA",
+        "manufacturer": "OptoSupply",
+        "fp": "DRC_Power:OSL10326_LRA_7x11_P2.00_W4.88",
+        "ds": "https://www.optosupply.com/uppic/2025822601151.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            252.73,
+            223.52
+          ],
+          "10": [
+            252.73,
+            226.06
+          ],
+          "8": [
+            252.73,
+            228.6
+          ],
+          "5": [
+            252.73,
+            231.14
+          ],
+          "4": [
+            252.73,
+            233.68
+          ],
+          "2": [
+            252.73,
+            236.22
+          ],
+          "3": [
+            252.73,
+            238.76
+          ],
+          "6": [
+            252.73,
+            241.3
+          ],
+          "7": [
+            273.05,
+            238.76
+          ],
+          "9": [
+            273.05,
+            241.3
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "10": 0.0,
+          "8": 0.0,
+          "5": 0.0,
+          "4": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "6": 0.0,
+          "7": 180.0,
+          "9": 180.0
+        },
+        "key": "OSL10326_LRA",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      },
+      {
+        "ref": "DS12",
+        "value": "OSL10326-LRA",
+        "mpn": "OSL10326-LRA",
+        "manufacturer": "OptoSupply",
+        "fp": "DRC_Power:OSL10326_LRA_7x11_P2.00_W4.88",
+        "ds": "https://www.optosupply.com/uppic/2025822601151.pdf",
+        "dnp": false,
+        "assembly": "Hand/THT",
+        "sheet": "10_Display.kicad_sch",
+        "pins": {
+          "1": [
+            340.36,
+            223.52
+          ],
+          "10": [
+            340.36,
+            226.06
+          ],
+          "8": [
+            340.36,
+            228.6
+          ],
+          "5": [
+            340.36,
+            231.14
+          ],
+          "4": [
+            340.36,
+            233.68
+          ],
+          "2": [
+            340.36,
+            236.22
+          ],
+          "3": [
+            340.36,
+            238.76
+          ],
+          "6": [
+            340.36,
+            241.3
+          ],
+          "7": [
+            360.68,
+            238.76
+          ],
+          "9": [
+            360.68,
+            241.3
+          ]
+        },
+        "angles": {
+          "1": 0.0,
+          "10": 0.0,
+          "8": 0.0,
+          "5": 0.0,
+          "4": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "6": 0.0,
+          "7": 180.0,
+          "9": 180.0
+        },
+        "key": "OSL10326_LRA",
+        "unit": 1,
+        "rating": "",
+        "lcsc": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,676 @@
+
+PAGE 1
+1
+IPT008N06NM5LF
+ Rev.2.1,2022-09-19Final Data Sheet
+Tab
+12 3 4 5
+8
+6 7
+TOLL
+Drain
+Tab
+Gate
+Pin 1
+Source
+Pin 2-8
+MOSFET
+OptiMOSTM5LinearFET,60V
+Features
+•Idealforhot-swapande-fuseapplications
+•Verylowon-resistanceRDS(on)
+•WidesafeoperatingareaSOA
+•N-channel,normallevel
+•100%avalanchetested
+•Pb-freeplating;RoHScompliant
+•Halogen-freeaccordingtoIEC61249-2-21
+Productvalidation
+FullyqualifiedaccordingtoJEDECforIndustrialApplications
+Table1KeyPerformanceParameters
+Parameter Value Unit
+VDS 60 V
+RDS(on),max 0.8 mΩ
+ID 454 A
+Ipulse(VDS=30V,tp=10
+ms) 16 A
+Type/OrderingCode Package Marking RelatedLinks
+IPT008N06NM5LF PG-HSOF-8 008N06LF -
+
+PAGE 2
+2
+OptiMOSTM5LinearFET,60V
+IPT008N06NM5LF
+ Rev.2.1,2022-09-19Final Data Sheet
+TableofContents
+Description   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Maximum ratings   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+Thermal characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+Electrical characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+Electrical characteristics diagrams  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+Package Outlines  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+Revision History  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+Trademarks   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+Disclaimer   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+PAGE 3
+3
+OptiMOSTM5LinearFET,60V
+IPT008N06NM5LF
+ Rev.2.1,2022-09-19Final Data Sheet
+1Maximumratings
+atTA=25°C,unlessotherwisespecified
+Table2Maximumratings
+Values
+Min. Typ. Max.
+Parameter Symbol Unit Note/TestCondition
+Continuous drain current1) ID
+-
+-
+-
+-
+-
+-
+454
+287
+48
+A
+VGS=10V,TC=25°C
+VGS=10V,TC=100°C
+VGS=10V,TA=25°C,RthJA=40°C/W2)
+Pulsed drain current3) ID,pulse - - 1816 A TC=25°C
+Avalanche energy, single pulse4) EAS - - 909 mJ ID=150A,RGS=25Ω
+Gate source voltage VGS -20 - 20 V -
+Power dissipation Ptot
+-
+-
+-
+-
+278
+3.1 W TC=25°CTA=25°C,RthJA=40°C/W2)
+Operating and storage temperature Tj,Tstg -55 - 150 °C IEC climatic category; DIN IEC 68-1:55/150/56
+2Thermalcharacteristics
+Table3Thermalcharacteristics
+Values
+Min. Typ. Max.
+Parameter Symbol Unit Note/TestCondition
+Thermal resistance, junction - case RthJC - - 0.45 °C/W -
+Device on PCB,
+6 cm² cooling area2) RthJA - - 40 °C/W -
+Device on PCB,
+minimum footprint RthJA - - 62 °C/W -
+1) Rating refers to the product only with datasheet specified absolute maximum values, maintaining case temperature
+as specified. For other case temperatures please refer to Diagram 2. De-rating will be required based on the actual
+environmental conditions.
+2) Device on 40 mm x 40 mm x 1.5 mm epoxy PCB FR4 with 6 cm2 (one layer, 70 µm thick) copper area for drain
+connection. PCB is vertical in still air.
+3) See Diagram 3 for more detailed information
+4) See Diagram 13 for more detailed information
+
+PAGE 4
+4
+OptiMOSTM5LinearFET,60V
+IPT008N06NM5LF
+ Rev.2.1,2022-09-19Final Data Sheet
+3Electricalcharacteristics
+atTj=25°C,unlessotherwisespecified
+Table4Staticcharacteristics
+Values
+Min. Typ. Max.
+Parameter Symbol Unit Note/TestCondition
+Drain-source breakdown voltage V(BR)DSS 60 - - V VGS=0V,ID=1mA
+Gate threshold voltage VGS(th) 2.4 3.1 3.6 V VDS=VGS,ID=250µA
+Zero gate voltage drain current IDSS
+-
+-
+1
+10
+10
+100 µA VDS=60V,VGS=0V,Tj=25°CVDS=60V,VGS=0V,Tj=125°C
+Gate-source leakage current IGSS
+-
+-
+2
+-2
+5
+-5 µA VGS=20V,VDS=0VVGS=-10V,VDS=0V
+Drain-source on-state resistance RDS(on) - 0.67 0.8 mΩ VGS=10V,ID=150A
+Gate resistance RG - 70 - Ω -
+Transconductance gfs - 88 - S |VDS|≥2|ID|RDS(on)max,ID=150A
+Table5Dynamiccharacteristics
+Values
+Min. Typ. Max.
+Parameter Symbol Unit Note/TestCondition
+Input capacitance1) Ciss - 750 980 pF VGS=0V,VDS=30V,f=1MHz
+Output capacitance1) Coss - 2900 3800 pF VGS=0V,VDS=30V,f=1MHz
+Reverse transfer capacitance1) Crss - 36 63 pF VGS=0V,VDS=30V,f=1MHz
+Turn-on delay time td(on) - 7 - ns VDD=30V,VGS=10V,ID=75A,RG,ext=1.6Ω
+Rise time tr - 26 - ns VDD=30V,VGS=10V,ID=75A,RG,ext=1.6Ω
+Turn-off delay time td(off) - 63 - ns VDD=30V,VGS=10V,ID=75A,RG,ext=1.6Ω
+Fall time tf - 77 - ns VDD=30V,VGS=10V,ID=75A,RG,ext=1.6Ω
+Table6Gatechargecharacteristics2)
+Values
+Min. Typ. Max.
+Parameter Symbol Unit Note/TestCondition
+Gate to source charge Qgs - 6 - nC VDD=30V,ID=150A,VGS=0to10V
+Gate to drain charge Qgd - 155 - nC VDD=30V,ID=150A,VGS=0to10V
+Gate charge total Qg - 185 - nC VDD=30V,ID=150A,VGS=0to10V
+Gate plateau voltage Vplateau - 8.7 - V VDD=30V,ID=150A,VGS=0to10V
+Output charge Qoss - 199 - nC VDS=30V,VGS=0V
+1) Defined by design. Not subject to production test.
+2) See ″Gate charge waveforms″ for parameter definition
+
+PAGE 5
+5
+OptiMOSTM5LinearFET,60V
+IPT008N06NM5LF
+ Rev.2.1,2022-09-19Final Data Sheet
+Table7Reversediode
+Values
+Min. Typ. Max.
+Parameter Symbol Unit Note/TestCondition
+Diode continuous forward current IS - - 257 A TC=25°C
+Diode pulse current IS,pulse - - 1816 A TC=25°C
+Diode forward voltage VSD - 0.88 1 V VGS=0V,IF=150A,Tj=25°C
+Reverse recovery time1) trr - 44 88 ns VR=30V,IF=150A,diF/dt=100A/µs
+Reverse recovery charge1) Qrr - 198 396 nC VR=30V,IF=150A,diF/dt=100A/µs
+1) Defined by design. Not subject to production test.
+
+PAGE 6
+6
+OptiMOSTM5LinearFET,60V
+IPT008N06NM5LF
+ Rev.2.1,2022-09-19Final Data Sheet
+4Electricalcharacteristicsdiagrams
+Diagram1:Powerdissipation
+TC[°C]
+Ptot[W]
+0
+ 25
+ 50
+ 75
+ 100
+ 125
+ 150
+0
+25
+50
+75
+100
+125
+150
+175
+200
+225
+250
+275
+300
+Ptot=f(TC)
+Diagram2:Draincurrent
+TC[°C]
+ID[A]
+0
+ 25
+ 50
+ 75
+ 100
+ 125
+ 150
+0
+25
+50
+75
+100
+125
+150
+175
+200
+225
+250
+275
+300
+325
+350
+375
+400
+425
+450
+475
+500
+ID=f(TC);VGS≥10V
+Diagram3:Safeoperatingarea
+VDS[V]
+ID[A]
+10-1
+ 100
+ 101
+ 102
+100
+101
+102
+103
+104
+1 µs
+10 µs
+100 µs
+1 ms
+10 ms
+DC
+ID=f(VDS);TC=25°C;D=0;parameter:tp
+Diagram4:Max.transientthermalimpedance
+tp[s]
+ZthJC[K/W]
+10-6
+ 10-5
+ 10-4
+ 10-3
+ 10-2
+ 10-1
+ 100
+10-3
+10-2
+10-1
+100
+101
+single pulse
+0.01
+0.02
+0.05
+0.1
+0.2
+0.5
+ZthJC=f(tp);parameter:D=tp/T
+
+PAGE 7
+7
+OptiMOSTM5LinearFET,60V
+IPT008N06NM5LF
+ Rev.2.1,2022-09-19Final Data Sheet
+Diagram5:Typ.outputcharacteristics
+VDS[V]
+ID[A]
+0.0
+ 0.5
+ 1.0
+ 1.5
+ 2.0
+ 2.5
+ 3.0
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+8 V
+10 V
+6 V
+5.5 V
+5 V
+4.5 V
+ID=f(VDS),Tj=25°C;parameter:VGS
+Diagram6:Typ.drain-sourceonresistance
+ID[A]
+RDS(on)[mΩ]
+0
+ 50
+ 100
+ 150
+ 200
+ 250
+ 300
+ 350
+ 400
+ 450
+ 500
+0.50
+0.55
+0.60
+0.65
+0.70
+0.75
+0.80
+0.85
+0.90
+8 V
+10 V
+RDS(on)=f(ID),Tj=25°C;parameter:VGS
+Diagram7:Typ.transfercharacteristics
+VGS[V]
+ID[A]
+0
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+0
+40
+80
+120
+160
+200
+240
+280
+150 °C
+25 °C
+ID=f(VGS),VDS=10V;parameter:Tj
+Diagram8:Typ.drain-sourceonresistance
+VGS[V]
+RDS(on)[mΩ]
+0
+ 2
+ 4
+ 6
+ 8
+ 10
+ 12
+ 14
+ 16
+ 18
+ 20
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+1.6
+150 °C
+25 °C
+RDS(on)=f(VGS),ID=150A;parameter:Tj
+
+PAGE 8
+8
+OptiMOSTM5LinearFET,60V
+IPT008N06NM5LF
+ Rev.2.1,2022-09-19Final Data Sheet
+Diagram9:Normalizeddrain-sourceonresistance
+Tj[°C]
+RDS(on)(normalizedto25°C)
+-75
+ -50
+ -25
+ 0
+ 25
+ 50
+ 75
+ 100
+ 125
+ 150
+0.6
+0.8
+1.0
+1.2
+1.4
+1.6
+1.8
+RDS(on)=f(Tj),ID=150A,VGS=10V
+Diagram10:Typ.gatethresholdvoltage
+Tj[°C]
+VGS(th)[V]
+-75
+ -50
+ -25
+ 0
+ 25
+ 50
+ 75
+ 100
+ 125
+ 150
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+2500 µA
+250 µA
+VGS(th=f(Tj),VGS=VDS;parameter:ID
+Diagram11:Typ.capacitances
+VDS[V]
+C[pF]
+0
+ 10
+ 20
+ 30
+ 40
+ 50
+ 60
+101
+102
+103
+104
+105
+Coss
+Ciss
+Crss
+C=f(VDS);VGS=0V;f=1MHz
+Diagram12:Forwardcharacteristicsofreversediode
+VSD[V]
+IF[A]
+0.2
+ 0.4
+ 0.6
+ 0.8
+ 1.0
+ 1.2
+ 1.4
+ 1.6
+ 1.8
+ 2.0
+100
+101
+102
+103
+104
+25 °C
+25 °C, max
+150 °C
+150 °C, max
+IF=f(VSD);parameter:Tj
+
+PAGE 9
+9
+OptiMOSTM5LinearFET,60V
+IPT008N06NM5LF
+ Rev.2.1,2022-09-19Final Data Sheet
+Diagram13:Avalanchecharacteristics
+tAV[µs]
+IAV[A]
+100
+ 101
+ 102
+ 103
+100
+101
+102
+103
+25 °C
+100 °C
+125 °C
+IAS=f(tAV);RGS=25Ω;parameter:Tj,start
+Diagram14:Typ.gatecharge
+Qgate[nC]
+VGS[V]
+0
+ 25
+ 50
+ 75
+ 100
+ 125
+ 150
+ 175
+ 200
+ 225
+ 250
+0
+2
+4
+6
+8
+10
+12
+30V
+12V
+48V
+VGS=f(Qgate),ID=150Apulsed,Tj=25°C;parameter:VDD
+Diagram15:Drain-sourcebreakdownvoltage
+Tj[°C]
+VBR(DSS)[V]
+-75
+ -50
+ -25
+ 0
+ 25
+ 50
+ 75
+ 100
+ 125
+ 150
+57
+58
+59
+60
+61
+62
+63
+64
+65
+VBR(DSS)=f(Tj);ID=1mA
+Diagram Gate charge waveforms
+
+
+PAGE 10
+10
+OptiMOSTM5LinearFET,60V
+IPT008N06NM5LF
+ Rev.2.1,2022-09-19Final Data Sheet
+5PackageOutlines
+Z8B00169619
+REVISION
+ISSUE DATE
+EUROPEAN PROJECTION
+02
+20-02-2014
+DOCUMENT NO.
+E5
+E4
+K1
+e
+MILLIMETERS
+A
+DIM MIN MAX INCHESMIN MAX
+b1
+c
+D
+D2
+E
+E1
+N
+L
+2.20 2.40 0.087 0.094
+9.70
+0.40
+10.28
+9.70
+1.60
+9.90
+0.60
+10.58
+10.10
+2.10
+0.382
+0.016
+0.405
+0.382
+0.063
+0.390
+0.024
+0.416
+0.398
+0.083
+8 8
+1.20 (BSC) 0.047 (BSC)
+b 0.70 0.90 0.028 0.035
+1) partially covered with Mold Flash
+b2 0.42 0.50 0.017 0.020
+H
+H1
+11.48 11.88 0.452 0.468
+H2 7.15 0.281
+H3 3.59 0.141
+H4 3.26 0.128
+L1 0.70 0.028
+3.30 0.130
+7.50 0.295
+8.50 0.335
+9.46 0.372
+6.55 6.75 0.258 0.266
+4.18 0.165
+L4 1.00 1.30 0.039 0.051
+L2 0.60 0.024
+2
+SCALE
+0
+4mm
+0
+2
+Figure1OutlinePG-HSOF-8,dimensionsinmm/inches
+
+PAGE 11
+11
+OptiMOSTM5LinearFET,60V
+IPT008N06NM5LF
+ Rev.2.1,2022-09-19Final Data Sheet
+RevisionHistory
+IPT008N06NM5LF
+Revision:2022-09-19,Rev.2.1
+Previous Revision
+Revision Date Subjects (major changes since last revision)
+2.0 2021-08-21 Release of final version
+2.1 2022-09-19 Update Diagram 7
+Trademarks
+Allreferencedproductorservicenamesandtrademarksarethepropertyoftheirrespectiveowners.
+WeListentoYourComments
+Anyinformationwithinthisdocumentthatyoufeeliswrong,unclearormissingatall?Yourfeedbackwillhelpustocontinuously
+improvethequalityofthisdocument.Pleasesendyourproposal(includingareferencetothisdocument)to:
+erratum@infineon.com
+Publishedby
+InfineonTechnologiesAG
+81726München,Germany
+©2022InfineonTechnologiesAG
+AllRightsReserved.
+LegalDisclaimer
+Theinformationgiveninthisdocumentshallinnoeventberegardedasaguaranteeofconditionsorcharacteristics
+(“Beschaffenheitsgarantie”).
+Withrespecttoanyexamples,hintsoranytypicalvaluesstatedhereinand/oranyinformationregardingtheapplicationofthe
+product,InfineonTechnologiesherebydisclaimsanyandallwarrantiesandliabilitiesofanykind,includingwithoutlimitation
+warrantiesofnon-infringementofintellectualpropertyrightsofanythirdparty.
+Inaddition,anyinformationgiveninthisdocumentissubjecttocustomer’scompliancewithitsobligationsstatedinthis
+documentandanyapplicablelegalrequirements,normsandstandardsconcerningcustomer’sproductsandanyuseofthe
+productofInfineonTechnologiesincustomer’sapplications.
+Thedatacontainedinthisdocumentisexclusivelyintendedfortechnicallytrainedstaff.Itistheresponsibilityofcustomer’s
+technicaldepartmentstoevaluatethesuitabilityoftheproductfortheintendedapplicationandthecompletenessoftheproduct
+informationgiveninthisdocumentwithrespecttosuchapplication.
+Information
+Forfurtherinformationontechnology,deliverytermsandconditionsandpricespleasecontactyournearestInfineon
+TechnologiesOffice(www.infineon.com).
+Warnings
+Duetotechnicalrequirements,componentsmaycontaindangeroussubstances.Forinformationonthetypesinquestion,
+pleasecontactthenearestInfineonTechnologiesOffice.
+TheInfineonTechnologiescomponentdescribedinthisDataSheetmaybeusedinlife-supportdevicesorsystemsand/or
+automotive,aviationandaerospaceapplicationsorsystemsonlywiththeexpresswrittenapprovalofInfineonTechnologies,ifa
+failureofsuchcomponentscanreasonablybeexpectedtocausethefailureofthatlife-support,automotive,aviationand
+aerospacedeviceorsystemortoaffectthesafetyoreffectivenessofthatdeviceorsystem.Lifesupportdevicesorsystemsare
+intendedtobeimplantedinthehumanbodyortosupportand/ormaintainandsustainand/orprotecthumanlife.Iftheyfail,itis
+reasonabletoassumethatthehealthoftheuserorotherpersonsmaybeendangered.

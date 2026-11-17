@@ -1,0 +1,631 @@
+
+PAGE 1
+ LED Drive Control Circuit      TM1640 
+                                                             - 1 - 
+©Titan Micro Electronics                                                         www.titanmec.com 
+V1.0 
+I. Overview 
+ 
+TM1640 is a LED (Light Emitting Diode Display) drive control circuit integrating MCU 
+digital interface, digital latch, LED high voltage drive circuit, etc. The product has excellent 
+performance and reliable quality, and is mainly applied in displ ay drive for electronic scales 
+and other small home appliances. In addition, it adopts the SOP28 packaging mode. 
+ 
+II. Features 
+ 
+Ø Power CMOS technique 
+Ø Display mode (8 sections × 16 bits) supports common cathode digital tube output 
+Ø Brightness adjusting circuit (duty cycle adjustable among 8 levels) 
+Ø Dual-line serial interface (CLK, DIN) 
+Ø Mode of oscillation: built-in RC oscillation (450KHz+5%) 
+Ø Built-in power-on reset circuit 
+Ø Built-in auto blanking circuit 
+Ø Mode of packaging: SOP28 
+ 
+III.  Definitions of the pins 
+ 
+ 
+
+PAGE 2
+ LED Drive Control Circuit      TM1640 
+                                                             - 2 - 
+©Titan Micro Electronics                                                         www.titanmec.com 
+V1.0 
+IV.  Functions of the pins 
+Sign Name No. Description 
+DIN Data input 7 
+Serial data input; input data changed at low level 
+and transferred at high level of SCLK 
+SCLK Clock input 8 Input data at rising edge 
+SG1-SG8 
+Output 
+(section) 
+9-16 Section output, P tube open drain output 
+GRID1-GRID11 
+GRID12-GRID16 
+Output (bit) 
+18-28 
+1-5 
+Bit output, N tube open drain output 
+VDD 
+Logic power 
+supply 
+17 5V±10% 
+VSS 
+Logic 
+grounding 
+6 Connect to system grounding 
+ 
+ 
+V. Electrical parameters 
+Limit parameters (Ta = 25℃, Vss = 0 V) 
+Parameters Sign Scope Unit 
+Logic power voltage VDD -0.5 to +7.0 V 
+Logic input voltage VI1 -0.5 to VDD + 0.5 V 
+LED SEG drive output current IO1 -200 mA 
+LED GRID drive output current IO2 +20 mA 
+Power consumption PD 400 mW 
+Work temperature Topt -40 to +85 ℃ 
+Storage temperature Tstg -65 to +150 ℃ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 3
+ LED Drive Control Circuit      TM1640 
+                                                             - 3 - 
+©Titan Micro Electronics                                                         www.titanmec.com 
+V1.0 
+Normal work condition (Ta = -40 to +85℃, Vss = 0 V) 
+Parameters Sign Min. Typical Max. Unit Test condition 
+Logic power voltage VDD  5  V - 
+High level input voltage VIH 0.7 VDD - VDD V - 
+Low level input voltage VIL 0 - 0.3 VDD V - 
+ 
+Electrical characteristics (Ta = -40 to +85℃, VDD = 4.5 to 5.5 V, Vss = 0 V) 
+Parameters Sign Min. Typical Max. Unit Test condition 
+High level output 
+current 
+Ioh1 -20 -25 -40 mA GRID1~GRID16， 
+Vo = vdd-2V 
+Ioh2 -20 -30 -50 mA GRID1~GRID16， 
+Vo = vdd-3V 
+Low level output 
+current 
+IOL1 80 140 - mA SEG1~SEG8 
+Vo=0.3V 
+Low level output 
+current Idout 4 - - mA VO = 0.4V，dout 
+High level output 
+current allowance 
+Itolsg - - 5 % VO = VDD – 3V， 
+GRID1～GRID16 
+Input value II - - ±1 µA VI = VDD / VSS 
+High level input 
+voltage VIH 0.7 VDD -  V CLK，DIN 
+Low level input 
+voltage VIL - - 0.3 VDD V CLK，DIN 
+Lagging voltage VH - 0.35 - V CLK，DIN 
+Dynamic current 
+consumption IDDdyn - - 5 mA No load and display off 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 4
+ LED Drive Control Circuit      TM1640 
+                                                             - 4 - 
+©Titan Micro Electronics                                                         www.titanmec.com 
+V1.0 
+Switching characteristics (Ta = -40 to +85℃, VDD = 4.5 to 5.5 V) 
+Parameters Sign Min. Typical Max. Unit Test condition 
+Oscillation 
+frequency fosc - 450 - KHz  
+Transmission time 
+delay tPLZ - - 300 ns CLK → DIO 
+Transmission time 
+tPZL - - 100 ns CLK → DIO 
+CL = 15pF, RL = 10K 
+Rising time 
+TTZH 1 - - 2 µs 
+CL = 
+GRID1 to 
+GRID16 
+Rising time 
+TTZH 2 - - 0.5 µs 
+CL = 
+300p F 
+SEG1 to 
+SEG8 
+Dropping time TTHZ - - 120 µs CL = 300pF，Segn， 
+Gridn 
+Max. clock 
+frequency Fmax 1 - - MHz Duty ratio 50% 
+Input capacitance CI - - 15 pF - 
+ 
+Time sequence characteristics (Ta = -40 to +85℃, VDD = 4.5 to 5.5 V) 
+Parameters Sign Min. Typical Max. Unit Test condition 
+Clock pulse width PWCLK 400 - - ns - 
+Strobe pulse width PWSTB 1 - - µs - 
+Data setup time tSETUP 100 - - ns - 
+Data hold time tHOLD 100 - - ns - 
+Waiting time tWAIT 1 - - µs CLK↑→CLK↓ 
+ 
+ 
+VI. Description the interfaces 
+Data in microprocessor communicate with TM1640 through the bus interface. During 
+data input, if CLK is at high level, the signal on DIN shall remain unchang ed; it can only be 
+changed if the clock signal on CLK is at low level. Low level of data inputs are always 
+transmitted before high level. The starting condition of data input is: when CLK is high, the 
+
+PAGE 5
+ LED Drive Control Circuit      TM1640 
+                                                             - 5 - 
+©Titan Micro Electronics                                                         www.titanmec.com 
+V1.0 
+DIN becomes low from high; the ending condition is: whe n CLK is high, the DIN becomes 
+high from low.  
+Transmission process of command data is shown in the following figure: 
+bit0 bit1 bit2 bit3 bit4 bit5 bit6 bit7
+Start End
+SCLK
+DIN
+ 
+Figure 2: Command data transmission format 
+ 
+Writing SRAM data address auto + 1 mode: 
+sta rt end
+C o m m an d1 C o m m an d2 da ta 1 da ta N C o m m an d3
+end endsta rt sta rt  
+Figure 3: Format of auto address writing data  
+Command1: set data 
+Command2: set address 
+Data1-N: transmit display data 
+Command3: control display 
+ 
+Writing SRAM data fixed address mode: 
+sta rt
+Co m m and 1 Co m m and 2 data1 Co m m and 2 dataN Co m m and 3
+endendend sta rt sta rt
+Figure 4: Format of fixed address writing data 
+Command1: set data 
+Command2: set address 
+Data1-N: transmit display data 
+Command3: control display 
+ 
+ 
+VII. Data command 
+Commands are used to set display mode and status of LED driver. 
+When START command becomes valid, the first byte input by DIN is taken as the first 
+command. Through decoding, the highest B7 and B6 bits are adopted to  distinguish different 
+commands. 
+
+PAGE 6
+ LED Drive Control Circuit      TM1640 
+                                                             - 6 - 
+©Titan Micro Electronics                                                         www.titanmec.com 
+V1.0 
+B7 B6 Command 
+0 1 Data command setting 
+1 0 Display control command setting 
+1 1 Address command setting 
+Table 7: Command setting classification 
+ 
+If END becomes valid during transmission of command or data, the serial 
+communication will be initialized and the commands or data under transmission will become 
+invalid (those completed transmission will remain valid). 
+Data command setting: 
+B7 B6 B5 B4 B3 B2 B1 B0 Description 
+0 1 
+Fill in 0 for 
+items not 
+applicable 
+ 0 
+Fill in 0 for 
+items not 
+applicable 
+Address auto + 1 
+0 1  1 Fixed address 
+0 1 0  Normal mode 
+0 1 1  Testing mode (internal use) 
+ 
+Address command setting: 
+B7 B6 B5 B4 B3 B2 B1 B0 Display address 
+1 1 
+Fill in 0 
+for items 
+not 
+applicable 
+0 0 0 0 00H 
+1 1 0 0 0 1 01H 
+1 1 0 0 1 0 02H 
+1 1 0 0 1 1 03H 
+1 1 0 1 0 0 04H 
+1 1 0 1 0 1 05H 
+1 1 0 1 1 0 06H 
+1 1 0 1 1 1 07H 
+1 1 1 0 0 0 08H 
+1 1 1 0 0 1 09H 
+1 1 1 0 1 0 0AH 
+1 1 1 0 1 1 0BH 
+1 1 1 1 0 0 0CH 
+1 1 1 1 0 1 0DH 
+1 1 1 1 1 0 0EH 
+1 1 1 1 1 1 0FH 
+Table 8: Display address command setting 
+When power-on, the default address is set as 00H. 
+ 
+ 
+
+PAGE 7
+ LED Drive Control Circuit      TM1640 
+                                                             - 7 - 
+©Titan Micro Electronics                                                         www.titanmec.com 
+V1.0 
+The relationships between display data, chip pins and display addresses are shown in the 
+following table: 
+SEG8 SEG7 SEG6 SEG5 SEG4 SEG3 SEG2 SEG1 
+B7 B6 B5 B4 B3 B2 B1 B0 
+Display memory address 00H GRID1 
+Display memory address 01H GRID2 
+Display memory address 02H GRID3 
+Display memory address 03H GRID4 
+Display memory address 04H GRID5 
+Display memory address 05H GRID6 
+Display memory address 06H GRID7 
+Display memory address 07H GRID8 
+Display memory address 08H GRID9 
+Display memory address 09H GRID10 
+Display memory address 0AH GRID11 
+Display memory address 0BH GRID12 
+Display memory address 0CH GRID13 
+Display memory address 0DH GRID14 
+Display memory address 0EH GRID15 
+Display memory address 0FH GRID16 
+Table 9: Relationship between display data, addresses and chip pins 
+ 
+Display control: 
+MSB                                  LSB 
+B7 B6 B5 B4 B3 B2 B1 B0 Function Description 
+1 0 
+Fill in 0 for 
+items not 
+applicable 
+1 0 0 0 
+Extinction 
+Number setting 
+(brightness 
+setting) 
+Set pulse width to 1/16 
+1 0 1 0 0 1 Set pulse width to 2/16 
+1 0 1 0 1 0 Set pulse width to 4/16 
+1 0 1 0 1 1 Set pulse width to 10/16 
+1 0 1 1 0 0 Set pulse width to 11/16 
+1 0 1 1 0 1 Set pulse width to 12/16 
+1 0 1 1 1 0 Set pulse width to 13/16 
+1 0 1 1 1 1 Set pulse width to 14/16 
+1 0 0 X X X Display switch 
+setting 
+Display off 
+1 0 1 X X X Display on 
+Table 10: Display mode control command 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 8
+ LED Drive Control Circuit      TM1640 
+                                                             - 8 - 
+©Titan Micro Electronics                                                         www.titanmec.com 
+V1.0 
+VIII.  Display cycle 
+ 
+ 
+Figure 7: Data display cycle 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 9
+ LED Drive Control Circuit      TM1640 
+                                                             - 9 - 
+©Titan Micro Electronics                                                         www.titanmec.com 
+V1.0 
+IX. Hardware connection diagram  
+   
+Digital tubes shown in the diagram are common cathode digital tubes: 
+GR ID121
+GR ID132
+GR ID143
+GR ID154
+GR ID165
+VS S6
+DIN7
+S CL K8
+S EG 19
+S EG 210
+S EG 311
+S EG 412
+S EG 513
+S EG 614 SEG 7 15SEG 8 16VD D 17GR ID1 18GR ID2 19GR ID3 20GR ID4 21GR ID5 22GR ID6 23GR ID7 24GR ID8 25GR ID9 26GR ID10 27GR ID11 28
+U1
+TM 1640
+a
+bf
+c
+g
+d
+e
+DPY1
+2
+3
+4
+5
+6
+7
+a
+b
+c
+d
+e
+f
+g
+8 dp
+dp
+LE D1
+a
+bf
+c
+g
+d
+e
+DPY1
+2
+3
+4
+5
+6
+7
+a
+b
+c
+d
+e
+f
+g
+8 dp
+dp
+LE D3
+a
+bf
+c
+g
+d
+e
+DPY1
+2
+3
+4
+5
+6
+7
+a
+b
+c
+d
+e
+f
+g
+8 dp
+dp
+LE D5
+a
+bf
+c
+g
+d
+e
+DPY1
+2
+3
+4
+5
+6
+7
+a
+b
+c
+d
+e
+f
+g
+8 dp
+dp
+LE D2
+a
+bf
+c
+g
+d
+e
+DPY1
+2
+3
+4
+5
+6
+7
+a
+b
+c
+d
+e
+f
+g
+8 dp
+dp
+LE D4
+a
+bf
+c
+g
+d
+e
+DPY1
+2
+3
+4
+5
+6
+7
+a
+b
+c
+d
+e
+f
+g
+8 dp
+dp
+LE D6
+S EG 1
+S EG 2
+S EG 3
+S EG 4
+S EG 5
+S EG 6
+S EG 7
+S EG 8
+S EG 1
+S EG 2
+S EG 3
+S EG 4
+S EG 5
+S EG 6
+S EG 7
+S EG 8
+SEG 1
+SEG 2
+SEG 3
+SEG 4
+SEG 5
+SEG 6
+SEG 7
+SEG 8
+SEG 1
+SEG 2
+SEG 3
+SEG 4
+SEG 5
+SEG 6
+SEG 7
+SEG 8
+SEG 1
+SEG 2
+SEG 3
+SEG 4
+SEG 5
+SEG 6
+SEG 7
+SEG 8
+SEG 1
+SEG 2
+SEG 3
+SEG 4
+SEG 5
+SEG 6
+SEG 7
+SEG 8
+SEG 1
+SEG 2
+SEG 3
+SEG 4
+SEG 5
+SEG 6 SEG 7
+SEG 8
+GR ID1
+GR ID2
+GR ID3
+GR ID4
+GR ID5
+GR ID6
+GR ID1
+GR ID2
+GR ID3
+GR ID4
+GR ID5
+GR ID6
+VC C
+VC C
+C1
+104
++ C 2100 uF
+VC C
+R 1
+10K
+R2
+10K
+MC U_D O
+MC U_SC LK
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 10
+ LED Drive Control Circuit      TM1640 
+                                                             - 10 - 
+©Titan Micro Electronics                                                         www.titanmec.com 
+V1.0 
+X. IC Packing drawing: (SOP28)  
+ 
+ 
+ 
+ 
+ 
+l All specs and applications shown above subject to change without prior notice. 
+ 
+                                                                     
