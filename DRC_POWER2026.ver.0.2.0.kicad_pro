@@ -407,6 +407,19 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "fbc01400-f2e1-5f0b-ba21-0805191588c2",
+      "Root"
+    ],
+    [
+      "16dc8c8b-93f3-54d3-80b2-73c0ad2daf11",
+      "02 MCU / USB / ADC"
+    ],
+    [
+      "4e402585-c28f-5db2-84ac-601cda72c314",
+      "03 12桁表示"
+    ]
+  ],
   "text_variables": {}
 }
