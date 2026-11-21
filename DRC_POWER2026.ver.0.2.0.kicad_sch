@@ -7,7 +7,7 @@
   (title_block
     (title "Main Power / 3S, 6S, 5V and E-Stop")
     (date "2026-11-19")
-    (rev "1.2-sch6")
+    (rev "1.2-sch7")
     (company "DRC POWER2026")
     (comment 1 "Main power board / Spec Rev 1.2")
   )
@@ -691,39 +691,6 @@
       (embedded_fonts no)
     )
     (symbol
-      "DRC_Power:P5V_MCU"
-      (power)
-      (pin_numbers (hide yes))
-      (pin_names (offset 0) (hide yes))
-      (exclude_from_sim no)
-      (in_bom yes)
-      (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) (hide yes)))
-      (property "Value" "+5V_MCU" (at 0 3.556 0) (effects (font (size 1.27 1.27))))
-      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-      (property "Description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-      (property "ki_keywords" "global power" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-      (symbol
-        "P5V_MCU_0_1"
-        (polyline (pts (xy -0.762 1.27) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none)))
-        (polyline (pts (xy 0 2.54) (xy 0.762 1.27)) (stroke (width 0) (type default)) (fill (type none)))
-        (polyline (pts (xy 0 0) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none)))
-      )
-      (symbol
-        "P5V_MCU_1_1"
-        (pin
-          power_in
-          line
-          (at 0 0 90)
-          (length 0)
-          (name "+5V_MCU" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (embedded_fonts no)
-    )
-    (symbol
       "DRC_Power:PWR_FLAG"
       (power)
       (pin_numbers (hide yes))
@@ -878,6 +845,84 @@
       )
       (embedded_fonts no)
     )
+    (symbol
+      "power:+12V"
+      (power)
+      (pin_numbers (hide yes))
+      (pin_names (offset 0) (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "Value" "+12V" (at 0 3.556 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "Description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "ki_keywords" "global power" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (symbol
+        "+12V_0_1"
+        (polyline (pts (xy -0.762 1.27) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 2.54) (xy 0.762 1.27)) (stroke (width 0) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 0) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none)))
+      )
+      (symbol
+        "+12V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      )
+      (embedded_fonts no)
+    )
+    (symbol
+      "power:+24V"
+      (power)
+      (pin_numbers (hide yes))
+      (pin_names (offset 0) (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "Value" "+24V" (at 0 3.556 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "Description" "Power symbol creates a global label with name \"+24V\"" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "ki_keywords" "global power" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (symbol
+        "+24V_0_1"
+        (polyline (pts (xy -0.762 1.27) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 2.54) (xy 0.762 1.27)) (stroke (width 0) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 0) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none)))
+      )
+      (symbol
+        "+24V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      )
+      (embedded_fonts no)
+    )
+    (symbol
+      "power:+5V"
+      (power)
+      (pin_numbers (hide yes))
+      (pin_names (offset 0) (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "Value" "+5V" (at 0 3.556 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "Description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "ki_keywords" "global power" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+      (symbol
+        "+5V_0_1"
+        (polyline (pts (xy -0.762 1.27) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 2.54) (xy 0.762 1.27)) (stroke (width 0) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 0) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none)))
+      )
+      (symbol
+        "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      )
+      (embedded_fonts no)
+    )
   )
   (text
     "帰還はLM66100の手前"
@@ -936,7 +981,7 @@
     (uuid "bd10b53c-7788-5800-9d4f-1c1566744c40")
   )
   (text
-    "6S 主電源"
+    "6S 主電源（24V系）"
     (exclude_from_sim no)
     (at 148.59 15.24 0)
     (effects (font (size 1.82 1.82) (bold yes)) (justify left top))
@@ -957,7 +1002,7 @@
     (uuid "ebfe0158-3629-5748-9c70-193514724aa8")
   )
   (text
-    "3S 主電源"
+    "3S 主電源（12V系）"
     (exclude_from_sim no)
     (at 16.51 15.24 0)
     (effects (font (size 1.82 1.82) (bold yes)) (justify left top))
@@ -1221,7 +1266,7 @@
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.98 78.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
   )
   (global_label
-    "VIN_3S"
+    "+12V"
     (shape input)
     (at 38.1 63.5 180)
     (effects (font (size 1.1 1.1)) (justify right))
@@ -1244,16 +1289,22 @@
     (uuid "38727214-9a80-5755-b7b5-a02d534a7a56")
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 50.8 87.63 0) (effects (font (size 1.1 1.1)) (hide yes)))
   )
-  (global_label
-    "VIN_3S"
-    (shape passive)
-    (at 58.42 33.02 180)
-    (effects (font (size 1.1 1.1)) (justify right))
+  (symbol
+    (lib_id "power:+12V")
+    (at 58.42 33.02 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
     (uuid "79fc76b9-bb38-55c3-b70e-f1760915560e")
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 58.42 33.02 0) (effects (font (size 1.1 1.1)) (hide yes)))
+    (property "Reference" "#PWR1601" (at 58.42 33.02 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "+12V" (at 58.42 27.94 0) (effects (font (size 1.05 1.05))))
+    (pin "1" (uuid "4f77eba3-c94f-5a1c-97ac-7401e5234e6e"))
+    (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (reference "#PWR1601") (unit 1))))
   )
   (global_label
-    "VIN_3S"
+    "+12V"
     (shape input)
     (at 40.64 121.92 180)
     (effects (font (size 1.1 1.1)) (justify right))
@@ -1261,7 +1312,7 @@
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 40.64 121.92 0) (effects (font (size 1.1 1.1)) (hide yes)))
   )
   (global_label
-    "VIN_6S"
+    "+24V"
     (shape input)
     (at 170.18 63.5 180)
     (effects (font (size 1.1 1.1)) (justify right))
@@ -1269,7 +1320,7 @@
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 170.18 63.5 0) (effects (font (size 1.1 1.1)) (hide yes)))
   )
   (global_label
-    "VIN_3S"
+    "+12V"
     (shape input)
     (at 66.04 60.96 180)
     (effects (font (size 1.1 1.1)) (justify right))
@@ -1293,7 +1344,7 @@
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 99.06 33.02 0) (effects (font (size 1.1 1.1)) (hide yes)))
   )
   (global_label
-    "VIN_6S"
+    "+24V"
     (shape input)
     (at 55.88 121.92 0)
     (effects (font (size 1.1 1.1)) (justify left))
@@ -1341,7 +1392,7 @@
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 135.89 176.53 0) (effects (font (size 1.1 1.1)) (hide yes)))
   )
   (global_label
-    "VIN_3S"
+    "+12V"
     (shape input)
     (at 223.52 121.92 0)
     (effects (font (size 1.1 1.1)) (justify left))
@@ -1364,16 +1415,22 @@
     (uuid "ecbb7caa-3f65-5ace-8fd6-e7418ea70d37")
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 261.62 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
   )
-  (global_label
-    "VIN_6S"
-    (shape passive)
-    (at 190.5 33.02 180)
-    (effects (font (size 1.1 1.1)) (justify right))
+  (symbol
+    (lib_id "power:+24V")
+    (at 190.5 33.02 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
     (uuid "f1fa2cd6-6d97-5ec8-a233-1d6058cab286")
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 190.5 33.02 0) (effects (font (size 1.1 1.1)) (hide yes)))
+    (property "Reference" "#PWR1602" (at 190.5 33.02 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "+24V" (at 190.5 27.94 0) (effects (font (size 1.05 1.05))))
+    (pin "1" (uuid "583a42cc-6f5e-5b51-919d-66071ca4d083"))
+    (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (reference "#PWR1602") (unit 1))))
   )
   (global_label
-    "VIN_6S"
+    "+24V"
     (shape input)
     (at 198.12 60.96 180)
     (effects (font (size 1.1 1.1)) (justify right))
@@ -1576,7 +1633,7 @@
     (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (reference "C13") (unit 1))))
   )
   (symbol
-    (lib_id "DRC_Power:P5V_MCU")
+    (lib_id "power:+5V")
     (at 113.03 73.66 0)
     (unit 1)
     (exclude_from_sim no)
@@ -1585,7 +1642,7 @@
     (dnp no)
     (uuid "17841822-5684-5699-abfc-e0321484a891")
     (property "Reference" "#PWR1012" (at 113.03 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    (property "Value" "+5V_MCU" (at 113.03 68.58 0) (effects (font (size 1.04 1.04))))
+    (property "Value" "+5V" (at 113.03 68.58 0) (effects (font (size 1.04 1.04))))
     (property "Footprint" "" (at 113.03 73.66 0) (effects (font (size 1.27 1.27))))
     (property "Datasheet" "" (at 113.03 73.66 0) (effects (font (size 1.27 1.27))))
     (property "Description" "" (at 113.03 73.66 0) (effects (font (size 1.27 1.27))))
@@ -2410,7 +2467,7 @@
     (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (reference "#PWR1036") (unit 1))))
   )
   (symbol
-    (lib_id "DRC_Power:P5V_MCU")
+    (lib_id "power:+5V")
     (at 245.11 73.66 0)
     (unit 1)
     (exclude_from_sim no)
@@ -2419,7 +2476,7 @@
     (dnp no)
     (uuid "66f18575-eb68-5d2a-9c04-d1d9a1594d22")
     (property "Reference" "#PWR1027" (at 245.11 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    (property "Value" "+5V_MCU" (at 245.11 68.58 0) (effects (font (size 1.04 1.04))))
+    (property "Value" "+5V" (at 245.11 68.58 0) (effects (font (size 1.04 1.04))))
     (property "Footprint" "" (at 245.11 73.66 0) (effects (font (size 1.27 1.27))))
     (property "Datasheet" "" (at 245.11 73.66 0) (effects (font (size 1.27 1.27))))
     (property "Description" "" (at 245.11 73.66 0) (effects (font (size 1.27 1.27))))
@@ -2972,7 +3029,7 @@
     (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (reference "C24") (unit 1))))
   )
   (symbol
-    (lib_id "DRC_Power:P5V_MCU")
+    (lib_id "power:+5V")
     (at 271.78 121.92 0)
     (unit 1)
     (exclude_from_sim no)
@@ -2981,7 +3038,7 @@
     (dnp no)
     (uuid "a75db170-5a0b-5bdf-a247-8b7332e4cbe9")
     (property "Reference" "#PWR1042" (at 271.78 121.92 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    (property "Value" "+5V_MCU" (at 271.78 116.84 0) (effects (font (size 1.04 1.04))))
+    (property "Value" "+5V" (at 271.78 116.84 0) (effects (font (size 1.04 1.04))))
     (property "Footprint" "" (at 271.78 121.92 0) (effects (font (size 1.27 1.27))))
     (property "Datasheet" "" (at 271.78 121.92 0) (effects (font (size 1.27 1.27))))
     (property "Description" "" (at 271.78 121.92 0) (effects (font (size 1.27 1.27))))
@@ -3012,7 +3069,7 @@
     (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (reference "R8") (unit 1))))
   )
   (symbol
-    (lib_id "DRC_Power:P5V_MCU")
+    (lib_id "power:+5V")
     (at 205.74 146.05 0)
     (unit 1)
     (exclude_from_sim no)
@@ -3021,7 +3078,7 @@
     (dnp no)
     (uuid "b2c7664a-d0b8-53a8-ae35-5409dd958d2f")
     (property "Reference" "#PWR1033" (at 205.74 146.05 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    (property "Value" "+5V_MCU" (at 205.74 140.97 0) (effects (font (size 1.04 1.04))))
+    (property "Value" "+5V" (at 205.74 140.97 0) (effects (font (size 1.04 1.04))))
     (property "Footprint" "" (at 205.74 146.05 0) (effects (font (size 1.27 1.27))))
     (property "Datasheet" "" (at 205.74 146.05 0) (effects (font (size 1.27 1.27))))
     (property "Description" "" (at 205.74 146.05 0) (effects (font (size 1.27 1.27))))
@@ -3645,8 +3702,8 @@
     (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (reference "#PWR1035") (unit 1))))
   )
   (sheet
-    (at 36.83 165.1)
-    (size 43.18 27.94)
+    (at 36.83 168.91)
+    (size 43.18 22.86)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
@@ -3654,24 +3711,12 @@
     (stroke (width 0.254) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid "16dc8c8b-93f3-54d3-80b2-73c0ad2daf11")
-    (property "Sheetname" "02 MCU / USB / ADC" (at 36.83 162.306 0) (effects (font (size 1.16 1.16)) (justify left)))
-    (property "Sheetfile" "02_MCU_USB_ADC.kicad_sch" (at 36.83 194.945 0) (effects (font (size 1.01 1.01)) (justify left)))
+    (property "Sheetname" "02 MCU / USB / ADC" (at 36.83 166.116 0) (effects (font (size 1.16 1.16)) (justify left)))
+    (property "Sheetfile" "02_MCU_USB_ADC.kicad_sch" (at 36.83 193.675 0) (effects (font (size 1.01 1.01)) (justify left)))
     (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (page "2"))))
-    (pin
-      "+5V_MCU"
-      bidirectional
-      (at 36.83 167.64 180)
-      (effects (font (size 1.06 1.06)) (justify left))
-      (uuid "c9af7e59-a966-5e1d-a6ef-95ed0cf89422")
-    )
-    (pin "VIN_3S" input (at 36.83 171.45 180) (effects (font (size 1.06 1.06)) (justify left)) (uuid "1df6bac7-5345-52d2-8561-6b3a2f68bfb0"))
-    (pin "VOUT_3S" input (at 36.83 173.99 180) (effects (font (size 1.06 1.06)) (justify left)) (uuid "3903bc54-7042-5dbd-bbd2-f30c738ef94d"))
-    (pin "VIN_6S" input (at 36.83 176.53 180) (effects (font (size 1.06 1.06)) (justify left)) (uuid "73223fb6-9499-5ff1-81ae-5596b1cf6afa"))
-    (pin "VOUT_6S" input (at 36.83 179.07 180) (effects (font (size 1.06 1.06)) (justify left)) (uuid "65cca086-d83f-5036-ba1b-e660d21461c0"))
-    (pin "nPGD_3S" input (at 36.83 182.88 180) (effects (font (size 1.06 1.06)) (justify left)) (uuid "f8194de8-ded0-53ec-8d13-844ecc27f4bf"))
-    (pin "nPGD_6S" input (at 36.83 185.42 180) (effects (font (size 1.06 1.06)) (justify left)) (uuid "ecb822d3-497c-5da9-965c-db0e4d05a35b"))
-    (pin "GND" passive (at 36.83 190.5 180) (effects (font (size 1.06 1.06)) (justify left)) (uuid "f23a13fe-8269-57d0-a6d6-e452e77c30f3"))
-    (pin "MCU_RUN" output (at 80.01 170.18 0) (effects (font (size 1.06 1.06)) (justify right)) (uuid "8c8ca5d9-6b9e-5e3d-8378-414f34fc3b22"))
+    (pin "nPGD_3S" input (at 36.83 175.26 180) (effects (font (size 1.06 1.06)) (justify left)) (uuid "f8194de8-ded0-53ec-8d13-844ecc27f4bf"))
+    (pin "nPGD_6S" input (at 36.83 180.34 180) (effects (font (size 1.06 1.06)) (justify left)) (uuid "ecb822d3-497c-5da9-965c-db0e4d05a35b"))
+    (pin "MCU_RUN" output (at 80.01 173.99 0) (effects (font (size 1.06 1.06)) (justify right)) (uuid "8c8ca5d9-6b9e-5e3d-8378-414f34fc3b22"))
     (pin "SEG_DIN" output (at 80.01 184.15 0) (effects (font (size 1.06 1.06)) (justify right)) (uuid "534a8018-9592-52df-8c1a-90a664464b83"))
     (pin "SEG_CLK" output (at 80.01 189.23 0) (effects (font (size 1.06 1.06)) (justify right)) (uuid "33abda9d-a2c1-5f44-b378-f6e066fcbbf6"))
   )
@@ -3690,80 +3735,30 @@
     (instances (project "DRC_POWER2026.ver.0.2.0" (path "/fbc01400-f2e1-5f0b-ba21-0805191588c2" (page "3"))))
     (pin "SEG_DIN" input (at 121.92 185.42 180) (effects (font (size 1.06 1.06)) (justify left)) (uuid "df6946e0-18f5-5326-b672-d6ffe6f91a46"))
     (pin "SEG_CLK" input (at 121.92 190.5 180) (effects (font (size 1.06 1.06)) (justify left)) (uuid "9ac2d2e0-3db1-5033-aaec-83eba304b818"))
-    (pin "+5V_MCU" input (at 157.48 185.42 0) (effects (font (size 1.06 1.06)) (justify right)) (uuid "a96c3e01-e4cc-5ab0-acf9-d58031607759"))
-    (pin "GND" passive (at 157.48 190.5 0) (effects (font (size 1.06 1.06)) (justify right)) (uuid "2f5979e8-3576-53de-bb2d-8350d97a9437"))
   )
   (sheet_instances (path "/" (page "1")))
   (embedded_fonts no)
-  (wire (pts (xy 36.83 167.64) (xy 33.02 167.64)) (stroke (width 0) (type default)) (uuid "c7ed26ea-f5d9-57c5-a680-4574bafe62e4"))
-  (global_label
-    "+5V_MCU"
-    (shape passive)
-    (at 33.02 167.64 180)
-    (effects (font (size 1.05 1.05)) (justify right))
-    (uuid "fb4f78f6-1d6f-5dff-9489-f6f228aad902")
-  )
-  (wire (pts (xy 36.83 171.45) (xy 33.02 171.45)) (stroke (width 0) (type default)) (uuid "6dcc44ac-969b-5cb5-802e-6f100a8e4399"))
-  (global_label
-    "VIN_3S"
-    (shape passive)
-    (at 33.02 171.45 180)
-    (effects (font (size 1.05 1.05)) (justify right))
-    (uuid "1d426f70-792c-5181-8762-15a8afe5c29d")
-  )
-  (wire (pts (xy 36.83 173.99) (xy 33.02 173.99)) (stroke (width 0) (type default)) (uuid "e9401f56-2261-5ec6-bcb7-99c1e1b12ad8"))
-  (global_label
-    "VOUT_3S"
-    (shape passive)
-    (at 33.02 173.99 180)
-    (effects (font (size 1.05 1.05)) (justify right))
-    (uuid "4e721caf-e25f-5caa-9bc2-9b0cd709dcac")
-  )
-  (wire (pts (xy 36.83 176.53) (xy 33.02 176.53)) (stroke (width 0) (type default)) (uuid "8c674ea3-9c01-55d9-9978-bb3327abf61b"))
-  (global_label
-    "VIN_6S"
-    (shape passive)
-    (at 33.02 176.53 180)
-    (effects (font (size 1.05 1.05)) (justify right))
-    (uuid "59015c5b-2ea4-56b3-a06c-1504f028349a")
-  )
-  (wire (pts (xy 36.83 179.07) (xy 33.02 179.07)) (stroke (width 0) (type default)) (uuid "c66f5aae-4c2a-5e0d-a84e-3e7d310c2238"))
-  (global_label
-    "VOUT_6S"
-    (shape passive)
-    (at 33.02 179.07 180)
-    (effects (font (size 1.05 1.05)) (justify right))
-    (uuid "17880e43-2b7e-5c77-951c-b33517aa445f")
-  )
-  (wire (pts (xy 36.83 182.88) (xy 33.02 182.88)) (stroke (width 0) (type default)) (uuid "8732630e-b325-535b-b9e5-c5e2319c1ce0"))
+  (wire (pts (xy 36.83 175.26) (xy 33.02 175.26)) (stroke (width 0) (type default)) (uuid "8732630e-b325-535b-b9e5-c5e2319c1ce0"))
   (global_label
     "nPGD_3S"
     (shape passive)
-    (at 33.02 182.88 180)
+    (at 33.02 175.26 180)
     (effects (font (size 1.05 1.05)) (justify right))
     (uuid "671aa5fb-2a2a-5d59-af44-bc0bd8a084e1")
   )
-  (wire (pts (xy 36.83 185.42) (xy 33.02 185.42)) (stroke (width 0) (type default)) (uuid "f71418f4-4330-5091-a95b-6d60def408b6"))
+  (wire (pts (xy 36.83 180.34) (xy 33.02 180.34)) (stroke (width 0) (type default)) (uuid "f71418f4-4330-5091-a95b-6d60def408b6"))
   (global_label
     "nPGD_6S"
     (shape passive)
-    (at 33.02 185.42 180)
+    (at 33.02 180.34 180)
     (effects (font (size 1.05 1.05)) (justify right))
     (uuid "b54cfb2a-48e8-50cb-8e41-6bd52569d4f2")
   )
-  (wire (pts (xy 36.83 190.5) (xy 33.02 190.5)) (stroke (width 0) (type default)) (uuid "98caca53-c887-59ae-9eac-0d7ae0f82e77"))
-  (global_label
-    "GND"
-    (shape passive)
-    (at 33.02 190.5 180)
-    (effects (font (size 1.05 1.05)) (justify right))
-    (uuid "e30bdc5a-2fc6-59f0-b166-7e2b2c971357")
-  )
-  (wire (pts (xy 80.01 170.18) (xy 83.82 170.18)) (stroke (width 0) (type default)) (uuid "204a1448-4ee1-5df4-a987-209aa1b362a0"))
+  (wire (pts (xy 80.01 173.99) (xy 83.82 173.99)) (stroke (width 0) (type default)) (uuid "204a1448-4ee1-5df4-a987-209aa1b362a0"))
   (global_label
     "MCU_RUN"
     (shape passive)
-    (at 83.82 170.18 0)
+    (at 83.82 173.99 0)
     (effects (font (size 1.05 1.05)) (justify left))
     (uuid "60068860-4c1d-5a3a-a5fb-c8392936b423")
   )
@@ -3798,22 +3793,6 @@
     (at 118.11 190.5 180)
     (effects (font (size 1.05 1.05)) (justify right))
     (uuid "7b33cc48-0d56-5a55-ae6d-b2a577ab9989")
-  )
-  (wire (pts (xy 157.48 185.42) (xy 161.29 185.42)) (stroke (width 0) (type default)) (uuid "a0ad1912-fe50-578b-8d63-18e3438b9380"))
-  (global_label
-    "+5V_MCU"
-    (shape passive)
-    (at 161.29 185.42 0)
-    (effects (font (size 1.05 1.05)) (justify left))
-    (uuid "d632f189-6796-5e83-a959-3aacad53f2df")
-  )
-  (wire (pts (xy 157.48 190.5) (xy 161.29 190.5)) (stroke (width 0) (type default)) (uuid "905ab487-3e7f-5483-9e58-39e29a0d31cb"))
-  (global_label
-    "GND"
-    (shape passive)
-    (at 161.29 190.5 0)
-    (effects (font (size 1.05 1.05)) (justify left))
-    (uuid "e7085fed-4d41-502b-bc23-f8da62038fbd")
   )
   (text
     "回生吸収基板は6S出力の分配側に接続。"

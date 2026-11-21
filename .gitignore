@@ -30,8 +30,9 @@ fp-info-cache
 *.xml
 *.csv
 
-# Local-only documentation, build tools, and generated README
+# Local-only documentation, reviews, build tools, and generated README
 /docs/
+/review/
 /tools/
 /README.md
 
